@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>sembrare</string>
+          <string>io sembro</string>
+          <string>tu sembri</string>
+          <string>lui/lei sembra</string>
+          <string>noi sembriamo</string>
+          <string>voi sembrate</string>
+          <string>loro sembrano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>sembrare</string>
+          <string>io sembravo</string>
+          <string>tu sembravi</string>
+          <string>lui/lei sembrava</string>
+          <string>noi sembravamo</string>
+          <string>voi sembravate</string>
+          <string>loro sembravano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>sembrare</string>
+          <string>io sono sembrato</string>
+          <string>tu sei sembrato</string>
+          <string>lui/lei è sembrato</string>
+          <string>noi siamo sembrati</string>
+          <string>voi siete sembrati</string>
+          <string>loro sono sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>sembrare</string>
+          <string>io ero sembrato</string>
+          <string>tu eri sembrato</string>
+          <string>lui/lei era sembrato</string>
+          <string>noi eravamo sembrati</string>
+          <string>voi eravate sembrati</string>
+          <string>loro erano sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>sembrare</string>
+          <string>io sembrai</string>
+          <string>tu sembrasti</string>
+          <string>lui/lei sembrò</string>
+          <string>noi sembrammo</string>
+          <string>voi sembraste</string>
+          <string>loro sembrarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>sembrare</string>
+          <string>io fui sembrato</string>
+          <string>tu fosti sembrato</string>
+          <string>lui/lei fu sembrato</string>
+          <string>noi fummo sembrati</string>
+          <string>voi foste sembrati</string>
+          <string>loro furono sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>sembrare</string>
+          <string>io sembrerò</string>
+          <string>tu sembrerai</string>
+          <string>lui/lei sembrerà</string>
+          <string>noi sembreremo</string>
+          <string>voi sembrerete</string>
+          <string>loro sembreranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>sembrare</string>
+          <string>io sarò sembrato</string>
+          <string>tu sarai sembrato</string>
+          <string>lui/lei sarà sembrato</string>
+          <string>noi saremo sembrati</string>
+          <string>voi sarete sembrati</string>
+          <string>loro saranno sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>sembrare</string>
+          <string>che io sembri</string>
+          <string>che tu sembri</string>
+          <string>che lui/lei sembri</string>
+          <string>che noi sembriamo</string>
+          <string>che voi sembriate</string>
+          <string>che loro sembrino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>sembrare</string>
+          <string>che io sia sembrato</string>
+          <string>che tu sia sembrato</string>
+          <string>che lui/lei sia sembrato</string>
+          <string>che noi siamo sembrati</string>
+          <string>che voi siate sembrati</string>
+          <string>che loro siano sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>sembrare</string>
+          <string>che io sembrassi</string>
+          <string>che tu sembrassi</string>
+          <string>che lui/lei sembrasse</string>
+          <string>che noi sembrassimo</string>
+          <string>che voi sembraste</string>
+          <string>che loro sembrassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>sembrare</string>
+          <string>che io fossi sembrato</string>
+          <string>che tu fossi sembrato</string>
+          <string>che lui/lei fosse sembrato</string>
+          <string>che noi fossimo sembrati</string>
+          <string>che voi foste sembrati</string>
+          <string>che loro fossero sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>sembrare</string>
+          <string>io sembrerei</string>
+          <string>tu sembreresti</string>
+          <string>lui/lei sembrerebbe</string>
+          <string>noi sembreremmo</string>
+          <string>voi sembrereste</string>
+          <string>loro sembrerebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>sembrare</string>
+          <string>io sarei sembrato</string>
+          <string>tu saresti sembrato</string>
+          <string>lui/lei sarebbe sembrato</string>
+          <string>noi saremmo sembrati</string>
+          <string>voi sareste sembrati</string>
+          <string>loro sarebbero sembrati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>sembrare</string>
+          <string></string>
+          <string>sembra</string>
+          <string>sembri</string>
+          <string>sembriamo</string>
+          <string>sembrate</string>
+          <string>sembrino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>spiegare</string>
+          <string>io spiego</string>
+          <string>tu spieghi</string>
+          <string>lui/lei spiega</string>
+          <string>noi spieghiamo</string>
+          <string>voi spiegate</string>
+          <string>loro spiegano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>spiegare</string>
+          <string>io spiegavo</string>
+          <string>tu spiegavi</string>
+          <string>lui/lei spiegava</string>
+          <string>noi spiegavamo</string>
+          <string>voi spiegavate</string>
+          <string>loro spiegavano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>spiegare</string>
+          <string>io ho spiegato</string>
+          <string>tu hai spiegato</string>
+          <string>lui/lei ha spiegato</string>
+          <string>noi abbiamo spiegato</string>
+          <string>voi avete spiegato</string>
+          <string>loro hanno spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>spiegare</string>
+          <string>io avevo spiegato</string>
+          <string>tu avevi spiegato</string>
+          <string>lui/lei aveva spiegato</string>
+          <string>noi avevamo spiegato</string>
+          <string>voi avevate spiegato</string>
+          <string>loro avevano spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>spiegare</string>
+          <string>io spiegai</string>
+          <string>tu spiegasti</string>
+          <string>lui/lei spiegò</string>
+          <string>noi spiegammo</string>
+          <string>voi spiegaste</string>
+          <string>loro spiegarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>spiegare</string>
+          <string>io ebbi spiegato</string>
+          <string>tu avesti spiegato</string>
+          <string>lui/lei ebbe spiegato</string>
+          <string>noi avemmo spiegato</string>
+          <string>voi aveste spiegato</string>
+          <string>loro ebbero spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>spiegare</string>
+          <string>io spiegherò</string>
+          <string>tu spiegherai</string>
+          <string>lui/lei spiegherà</string>
+          <string>noi spiegheremo</string>
+          <string>voi spiegherete</string>
+          <string>loro spiegheranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>spiegare</string>
+          <string>io avrò spiegato</string>
+          <string>tu avrai spiegato</string>
+          <string>lui/lei avrà spiegato</string>
+          <string>noi avremo spiegato</string>
+          <string>voi avrete spiegato</string>
+          <string>loro avranno spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>spiegare</string>
+          <string>che io spieghi</string>
+          <string>che tu spieghi</string>
+          <string>che lui/lei spieghi</string>
+          <string>che noi spieghiamo</string>
+          <string>che voi spieghiate</string>
+          <string>che loro spieghino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>spiegare</string>
+          <string>che io abbia spiegato</string>
+          <string>che tu abbia spiegato</string>
+          <string>che lui/lei abbia spiegato</string>
+          <string>che noi abbiamo spiegato</string>
+          <string>che voi abbiate spiegato</string>
+          <string>che loro abbiano spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>spiegare</string>
+          <string>che io spiegassi</string>
+          <string>che tu spiegassi</string>
+          <string>che lui/lei spiegasse</string>
+          <string>che noi spiegassimo</string>
+          <string>che voi spiegaste</string>
+          <string>che loro spiegassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>spiegare</string>
+          <string>che io avessi spiegato</string>
+          <string>che tu avessi spiegato</string>
+          <string>che lui/lei avesse spiegato</string>
+          <string>che noi avessimo spiegato</string>
+          <string>che voi aveste spiegato</string>
+          <string>che loro avessero spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>spiegare</string>
+          <string>io spiegherei</string>
+          <string>tu spiegheresti</string>
+          <string>lui/lei spiegherebbe</string>
+          <string>noi spiegheremmo</string>
+          <string>voi spieghereste</string>
+          <string>loro spiegherebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>spiegare</string>
+          <string>io avrei spiegato</string>
+          <string>tu avresti spiegato</string>
+          <string>lui/lei avrebbe spiegato</string>
+          <string>noi avremmo spiegato</string>
+          <string>voi avreste spiegato</string>
+          <string>loro avrebbero spiegato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>spiegare</string>
+          <string></string>
+          <string>spiega</string>
+          <string>spieghi</string>
+          <string>spieghiamo</string>
+          <string>spiegate</string>
+          <string>spieghino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>continuare</string>
+          <string>io continuo</string>
+          <string>tu continui</string>
+          <string>lui/lei continua</string>
+          <string>noi continuiamo</string>
+          <string>voi continuate</string>
+          <string>loro continuano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>continuare</string>
+          <string>io continuavo</string>
+          <string>tu continuavi</string>
+          <string>lui/lei continuava</string>
+          <string>noi continuavamo</string>
+          <string>voi continuavate</string>
+          <string>loro continuavano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>continuare</string>
+          <string>io ho continuato</string>
+          <string>tu hai continuato</string>
+          <string>lui/lei ha continuato</string>
+          <string>noi abbiamo continuato</string>
+          <string>voi avete continuato</string>
+          <string>loro hanno continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>continuare</string>
+          <string>io avevo continuato</string>
+          <string>tu avevi continuato</string>
+          <string>lui/lei aveva continuato</string>
+          <string>noi avevamo continuato</string>
+          <string>voi avevate continuato</string>
+          <string>loro avevano continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>continuare</string>
+          <string>io continuai</string>
+          <string>tu continuasti</string>
+          <string>lui/lei continuò</string>
+          <string>noi continuammo</string>
+          <string>voi continuaste</string>
+          <string>loro continuarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>continuare</string>
+          <string>io ebbi continuato</string>
+          <string>tu avesti continuato</string>
+          <string>lui/lei ebbe continuato</string>
+          <string>noi avemmo continuato</string>
+          <string>voi aveste continuato</string>
+          <string>loro ebbero continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>continuare</string>
+          <string>io continuerò</string>
+          <string>tu continuerai</string>
+          <string>lui/lei continuerà</string>
+          <string>noi continueremo</string>
+          <string>voi continuerete</string>
+          <string>loro continueranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>continuare</string>
+          <string>io avrò continuato</string>
+          <string>tu avrai continuato</string>
+          <string>lui/lei avrà continuato</string>
+          <string>noi avremo continuato</string>
+          <string>voi avrete continuato</string>
+          <string>loro avranno continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>continuare</string>
+          <string>che io continui</string>
+          <string>che tu continui</string>
+          <string>che lui/lei continui</string>
+          <string>che noi continuiamo</string>
+          <string>che voi continuiate</string>
+          <string>che loro continuino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>continuare</string>
+          <string>che io abbia continuato</string>
+          <string>che tu abbia continuato</string>
+          <string>che lui/lei abbia continuato</string>
+          <string>che noi abbiamo continuato</string>
+          <string>che voi abbiate continuato</string>
+          <string>che loro abbiano continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>continuare</string>
+          <string>che io continuassi</string>
+          <string>che tu continuassi</string>
+          <string>che lui/lei continuasse</string>
+          <string>che noi continuassimo</string>
+          <string>che voi continuaste</string>
+          <string>che loro continuassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>continuare</string>
+          <string>che io avessi continuato</string>
+          <string>che tu avessi continuato</string>
+          <string>che lui/lei avesse continuato</string>
+          <string>che noi avessimo continuato</string>
+          <string>che voi aveste continuato</string>
+          <string>che loro avessero continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>continuare</string>
+          <string>io continuerei</string>
+          <string>tu continueresti</string>
+          <string>lui/lei continuerebbe</string>
+          <string>noi continueremmo</string>
+          <string>voi continuereste</string>
+          <string>loro continuerebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>continuare</string>
+          <string>io avrei continuato</string>
+          <string>tu avresti continuato</string>
+          <string>lui/lei avrebbe continuato</string>
+          <string>noi avremmo continuato</string>
+          <string>voi avreste continuato</string>
+          <string>loro avrebbero continuato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>continuare</string>
+          <string></string>
+          <string>continua</string>
+          <string>continui</string>
+          <string>continuiamo</string>
+          <string>continuate</string>
+          <string>continuino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>rendere</string>
+          <string>io rendo</string>
+          <string>tu rendi</string>
+          <string>lui/lei rende</string>
+          <string>noi rendiamo</string>
+          <string>voi rendete</string>
+          <string>loro rendono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>rendere</string>
+          <string>io rendevo</string>
+          <string>tu rendevi</string>
+          <string>lui/lei rendeva</string>
+          <string>noi rendevamo</string>
+          <string>voi rendevate</string>
+          <string>loro rendevano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>rendere</string>
+          <string>io ho reso</string>
+          <string>tu hai reso</string>
+          <string>lui/lei ha reso</string>
+          <string>noi abbiamo reso</string>
+          <string>voi avete reso</string>
+          <string>loro hanno reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>rendere</string>
+          <string>io avevo reso</string>
+          <string>tu avevi reso</string>
+          <string>lui/lei aveva reso</string>
+          <string>noi avevamo reso</string>
+          <string>voi avevate reso</string>
+          <string>loro avevano reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>rendere</string>
+          <string>io resi</string>
+          <string>tu rendesti</string>
+          <string>lui/lei rese</string>
+          <string>noi rendemmo</string>
+          <string>voi rendeste</string>
+          <string>loro resero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>rendere</string>
+          <string>io ebbi reso</string>
+          <string>tu avesti reso</string>
+          <string>lui/lei ebbe reso</string>
+          <string>noi avemmo reso</string>
+          <string>voi aveste reso</string>
+          <string>loro ebbero reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>rendere</string>
+          <string>io renderò</string>
+          <string>tu renderai</string>
+          <string>lui/lei renderà</string>
+          <string>noi renderemo</string>
+          <string>voi renderete</string>
+          <string>loro renderanno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>rendere</string>
+          <string>io avrò reso</string>
+          <string>tu avrai reso</string>
+          <string>lui/lei avrà reso</string>
+          <string>noi avremo reso</string>
+          <string>voi avrete reso</string>
+          <string>loro avranno reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>rendere</string>
+          <string>che io renda</string>
+          <string>che tu renda</string>
+          <string>che lui/lei renda</string>
+          <string>che noi rendiamo</string>
+          <string>che voi rendiate</string>
+          <string>che loro rendano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>rendere</string>
+          <string>che io abbia reso</string>
+          <string>che tu abbia reso</string>
+          <string>che lui/lei abbia reso</string>
+          <string>che noi abbiamo reso</string>
+          <string>che voi abbiate reso</string>
+          <string>che loro abbiano reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>rendere</string>
+          <string>che io rendessi</string>
+          <string>che tu rendessi</string>
+          <string>che lui/lei rendesse</string>
+          <string>che noi rendessimo</string>
+          <string>che voi rendeste</string>
+          <string>che loro rendessero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>rendere</string>
+          <string>che io avessi reso</string>
+          <string>che tu avessi reso</string>
+          <string>che lui/lei avesse reso</string>
+          <string>che noi avessimo reso</string>
+          <string>che voi aveste reso</string>
+          <string>che loro avessero reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>rendere</string>
+          <string>io renderei</string>
+          <string>tu renderesti</string>
+          <string>lui/lei renderebbe</string>
+          <string>noi renderemmo</string>
+          <string>voi rendereste</string>
+          <string>loro renderebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>rendere</string>
+          <string>io avrei reso</string>
+          <string>tu avresti reso</string>
+          <string>lui/lei avrebbe reso</string>
+          <string>noi avremmo reso</string>
+          <string>voi avreste reso</string>
+          <string>loro avrebbero reso</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>rendere</string>
+          <string></string>
+          <string>rendi</string>
+          <string>renda</string>
+          <string>rendiamo</string>
+          <string>rendete</string>
+          <string>rendano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>bastare</string>
+          <string>io basto</string>
+          <string>tu basti</string>
+          <string>lui/lei basta</string>
+          <string>noi bastiamo</string>
+          <string>voi bastate</string>
+          <string>loro bastano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>bastare</string>
+          <string>io bastavo</string>
+          <string>tu bastavi</string>
+          <string>lui/lei bastava</string>
+          <string>noi bastavamo</string>
+          <string>voi bastavate</string>
+          <string>loro bastavano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>bastare</string>
+          <string>io sono bastato</string>
+          <string>tu sei bastato</string>
+          <string>lui/lei è bastato</string>
+          <string>noi siamo bastati</string>
+          <string>voi siete bastati</string>
+          <string>loro sono bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>bastare</string>
+          <string>io ero bastato</string>
+          <string>tu eri bastato</string>
+          <string>lui/lei era bastato</string>
+          <string>noi eravamo bastati</string>
+          <string>voi eravate bastati</string>
+          <string>loro erano bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>bastare</string>
+          <string>io bastai</string>
+          <string>tu bastasti</string>
+          <string>lui/lei bastò</string>
+          <string>noi bastammo</string>
+          <string>voi bastaste</string>
+          <string>loro bastarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>bastare</string>
+          <string>io fui bastato</string>
+          <string>tu fosti bastato</string>
+          <string>lui/lei fu bastato</string>
+          <string>noi fummo bastati</string>
+          <string>voi foste bastati</string>
+          <string>loro furono bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>bastare</string>
+          <string>io basterò</string>
+          <string>tu basterai</string>
+          <string>lui/lei basterà</string>
+          <string>noi basteremo</string>
+          <string>voi basterete</string>
+          <string>essi/esse basteranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>bastare</string>
+          <string>io sarò bastato</string>
+          <string>tu sarai bastato</string>
+          <string>lui/lei sarà bastato</string>
+          <string>noi saremo bastati</string>
+          <string>voi sarete bastati</string>
+          <string>loro saranno bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>bastare</string>
+          <string>che io basti</string>
+          <string>che tu basti</string>
+          <string>che lui/lei basti</string>
+          <string>che noi bastiamo</string>
+          <string>che voi bastiate</string>
+          <string>che loro bastino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>bastare</string>
+          <string>che io sia bastato</string>
+          <string>che tu sia bastato</string>
+          <string>che lui/lei sia bastato</string>
+          <string>che noi siamo bastati</string>
+          <string>che voi siate bastati</string>
+          <string>che loro siano bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>bastare</string>
+          <string>che io bastassi</string>
+          <string>che tu bastassi</string>
+          <string>che lui/lei bastasse</string>
+          <string>che noi bastassimo</string>
+          <string>che voi bastaste</string>
+          <string>che loro bastassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>bastare</string>
+          <string>che io fossi bastato</string>
+          <string>che tu fossi bastato</string>
+          <string>che lui/lei fosse bastato</string>
+          <string>che noi fossimo bastati</string>
+          <string>che voi foste bastati</string>
+          <string>che loro fossero bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>bastare</string>
+          <string>io basterei</string>
+          <string>tu basteresti</string>
+          <string>lui/lei basterebbe</string>
+          <string>noi basteremmo</string>
+          <string>voi bastereste</string>
+          <string>loro basterebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>bastare</string>
+          <string>io sarei bastato</string>
+          <string>tu saresti bastato</string>
+          <string>lui/lei sarebbe bastato</string>
+          <string>noi saremmo bastati</string>
+          <string>voi sareste bastati</string>
+          <string>loro sarebbero bastati</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>bastare</string>
+          <string></string>
+          <string>basta</string>
+          <string>basti</string>
+          <string>bastiamo</string>
+          <string>bastate</string>
+          <string>bastino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>usare</string>
+          <string>io uso</string>
+          <string>tu usi</string>
+          <string>lui/lei usa</string>
+          <string>noi usiamo</string>
+          <string>voi usate</string>
+          <string>loro usano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>usare</string>
+          <string>io usavo</string>
+          <string>tu usavi</string>
+          <string>lui/lei usava</string>
+          <string>noi usavamo</string>
+          <string>voi usavate</string>
+          <string>loro usavano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>usare</string>
+          <string>io ho usato</string>
+          <string>tu hai usato</string>
+          <string>lui/lei ha usato</string>
+          <string>noi abbiamo usato</string>
+          <string>voi avete usato</string>
+          <string>loro hanno usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>usare</string>
+          <string>io avevo usato</string>
+          <string>tu avevi usato</string>
+          <string>lui/lei aveva usato</string>
+          <string>noi avevamo usato</string>
+          <string>voi avevate usato</string>
+          <string>loro avevano usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>usare</string>
+          <string>io usai</string>
+          <string>tu usasti</string>
+          <string>lui/lei usò</string>
+          <string>noi usammo</string>
+          <string>voi usaste</string>
+          <string>loro usarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>usare</string>
+          <string>io ebbi usato</string>
+          <string>tu avesti usato</string>
+          <string>lui/lei ebbe usato</string>
+          <string>noi avemmo usato</string>
+          <string>voi aveste usato</string>
+          <string>loro ebbero usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>usare</string>
+          <string>io userò</string>
+          <string>tu userai</string>
+          <string>lui/lei userà</string>
+          <string>noi useremo</string>
+          <string>voi userete</string>
+          <string>loro useranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>usare</string>
+          <string>io avrò usato</string>
+          <string>tu avrai usato</string>
+          <string>lui/lei avrà usato</string>
+          <string>noi avremo usato</string>
+          <string>voi avrete usato</string>
+          <string>loro avranno usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>usare</string>
+          <string>che io usi</string>
+          <string>che tu usi</string>
+          <string>che lui/lei usi</string>
+          <string>che noi usiamo</string>
+          <string>che voi usiate</string>
+          <string>che loro usino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>usare</string>
+          <string>che io abbia usato</string>
+          <string>che tu abbia usato</string>
+          <string>che lui/lei abbia usato</string>
+          <string>che noi abbiamo usato</string>
+          <string>che voi abbiate usato</string>
+          <string>che loro abbiano usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>usare</string>
+          <string>che io usassi</string>
+          <string>che tu usassi</string>
+          <string>che lui/lei usasse</string>
+          <string>che noi usassimo</string>
+          <string>che voi usaste</string>
+          <string>che loro usassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>usare</string>
+          <string>che io avessi usato</string>
+          <string>che tu avessi usato</string>
+          <string>che lui/lei avesse usato</string>
+          <string>che noi avessimo usato</string>
+          <string>che voi aveste usato</string>
+          <string>che loro avessero usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>usare</string>
+          <string>io userei</string>
+          <string>tu useresti</string>
+          <string>lui/lei userebbe</string>
+          <string>noi useremmo</string>
+          <string>voi usereste</string>
+          <string>loro userebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>usare</string>
+          <string>io avrei usato</string>
+          <string>tu avresti usato</string>
+          <string>lui/lei avrebbe usato</string>
+          <string>noi avremmo usato</string>
+          <string>voi avreste usato</string>
+          <string>loro avrebbero usato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>usare</string>
+          <string></string>
+          <string>usa</string>
+          <string>usi</string>
+          <string>usiamo</string>
+          <string>usate</string>
+          <string>usino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisogna</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisognava</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>è bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>era bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisognò</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>fu bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisognerà</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>sarà bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>che bisogni</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>che sia bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>che bisognasse</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>che fosse bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisognerebbe</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>sarebbe bisognato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>bisognare</string>
+          <string></string>
+          <string></string>
+          <string>bisogni</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>ottenere</string>
+          <string>io ottengo</string>
+          <string>tu ottieni</string>
+          <string>lui/lei ottiene</string>
+          <string>noi otteniamo</string>
+          <string>voi ottenete</string>
+          <string>loro ottengono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>ottenere</string>
+          <string>io ottenevo</string>
+          <string>tu ottenevi</string>
+          <string>lui/lei otteneva</string>
+          <string>noi ottenevamo</string>
+          <string>voi ottenevate</string>
+          <string>loro ottenevano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>ottenere</string>
+          <string>io ho ottenuto</string>
+          <string>tu hai ottenuto</string>
+          <string>lui/lei ha ottenuto</string>
+          <string>noi abbiamo ottenuto</string>
+          <string>voi avete ottenuto</string>
+          <string>loro hanno ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>ottenere</string>
+          <string>io avevo ottenuto</string>
+          <string>tu avevi ottenuto</string>
+          <string>lui/lei aveva ottenuto</string>
+          <string>noi avevamo ottenuto</string>
+          <string>voi avevate ottenuto</string>
+          <string>loro avevano ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>ottenere</string>
+          <string>io ottenni</string>
+          <string>tu ottenesti</string>
+          <string>lui/lei ottenne</string>
+          <string>noi ottenemmo</string>
+          <string>voi otteneste</string>
+          <string>loro ottennero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>ottenere</string>
+          <string>io ebbi ottenuto</string>
+          <string>tu avesti ottenuto</string>
+          <string>lui/lei ebbe ottenuto</string>
+          <string>noi avemmo ottenuto</string>
+          <string>voi aveste ottenuto</string>
+          <string>loro ebbero ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>ottenere</string>
+          <string>io otterrò</string>
+          <string>tu otterrai</string>
+          <string>lui/lei otterrà</string>
+          <string>noi otterremo</string>
+          <string>voi otterrete</string>
+          <string>loro otterranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>ottenere</string>
+          <string>io avrò ottenuto</string>
+          <string>tu avrai ottenuto</string>
+          <string>lui/lei avrà ottenuto</string>
+          <string>noi avremo ottenuto</string>
+          <string>voi avrete ottenuto</string>
+          <string>loro avranno ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>ottenere</string>
+          <string>che io ottenga</string>
+          <string>che tu ottenga</string>
+          <string>che lui/lei ottenga</string>
+          <string>che noi otteniamo</string>
+          <string>che voi otteniate</string>
+          <string>che loro ottengano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>ottenere</string>
+          <string>che io abbia ottenuto</string>
+          <string>che tu abbia ottenuto</string>
+          <string>che lui/lei abbia ottenuto</string>
+          <string>che noi abbiamo ottenuto</string>
+          <string>che voi abbiate ottenuto</string>
+          <string>che loro abbiano ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>ottenere</string>
+          <string>che io ottenessi</string>
+          <string>che tu ottenessi</string>
+          <string>che lui/lei ottenesse</string>
+          <string>che noi ottenessimo</string>
+          <string>che voi otteneste</string>
+          <string>che loro ottenessero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>ottenere</string>
+          <string>che io avessi ottenuto</string>
+          <string>che tu avessi ottenuto</string>
+          <string>che lui/lei avesse ottenuto</string>
+          <string>che noi avessimo ottenuto</string>
+          <string>che voi aveste ottenuto</string>
+          <string>che loro avessero ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>ottenere</string>
+          <string>io otterrei</string>
+          <string>tu otterresti</string>
+          <string>lui/lei otterrebbe</string>
+          <string>noi otterremmo</string>
+          <string>voi otterreste</string>
+          <string>loro otterrebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>ottenere</string>
+          <string>io avrei ottenuto</string>
+          <string>tu avresti ottenuto</string>
+          <string>lui/lei avrebbe ottenuto</string>
+          <string>noi avremmo ottenuto</string>
+          <string>voi avreste ottenuto</string>
+          <string>loro avrebbero ottenuto</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>ottenere</string>
+          <string></string>
+          <string>ottieni</string>
+          <string>ottenga</string>
+          <string>otteniamo</string>
+          <string>ottenete</string>
+          <string>ottengano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>fermare</string>
+          <string>io fermo</string>
+          <string>tu fermi</string>
+          <string>lui/lei ferma</string>
+          <string>noi fermiamo</string>
+          <string>voi fermate</string>
+          <string>loro fermano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>fermare</string>
+          <string>io fermavo</string>
+          <string>tu fermavi</string>
+          <string>lui/lei fermava</string>
+          <string>noi fermavamo</string>
+          <string>voi fermavate</string>
+          <string>loro fermavano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>fermare</string>
+          <string>io ho fermato</string>
+          <string>tu hai fermato</string>
+          <string>lui/lei ha fermato</string>
+          <string>noi abbiamo fermato</string>
+          <string>voi avete fermato</string>
+          <string>loro hanno fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>fermare</string>
+          <string>io avevo fermato</string>
+          <string>tu avevi fermato</string>
+          <string>lui/lei aveva fermato</string>
+          <string>noi avevamo fermato</string>
+          <string>voi avevate fermato</string>
+          <string>loro avevano fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>fermare</string>
+          <string>io fermai</string>
+          <string>tu fermasti</string>
+          <string>lui/lei fermò</string>
+          <string>noi fermammo</string>
+          <string>voi fermaste</string>
+          <string>loro fermarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>fermare</string>
+          <string>io ebbi fermato</string>
+          <string>tu avesti fermato</string>
+          <string>lui/lei ebbe fermato</string>
+          <string>noi avemmo fermato</string>
+          <string>voi aveste fermato</string>
+          <string>loro ebbero fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>fermare</string>
+          <string>io fermerò</string>
+          <string>tu fermerai</string>
+          <string>lui/lei fermerà</string>
+          <string>noi fermeremo</string>
+          <string>voi fermerete</string>
+          <string>loro fermeranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>fermare</string>
+          <string>io avrò fermato</string>
+          <string>tu avrai fermato</string>
+          <string>lui/lei avrà fermato</string>
+          <string>noi avremo fermato</string>
+          <string>voi avrete fermato</string>
+          <string>loro avranno fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>fermare</string>
+          <string>che io fermi</string>
+          <string>che tu fermi</string>
+          <string>che lui/lei fermi</string>
+          <string>che noi fermiamo</string>
+          <string>che voi fermiate</string>
+          <string>che loro fermino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>fermare</string>
+          <string>che io abbia fermato</string>
+          <string>che tu abbia fermato</string>
+          <string>che lui/lei abbia fermato</string>
+          <string>che noi abbiamo fermato</string>
+          <string>che voi abbiate fermato</string>
+          <string>che loro abbiano fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>fermare</string>
+          <string>che io fermassi</string>
+          <string>che tu fermassi</string>
+          <string>che lui/lei fermasse</string>
+          <string>che noi fermassimo</string>
+          <string>che voi fermaste</string>
+          <string>che loro fermassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>fermare</string>
+          <string>che io avessi fermato</string>
+          <string>che tu avessi fermato</string>
+          <string>che lui/lei avesse fermato</string>
+          <string>che noi avessimo fermato</string>
+          <string>che voi aveste fermato</string>
+          <string>che loro avessero fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>fermare</string>
+          <string>io fermerei</string>
+          <string>tu fermeresti</string>
+          <string>lui/lei fermerebbe</string>
+          <string>noi fermeremmo</string>
+          <string>voi fermereste</string>
+          <string>loro fermerebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>fermare</string>
+          <string>io avrei fermato</string>
+          <string>tu avresti fermato</string>
+          <string>lui/lei avrebbe fermato</string>
+          <string>noi avremmo fermato</string>
+          <string>voi avreste fermato</string>
+          <string>loro avrebbero fermato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>fermare</string>
+          <string></string>
+          <string>ferma</string>
+          <string>fermi</string>
+          <string>fermiamo</string>
+          <string>fermate</string>
+          <string>fermino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>presente</string>
+          <string>sperare</string>
+          <string>io spero</string>
+          <string>tu speri</string>
+          <string>lui/lei spera</string>
+          <string>noi speriamo</string>
+          <string>voi sperate</string>
+          <string>loro sperano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>imperfetto</string>
+          <string>sperare</string>
+          <string>io speravo</string>
+          <string>tu speravi</string>
+          <string>lui/lei sperava</string>
+          <string>noi speravamo</string>
+          <string>voi speravate</string>
+          <string>loro speravano</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato prossimo</string>
+          <string>sperare</string>
+          <string>io ho sperato</string>
+          <string>tu hai sperato</string>
+          <string>lui/lei ha sperato</string>
+          <string>noi abbiamo sperato</string>
+          <string>voi avete sperato</string>
+          <string>loro hanno sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato prossimo</string>
+          <string>sperare</string>
+          <string>io avevo sperato</string>
+          <string>tu avevi sperato</string>
+          <string>lui/lei aveva sperato</string>
+          <string>noi avevamo sperato</string>
+          <string>voi avevate sperato</string>
+          <string>loro avevano sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>passato remoto</string>
+          <string>sperare</string>
+          <string>io sperai</string>
+          <string>tu sperasti</string>
+          <string>lui/lei sperò</string>
+          <string>noi sperammo</string>
+          <string>voi speraste</string>
+          <string>loro sperarono</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>trapassato remoto</string>
+          <string>sperare</string>
+          <string>io ebbi sperato</string>
+          <string>tu avesti sperato</string>
+          <string>lui/lei ebbe sperato</string>
+          <string>noi avemmo sperato</string>
+          <string>voi aveste sperato</string>
+          <string>loro ebbero sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro semplice</string>
+          <string>sperare</string>
+          <string>io spererò</string>
+          <string>tu spererai</string>
+          <string>lui/lei spererà</string>
+          <string>noi spereremo</string>
+          <string>voi spererete</string>
+          <string>loro spereranno</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>indicativo</string>
+          <string>futuro anteriore</string>
+          <string>sperare</string>
+          <string>io avrò sperato</string>
+          <string>tu avrai sperato</string>
+          <string>lui/lei avrà sperato</string>
+          <string>noi avremo sperato</string>
+          <string>voi avrete sperato</string>
+          <string>loro avranno sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>presente</string>
+          <string>sperare</string>
+          <string>che io speri</string>
+          <string>che tu speri</string>
+          <string>che lui/lei speri</string>
+          <string>che noi speriamo</string>
+          <string>che voi speriate</string>
+          <string>che loro sperino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>passato</string>
+          <string>sperare</string>
+          <string>che io abbia sperato</string>
+          <string>che tu abbia sperato</string>
+          <string>che lui/lei abbia sperato</string>
+          <string>che noi abbiamo sperato</string>
+          <string>che voi abbiate sperato</string>
+          <string>che loro abbiano sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>imperfetto</string>
+          <string>sperare</string>
+          <string>che io sperassi</string>
+          <string>che tu sperassi</string>
+          <string>che lui/lei sperasse</string>
+          <string>che noi sperassimo</string>
+          <string>che voi speraste</string>
+          <string>che loro sperassero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>congiuntivo</string>
+          <string>trapassato</string>
+          <string>sperare</string>
+          <string>che io avessi sperato</string>
+          <string>che tu avessi sperato</string>
+          <string>che lui/lei avesse sperato</string>
+          <string>che noi avessimo sperato</string>
+          <string>che voi aveste sperato</string>
+          <string>che loro avessero sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>presente</string>
+          <string>sperare</string>
+          <string>io spererei</string>
+          <string>tu spereresti</string>
+          <string>lui/lei spererebbe</string>
+          <string>noi spereremmo</string>
+          <string>voi sperereste</string>
+          <string>loro spererebbero</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>condizionale</string>
+          <string>passato</string>
+          <string>sperare</string>
+          <string>io avrei sperato</string>
+          <string>tu avresti sperato</string>
+          <string>lui/lei avrebbe sperato</string>
+          <string>noi avremmo sperato</string>
+          <string>voi avreste sperato</string>
+          <string>loro avrebbero sperato</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string>imperativo</string>
+          <string>presente</string>
+          <string>sperare</string>
+          <string></string>
+          <string>spera</string>
+          <string>speri</string>
+          <string>speriamo</string>
+          <string>sperate</string>
+          <string>sperino</string>
+          <string>0</string>
+          <string>0</string>
+          <string>0</string>
+    </array>
+    <array>
+          <string></string>
+          <string>io avrò usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+    <array>
+          <string></string>
+          <string>tu avrai usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+    <array>
+          <string></string>
+          <string>lui/lei avrà usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+    <array>
+          <string></string>
+          <string>noi avremo usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+    <array>
+          <string></string>
+          <string>voi avrete usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+    <array>
+          <string></string>
+          <string>loro avranno usato</string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+    </array>
+</array>
+</plist>
