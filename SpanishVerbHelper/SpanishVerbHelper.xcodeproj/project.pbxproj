@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1DB8B41EC09F7E0063EB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DB8B31EC09F7E0063EB1F /* AppDelegate.swift */; };
+		8E1DB8B61EC09F7E0063EB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DB8B51EC09F7E0063EB1F /* ViewController.swift */; };
+		8E1DB8B91EC09F7E0063EB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DB8B71EC09F7E0063EB1F /* Main.storyboard */; };
+		8E1DB8BB1EC09F7E0063EB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DB8BA1EC09F7E0063EB1F /* Assets.xcassets */; };
+		8E1DB8BE1EC09F7E0063EB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DB8BC1EC09F7E0063EB1F /* LaunchScreen.storyboard */; };
+		8E1DB8C91EC09F7F0063EB1F /* SpanishVerbHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DB8C81EC09F7F0063EB1F /* SpanishVerbHelperTests.swift */; };
+		8E1DB8D41EC09F7F0063EB1F /* SpanishVerbHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DB8D31EC09F7F0063EB1F /* SpanishVerbHelperUITests.swift */; };
+		8E1DB8E21EC0A08B0063EB1F /* arr5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DB8E11EC0A08B0063EB1F /* arr5.plist */; };
+		8E1DB8E41EC0A5180063EB1F /* plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DB8E31EC0A5180063EB1F /* plist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1DB8C51EC09F7F0063EB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1DB8A81EC09F7E0063EB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1DB8AF1EC09F7E0063EB1F;
+			remoteInfo = SpanishVerbHelper;
+		};
+		8E1DB8D01EC09F7F0063EB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1DB8A81EC09F7E0063EB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1DB8AF1EC09F7E0063EB1F;
+			remoteInfo = SpanishVerbHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1DB8B01EC09F7E0063EB1F /* SpanishVerbHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpanishVerbHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1DB8B31EC09F7E0063EB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1DB8B51EC09F7E0063EB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1DB8B81EC09F7E0063EB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1DB8BA1EC09F7E0063EB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1DB8BD1EC09F7E0063EB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1DB8BF1EC09F7E0063EB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1DB8C41EC09F7F0063EB1F /* SpanishVerbHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishVerbHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1DB8C81EC09F7F0063EB1F /* SpanishVerbHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishVerbHelperTests.swift; sourceTree = "<group>"; };
+		8E1DB8CA1EC09F7F0063EB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1DB8CF1EC09F7F0063EB1F /* SpanishVerbHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishVerbHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1DB8D31EC09F7F0063EB1F /* SpanishVerbHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishVerbHelperUITests.swift; sourceTree = "<group>"; };
+		8E1DB8D51EC09F7F0063EB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1DB8E11EC0A08B0063EB1F /* arr5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arr5.plist; sourceTree = "<group>"; };
+		8E1DB8E31EC0A5180063EB1F /* plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plist.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1DB8AD1EC09F7E0063EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8C11EC09F7F0063EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8CC1EC09F7F0063EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1DB8A71EC09F7E0063EB1F = {
+			isa = PBXGroup;
+			children = (
+				8E1DB8B21EC09F7E0063EB1F /* SpanishVerbHelper */,
+				8E1DB8C71EC09F7F0063EB1F /* SpanishVerbHelperTests */,
+				8E1DB8D21EC09F7F0063EB1F /* SpanishVerbHelperUITests */,
+				8E1DB8B11EC09F7E0063EB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1DB8B11EC09F7E0063EB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DB8B01EC09F7E0063EB1F /* SpanishVerbHelper.app */,
+				8E1DB8C41EC09F7F0063EB1F /* SpanishVerbHelperTests.xctest */,
+				8E1DB8CF1EC09F7F0063EB1F /* SpanishVerbHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1DB8B21EC09F7E0063EB1F /* SpanishVerbHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DB8B31EC09F7E0063EB1F /* AppDelegate.swift */,
+				8E1DB8B51EC09F7E0063EB1F /* ViewController.swift */,
+				8E1DB8B71EC09F7E0063EB1F /* Main.storyboard */,
+				8E1DB8BA1EC09F7E0063EB1F /* Assets.xcassets */,
+				8E1DB8E11EC0A08B0063EB1F /* arr5.plist */,
+				8E1DB8BC1EC09F7E0063EB1F /* LaunchScreen.storyboard */,
+				8E1DB8BF1EC09F7E0063EB1F /* Info.plist */,
+				8E1DB8E31EC0A5180063EB1F /* plist.swift */,
+			);
+			path = SpanishVerbHelper;
+			sourceTree = "<group>";
+		};
+		8E1DB8C71EC09F7F0063EB1F /* SpanishVerbHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DB8C81EC09F7F0063EB1F /* SpanishVerbHelperTests.swift */,
+				8E1DB8CA1EC09F7F0063EB1F /* Info.plist */,
+			);
+			path = SpanishVerbHelperTests;
+			sourceTree = "<group>";
+		};
+		8E1DB8D21EC09F7F0063EB1F /* SpanishVerbHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DB8D31EC09F7F0063EB1F /* SpanishVerbHelperUITests.swift */,
+				8E1DB8D51EC09F7F0063EB1F /* Info.plist */,
+			);
+			path = SpanishVerbHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1DB8AF1EC09F7E0063EB1F /* SpanishVerbHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1DB8D81EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelper" */;
+			buildPhases = (
+				8E1DB8AC1EC09F7E0063EB1F /* Sources */,
+				8E1DB8AD1EC09F7E0063EB1F /* Frameworks */,
+				8E1DB8AE1EC09F7E0063EB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpanishVerbHelper;
+			productName = SpanishVerbHelper;
+			productReference = 8E1DB8B01EC09F7E0063EB1F /* SpanishVerbHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1DB8C31EC09F7F0063EB1F /* SpanishVerbHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1DB8DB1EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelperTests" */;
+			buildPhases = (
+				8E1DB8C01EC09F7F0063EB1F /* Sources */,
+				8E1DB8C11EC09F7F0063EB1F /* Frameworks */,
+				8E1DB8C21EC09F7F0063EB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1DB8C61EC09F7F0063EB1F /* PBXTargetDependency */,
+			);
+			name = SpanishVerbHelperTests;
+			productName = SpanishVerbHelperTests;
+			productReference = 8E1DB8C41EC09F7F0063EB1F /* SpanishVerbHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E1DB8CE1EC09F7F0063EB1F /* SpanishVerbHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1DB8DE1EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelperUITests" */;
+			buildPhases = (
+				8E1DB8CB1EC09F7F0063EB1F /* Sources */,
+				8E1DB8CC1EC09F7F0063EB1F /* Frameworks */,
+				8E1DB8CD1EC09F7F0063EB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1DB8D11EC09F7F0063EB1F /* PBXTargetDependency */,
+			);
+			name = SpanishVerbHelperUITests;
+			productName = SpanishVerbHelperUITests;
+			productReference = 8E1DB8CF1EC09F7F0063EB1F /* SpanishVerbHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1DB8A81EC09F7E0063EB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Normand Martin";
+				TargetAttributes = {
+					8E1DB8AF1EC09F7E0063EB1F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X6D769Z7F4;
+						ProvisioningStyle = Automatic;
+					};
+					8E1DB8C31EC09F7F0063EB1F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X6D769Z7F4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E1DB8AF1EC09F7E0063EB1F;
+					};
+					8E1DB8CE1EC09F7F0063EB1F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X6D769Z7F4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E1DB8AF1EC09F7E0063EB1F;
+					};
+				};
+			};
+			buildConfigurationList = 8E1DB8AB1EC09F7E0063EB1F /* Build configuration list for PBXProject "SpanishVerbHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1DB8A71EC09F7E0063EB1F;
+			productRefGroup = 8E1DB8B11EC09F7E0063EB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1DB8AF1EC09F7E0063EB1F /* SpanishVerbHelper */,
+				8E1DB8C31EC09F7F0063EB1F /* SpanishVerbHelperTests */,
+				8E1DB8CE1EC09F7F0063EB1F /* SpanishVerbHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1DB8AE1EC09F7E0063EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1DB8BE1EC09F7E0063EB1F /* LaunchScreen.storyboard in Resources */,
+				8E1DB8BB1EC09F7E0063EB1F /* Assets.xcassets in Resources */,
+				8E1DB8E21EC0A08B0063EB1F /* arr5.plist in Resources */,
+				8E1DB8B91EC09F7E0063EB1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8C21EC09F7F0063EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8CD1EC09F7F0063EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1DB8AC1EC09F7E0063EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1DB8E41EC0A5180063EB1F /* plist.swift in Sources */,
+				8E1DB8B61EC09F7E0063EB1F /* ViewController.swift in Sources */,
+				8E1DB8B41EC09F7E0063EB1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8C01EC09F7F0063EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1DB8C91EC09F7F0063EB1F /* SpanishVerbHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1DB8CB1EC09F7F0063EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1DB8D41EC09F7F0063EB1F /* SpanishVerbHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1DB8C61EC09F7F0063EB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1DB8AF1EC09F7E0063EB1F /* SpanishVerbHelper */;
+			targetProxy = 8E1DB8C51EC09F7F0063EB1F /* PBXContainerItemProxy */;
+		};
+		8E1DB8D11EC09F7F0063EB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1DB8AF1EC09F7E0063EB1F /* SpanishVerbHelper */;
+			targetProxy = 8E1DB8D01EC09F7F0063EB1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1DB8B71EC09F7E0063EB1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1DB8B81EC09F7E0063EB1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1DB8BC1EC09F7E0063EB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1DB8BD1EC09F7E0063EB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1DB8D61EC09F7F0063EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1DB8D71EC09F7F0063EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1DB8D91EC09F7F0063EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E1DB8DA1EC09F7F0063EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E1DB8DC1EC09F7F0063EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpanishVerbHelper.app/SpanishVerbHelper";
+			};
+			name = Debug;
+		};
+		8E1DB8DD1EC09F7F0063EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpanishVerbHelper.app/SpanishVerbHelper";
+			};
+			name = Release;
+		};
+		8E1DB8DF1EC09F7F0063EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpanishVerbHelper;
+			};
+			name = Debug;
+		};
+		8E1DB8E01EC09F7F0063EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = SpanishVerbHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.SpanishVerbHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpanishVerbHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1DB8AB1EC09F7E0063EB1F /* Build configuration list for PBXProject "SpanishVerbHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1DB8D61EC09F7F0063EB1F /* Debug */,
+				8E1DB8D71EC09F7F0063EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1DB8D81EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1DB8D91EC09F7F0063EB1F /* Debug */,
+				8E1DB8DA1EC09F7F0063EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1DB8DB1EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1DB8DC1EC09F7F0063EB1F /* Debug */,
+				8E1DB8DD1EC09F7F0063EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1DB8DE1EC09F7F0063EB1F /* Build configuration list for PBXNativeTarget "SpanishVerbHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1DB8DF1EC09F7F0063EB1F /* Debug */,
+				8E1DB8E01EC09F7F0063EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1DB8A81EC09F7E0063EB1F /* Project object */;
+}
