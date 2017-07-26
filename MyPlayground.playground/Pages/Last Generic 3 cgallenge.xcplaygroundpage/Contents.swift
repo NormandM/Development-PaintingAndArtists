@@ -1,23 +1,18 @@
 
 import Foundation
-
-protocol PrefixContaining {
-    func hasPrefix(_ prefix: String) -> Bool
-}
-
-extension String: PrefixContaining {}
-
-extension Array where Element: PrefixContaining {
-    func filter(byPrefix prefix: String) -> [Element]{
-        var output = [Element]()
-        for element in self {
-            if element.hasPrefix(prefix){
-                output.append(element)
-            }
-        }
-        return output
+extension String {
+    func transform (_ aFunction: (String) -> String) -> String {
+        return aFunction(self)
     }
-    
 }
-let myArray = ["aa", "bc", "ar", "at", "dv"]
-myArray.filter(byPrefix: "a")
+func removeVowels (from word: String) -> String {
+    var vowels: [Character] = []
+    let results = word.characters
+    for result in results{
+        if result != "a" && result != "y" && result != "e" && result != "i" &&  result != "o" && result != "u"{
+            vowels.append(result)
+        }
+    }
+    return String(vowels)
+}
+let result = "Hello World!".transform(removeVowels)
