@@ -1,21 +1,20 @@
 //
 //  CellForTableView.swift
-//  DateTest3
+//  MatchDateWithEvent
 //
-//  Created by Normand Martin on 17-07-20.
+//  Created by Normand Martin on 17-08-22.
 //  Copyright © 2017 Normand Martin. All rights reserved.
 //
 
 import UIKit
 
 class CellForTableView: UITableViewCell {
-    @IBOutlet weak var eventCellLabel: UILabel!
     @IBOutlet weak var dateCellLabel: UILabel!
+    @IBOutlet weak var eventCellLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
-    
-        
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -23,7 +22,6 @@ class CellForTableView: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 
 }
 extension CellForTableView {
@@ -55,9 +53,6 @@ extension CellForTableView {
         cell.eventCellLabel.layer.cornerRadius = 10.0
         cell.eventCellLabel.backgroundColor = UIColor.red
     }
-
-
-
-
-
+    
 }
+
