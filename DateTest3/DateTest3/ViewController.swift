@@ -38,8 +38,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let headerLabelTableView1 = UILabel()
     
     //var historicalData = HistoricalData()
-    var questionArray = QuestionArray()
     
+    var questionArray: QuestionArray?
     let longPress: UILongPressGestureRecognizer = {
         let recognizer = UILongPressGestureRecognizer()
         return recognizer
@@ -52,7 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = pageTitle
-        
+        questionArray = QuestionArray(sectionDetail: sectionDetail)
         infoDisplay.text = ""
         self.tableView.separatorStyle = .none
         self.tableView1.separatorStyle = .none
@@ -114,11 +114,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var count:Int?
         if tableView == self.tableView {
             //count = historicalData.historicalDate.count
-            count = questionArray.dateArray.count
+            count = questionArray?.dateArray.count
         }
         if tableView == self.tableView1 {
             //count =  historicalData.historicalEvent.count
-            count = questionArray.questionArray.count
+            count = questionArray?.questionArray.count
         }
         return count!
     }
@@ -181,14 +181,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if tableView == self.tableView {
             cell = (tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! CellForTableView)
             //cell?.dateCellLabel.text = historicalData.historicalDate[indexPath.row].0
-            cell?.dateCellLabel.text = questionArray.dateArray[indexPath.row].0
+            cell?.dateCellLabel.text = questionArray?.dateArray[indexPath.row].0
             cell?.displayWhiteDateCell(cell: cell!)
         }
         
         if tableView == self.tableView1 {
             cell = (tableView.dequeueReusableCell(withIdentifier: "Cell1", for: indexPath as IndexPath) as! CellForTableView)
             //cell?.eventCellLabel.text = historicalData.historicalEvent[indexPath.row].0
-            cell?.eventCellLabel.text = questionArray.questionArray[indexPath.row].0
+            cell?.eventCellLabel.text = questionArray?.questionArray[indexPath.row].0
             
             cell?.displayWhiteEventCell(cell: cell!)
         }
@@ -200,7 +200,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func runTimedCode() {
         totalCycle = totalCycle - 1
         counter = counter + 1
-        let questionTimer = QuestionTimer(tableView: tableView, tableView1: tableView1, totalCycle: totalCycle, counter: counter)
+        let questionTimer = QuestionTimer(tableView: tableView, tableView1: tableView1, totalCycle: totalCycle, counter: counter, questionArray: questionArray!)
         let responseFromQuestionTimer = questionTimer.runTimedCode()
         if responseFromQuestionTimer.0{
             questionArray = responseFromQuestionTimer.1
@@ -219,8 +219,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         infoDisplay.text = "Time remaining: \(timeCounter)"
         let progress: Double = Double(counter)
         timerProgress.progress = Float(progress)/50
-        //let checkResponse = CheckResponse(historicalData: historicalData, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
-        let checkResponse = CheckResponse(questionArray: questionArray, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
+        let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
         let responseIsGood = checkResponse.checkResponse()
         if responseIsGood && (progress < 0 || labelIsDropped == true){
             resultMessage()
@@ -244,29 +243,28 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         infoDisplay.text = "Here comes the Dates!"
         infoDisplay.backgroundColor = UIColor(red: 129/255, green: 203/255, blue: 235/255, alpha: 100)
         infoDisplay.textColor = UIColor.white
-        //totalCycle = historicalData.historicalEvent.count - 1
-        totalCycle = questionArray.questionArray.count - 1
+        totalCycle = (questionArray?.questionArray.count)! - 1
         let cellDate = tableView.cellForRow(at: [0, 0]) as! CellForTableView
         cellDate.dateCellLabel.textColor = UIColor.blue
         let cellEvent = tableView1.cellForRow(at: [0, 0]) as! CellForTableView
         cellEvent.displayGrayEventCell(cell: cellEvent)
         cellEvent.isHidden = true
         timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
-
     }
     
     @IBAction func eliminateEventAction(_ sender: Any) {
         var index = 0
         for n in 0 ... 6 {
-            //if historicalData.historicalEvent[n].1 == 5 {
-            if questionArray.questionArray[n].1 == 5 {
+            print(questionArray?.questionArray[n].1)
+            if questionArray?.questionArray[n].1 == 5 {
+                
                 index = n
             }
+            print(index)
         }
         let cellEvent = tableView1.cellForRow(at: [0, index]) as! CellForTableView
         cellEvent.eventCellLabel.text = ""
-        //historicalData.historicalEvent[index] = ("", 5)
-        questionArray.questionArray[index] = ("", 5)
+        questionArray?.questionArray[index] = ("", 5)
         totalAvailableCredit = totalAvailableCredit - 2
         creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
 // this button an only be used once (there is only one extra event)
@@ -275,14 +273,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     @IBAction func tryAgainAction(_ sender: Any) {
-        //historicalData = HistoricalData()
-        questionArray = QuestionArray()
-        questionArray = questionArray.rearangeForQuiz()
+        questionArray = questionArray?.rearangeForQuiz()
         for n in 0 ... 6 {
             let cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
             cellEvent.isHidden = false
-            //cellEvent.eventCellLabel.text = historicalData.historicalEvent[n].0
-            cellEvent.eventCellLabel.text = questionArray.questionArray[n].0
+            cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
             cellEvent.displayGrayEventCell(cell: cellEvent)
             cellEvent.eventCellLabel.textColor = UIColor.blue
         }
@@ -315,26 +310,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             n = n + 1
         }
         for _ in 0 ... 6 {
-            //if n == historicalData.historicalEvent[i].1 {break}
-            if n == questionArray.questionArray[i].1 {break}
+            if n == questionArray?.questionArray[i].1 {break}
             i = i + 1
         }
-        if n != i {swap(&questionArray.questionArray[i], &questionArray.questionArray[n])}
-        if i != n + 1{swap(&questionArray.questionArray[i], &questionArray.questionArray[n + 1])}
+        if n != i {swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n])}
+        if i != n + 1{swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n + 1])}
         cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
-        cellEvent.eventCellLabel.text = questionArray.questionArray[n].0
+        cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
         cellEvent = tableView1.cellForRow(at: [0, i]) as! CellForTableView
-        cellEvent.eventCellLabel.text = questionArray.questionArray[i].0
+        cellEvent.eventCellLabel.text = questionArray?.questionArray[i].0
         cellEvent = tableView1.cellForRow(at: [0, n + 1]) as! CellForTableView
-        cellEvent.eventCellLabel.text = questionArray.questionArray[n + 1].0
+        cellEvent.eventCellLabel.text = questionArray?.questionArray[n + 1].0
 
-        
-
-        
-        
         totalAvailableCredit = totalAvailableCredit - 2
         creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
-        let checkResponse = CheckResponse(questionArray: questionArray, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
+        let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
         labelIsDropped = checkResponse.allAnswered()
         
     }
@@ -393,11 +383,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 // Here's where you move
                 
                 print("\(sourceIndexPath!.row),\(indexPath.row)")
-                let tmp = questionArray.questionArray[sourceIndexPath!.row]
+                let tmp = questionArray?.questionArray[sourceIndexPath!.row]
                 
                 
-                questionArray.questionArray[sourceIndexPath!.row] = questionArray.questionArray[indexPath.row]
-                questionArray.questionArray[indexPath.row] = tmp
+                questionArray?.questionArray[sourceIndexPath!.row] = (questionArray?.questionArray[indexPath.row])!
+                questionArray?.questionArray[indexPath.row] = tmp!
                 
                 // items.exchangeObjectAtIndex(indexPath!.row, withObjectAtIndex: sourceIndexPath!.row)
                 // ... move the rows.
@@ -409,7 +399,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         default:
             // Clean up.
 
-            let checkResponse = CheckResponse(questionArray: questionArray, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
+            let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
             labelIsDropped = checkResponse.allAnswered()
     
             let cell = tableView1.cellForRow(at: indexPath as IndexPath)!

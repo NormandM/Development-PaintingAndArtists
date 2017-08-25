@@ -13,30 +13,30 @@ class QuestionArray {
     var questionDates: [String] = []
     var dateArray: [(String, Int)] = []
     var firstQuestion = ""
-    //let historicalData = HistoricalData()
-    let viewController = QuizViewController()
-//    init() {
-//        for event in historicalData.historicalDataArray {
-//            if event[1] == viewController.sectionDetail{
-//                firstQuestion = event[3]
-//                break
-//            }
-//        }
-//        var n = 0
-//        for _ in historicalData.historicalEvent {
-//            if firstQuestion == historicalData.historicalEvent[n].0 {
-//                for i in n ... n + 6 {
-//                    questionArray.append(historicalData.historicalEvent[i])
-//                    dateArray.append(historicalData.historicalDate[i])
-//                    questionEvents.append(historicalData.historicalEvent[i].0)
-//                    questionDates.append(historicalData.historicalDate[i].0)
-//                }
-//                break
-//            }
-//            n = n + 1
-//        }
-//        
-//    }
+    let historicalData = HistoricalData()
+    let viewController = QuizSelectionTableViewController()
+    init() {
+        for event in historicalData.historicalDataArray {
+            if event[1] == viewController.sectionDetail{
+                firstQuestion = event[3]
+                break
+            }
+        }
+        var n = 0
+        for _ in historicalData.historicalEvent {
+            if firstQuestion == historicalData.historicalEvent[n].0 {
+                for i in n ... n + 6 {
+                    questionArray.append(historicalData.historicalEvent[i])
+                    dateArray.append(historicalData.historicalDate[i])
+                    questionEvents.append(historicalData.historicalEvent[i].0)
+                    questionDates.append(historicalData.historicalDate[i].0)
+                }
+                break
+            }
+            n = n + 1
+        }
+        
+    }
     
 }
 extension QuestionArray {
@@ -62,6 +62,6 @@ extension QuestionArray {
         return questions
         
     }
-    
+
     
 }

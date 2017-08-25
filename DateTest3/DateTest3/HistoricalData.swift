@@ -12,32 +12,33 @@ class  HistoricalData {
 
     var sectionHeaderTable: [String] = []
     var sectionHeaderTable1: [String] = ["Drag and drop events"]
-    static var historicalDataArray: [[String]] = []
-    static var historicalEvent: [(String, Int)] = []
-    static var historicalDate: [(String, Int)] = []
-    static var detailEvent: [String] = []
-    static var timeUnit: [String] = []
+    var historicalDataArray: [[String]] = []
+    var historicalEvent: [(String, Int)] = []
+    var historicalDate: [(String, Int)] = []
+    var detailEvent: [String] = []
+    var timeUnit: [String] = []
     init () {
         if let plistPath = Bundle.main.path(forResource: "DataHistorical", ofType: "plist"),
             let historicalNSArray = NSArray(contentsOfFile: plistPath){
-            HistoricalData.historicalDataArray = historicalNSArray as! [[String]]
+            historicalDataArray = historicalNSArray as! [[String]]
         }
-        let count = HistoricalData.historicalDataArray.count
+        let count = historicalDataArray.count
         var i = 0
         for n in 0 ... count - 1 {
-            HistoricalData.historicalEvent.append((HistoricalData.historicalDataArray[n][3], i))
-            HistoricalData.historicalDate.append((HistoricalData.historicalDataArray[n][2], i))
-            sectionHeaderTable.append(HistoricalData.historicalDataArray[n][0])
-            HistoricalData.detailEvent.append(HistoricalData.historicalDataArray[n][01])
-            HistoricalData.timeUnit.append(HistoricalData.historicalDataArray[n][04])
+            historicalEvent.append((historicalDataArray[n][3], i))
+            historicalDate.append((historicalDataArray[n][2], i))
+            sectionHeaderTable.append(historicalDataArray[n][0])
+            detailEvent.append(historicalDataArray[n][01])
+            timeUnit.append(historicalDataArray[n][04])
             i = i + 1
-            if i == 6 {
-                HistoricalData.historicalEvent.append(("", 6))
-                HistoricalData.historicalDate.append(("", 6))
-                    i = 0
-            }
+            if i == 7 {i = 0}
+            
+//            if i == 6 {
+//                historicalEvent.append(("", 6))
+//                historicalDate.append(("", 6))
+//                    i = 0
+//            }
         }
-        
     }
 }
 

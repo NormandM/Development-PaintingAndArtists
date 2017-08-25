@@ -43,10 +43,10 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return recognizer
     }()
     var startButton = UIButton()
-    //var nextButton = UIButton()
+    var nextButton = UIButton()
     var resultMessageLabel = UILabel()
 
-   // var questionArray = QuestionArray()
+    var questionArray = QuestionArray()
     override func viewDidLoad() {
         super.viewDidLoad()
         print("ok")
