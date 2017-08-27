@@ -13,29 +13,30 @@ class QuestionArray {
     var questionDates: [String] = []
     var dateArray: [(String, Int)] = []
     var firstQuestion = ""
+    var sectionDetail: String
     let historicalData = HistoricalData()
-    let viewController = QuizSelectionTableViewController()
-    init() {
-        for event in historicalData.historicalDataArray {
-            if event[1] == viewController.sectionDetail{
-                firstQuestion = event[3]
-                break
-            }
-        }
+    init(sectionDetail: String) {
+        self.sectionDetail = sectionDetail
         var n = 0
-        for _ in historicalData.historicalEvent {
-            if firstQuestion == historicalData.historicalEvent[n].0 {
-                for i in n ... n + 6 {
-                    questionArray.append(historicalData.historicalEvent[i])
-                    dateArray.append(historicalData.historicalDate[i])
-                    questionEvents.append(historicalData.historicalEvent[i].0)
-                    questionDates.append(historicalData.historicalDate[i].0)
-                }
-                break
+        for event in historicalData.historicalDataArray {
+            
+            if event[1] == sectionDetail {
+                let questionTransit = (event[3], n)
+                let dateTransit = (event[2], n)
+                questionArray.append(questionTransit)
+                dateArray.append(dateTransit)
+                questionEvents.append(event[3])
+                questionDates.append(event[2])
+                n = n + 1
+                print(n)
             }
-            n = n + 1
+            
+            
         }
-        
+        questionEvents.append("")
+        questionDates.append("")
+        let transitQuestionArray = ("", 6)
+        questionArray.append(transitQuestionArray)
     }
     
 }
@@ -53,15 +54,14 @@ extension QuestionArray {
         }
     }
     func rearangeForQuiz() -> QuestionArray{
-        let questions = QuestionArray()
+        let questions = QuestionArray(sectionDetail: sectionDetail)
         questions.questionArray.removeLast()
         questionEvents.removeLast()
-        //historicalData.historicalEvent.removeLast()
         questions.shuffle()
         questions.questionArray.insert(("", 6), at: 0)
         return questions
         
     }
-
+    
     
 }

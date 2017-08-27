@@ -13,6 +13,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var sectionDetail: String = ""
     var pageTitle: String = ""
+    
     var sectionHeaderTable: String = ""
     var sectionHeaderTable1: String = ""
     var sourceIndexPath: NSIndexPath? = nil
@@ -36,8 +37,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tryAgainButton: UIButton!
     let headerLabelTableView = UILabel()
     let headerLabelTableView1 = UILabel()
-    
-    //var historicalData = HistoricalData()
     
     var questionArray: QuestionArray?
     let longPress: UILongPressGestureRecognizer = {
@@ -255,7 +254,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func eliminateEventAction(_ sender: Any) {
         var index = 0
         for n in 0 ... 6 {
-            print(questionArray?.questionArray[n].1)
             if questionArray?.questionArray[n].1 == 5 {
                 
                 index = n

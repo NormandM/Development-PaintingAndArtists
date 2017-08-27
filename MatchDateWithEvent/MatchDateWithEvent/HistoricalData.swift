@@ -31,12 +31,8 @@ class  HistoricalData {
             detailEvent.append(historicalDataArray[n][01])
             timeUnit.append(historicalDataArray[n][04])
             i = i + 1
-            if i == 6 {
-                historicalEvent.append(("", 6))
-                historicalDate.append(("", 6))
-                i = 0
-            }
+            if i == 7 {i = 0}
+            
         }
-        
     }
 }

@@ -10,18 +10,18 @@ import UIKit
 
 class QuizSelectionTableViewController: UITableViewController {
     var titleArray: [String] = []
+    var sectionDetail: String = ""
     var sectionTotalArray: [[String]] = []
     var historicalDataArray: [[String]] = []
     var sectionHeaderTable: String = ""
     var sectionHeaderTable1: String = ""
-    var sectionDetail: String = ""
-    let historicalData = HistoricalData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         var changeOfTitleOccured = false
         var sectionArray: [String] = []
         
-        
+        let historicalData = HistoricalData()
         historicalDataArray = historicalData.historicalDataArray
         var n = 0
         titleArray.append(historicalDataArray[n][0])
@@ -49,41 +49,42 @@ class QuizSelectionTableViewController: UITableViewController {
             }
             
             n = n + 1
-
         }
-
-
-
+        
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+        
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-
-
     
-
+    
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return titleArray[section]
     }
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
-
         return titleArray.count
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-
         return sectionTotalArray[section].count
     }
-
+    
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = sectionTotalArray[indexPath.section][indexPath.row]
         return cell
     }
-
-
+    
+    
+    
+    
     
     // MARK: - Navigation
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showQuizSelection"{
             if let indexPath = self.tableView.indexPathForSelectedRow {
@@ -97,7 +98,6 @@ class QuizSelectionTableViewController: UITableViewController {
             }
         }
     }
-
     
 
 }

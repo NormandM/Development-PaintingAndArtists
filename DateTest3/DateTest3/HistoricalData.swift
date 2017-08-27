@@ -33,11 +33,6 @@ class  HistoricalData {
             i = i + 1
             if i == 7 {i = 0}
             
-//            if i == 6 {
-//                historicalEvent.append(("", 6))
-//                historicalDate.append(("", 6))
-//                    i = 0
-//            }
         }
     }
 }
