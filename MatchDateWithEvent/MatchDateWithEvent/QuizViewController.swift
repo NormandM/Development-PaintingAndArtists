@@ -11,6 +11,9 @@ import UIKit
 class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     var pageTitle: String = ""
     var sectionDetail: String = ""
+    var titleArray: [String] = []
+    var sectionTotalArray: [[String]] = []
+
 
     var sectionHeaderTable: String = ""
     var sectionHeaderTable1: String = ""
@@ -23,11 +26,11 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var labelIsDropped: Bool = false
     var counter = 0
     var totalCycle = 0
+    var responseIsGood: Bool = false
 
     @IBOutlet weak var timerProgress: UIProgressView!
     
     @IBOutlet weak var creditAvailable: UILabel!
-    @IBOutlet weak var tryAgainButton: UIButton!
     @IBOutlet weak var buyButton: UIButton!
     @IBOutlet weak var showButton: UIButton!
     @IBOutlet weak var eliminateButton: UIButton!
@@ -37,6 +40,8 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var infoDisplay: UILabel!
     let headerLabelTableView = UILabel()
     let headerLabelTableView1 = UILabel()
+    
+    var tableCell = CellForTableView()
 
 
     
@@ -46,7 +51,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }()
     var startButton = UIButton()
     var nextButton = UIButton()
-    var resultMessageLabel = UILabel()
+    var tryAgainOrNext = UIButton()
     var questionArray: QuestionArray?
     
 
@@ -71,9 +76,6 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         eliminateButton.isHidden = true
         buyButton.layer.masksToBounds = true
         buyButton.layer.cornerRadius = 10
-        tryAgainButton.layer.masksToBounds = true
-        tryAgainButton.layer.cornerRadius = 10
-        tryAgainButton.isHidden = true
         // Creating programmaticaly startButton
         startButton = UIButton(frame: CGRect(origin: CGPoint(x: self.view.frame.width/2 - 100, y: self.view.frame.height/2 - 100), size: CGSize(width: 200, height: 200)))
         startButton.backgroundColor = UIColor.blue
@@ -85,18 +87,19 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         startButton.setTitleColor(UIColor.white, for: .normal)
         self.navigationController?.view.addSubview(startButton)
         // Creating resultMessageLabel
-        resultMessageLabel = UILabel(frame: CGRect(origin: CGPoint(x: self.view.frame.width/2 - 100, y: self.view.frame.height/1.4), size: CGSize(width: 200, height: 50)))
-        resultMessageLabel.backgroundColor = UIColor(red: 129/255, green: 203/255, blue: 235/255, alpha: 100)
-        resultMessageLabel.lineBreakMode = .byWordWrapping
-        resultMessageLabel.font = UIFont.systemFont(ofSize: 30)
-        resultMessageLabel.textAlignment = .center
-        resultMessageLabel.layer.masksToBounds = true
-        resultMessageLabel.layer.cornerRadius = 10
-        resultMessageLabel.text = "Well done!"
-        resultMessageLabel.textColor = UIColor.white
-        resultMessageLabel.isEnabled = false
-        resultMessageLabel.isHidden = true
-        self.navigationController?.view.addSubview(resultMessageLabel)
+        tryAgainOrNext = UIButton(frame: CGRect(origin: CGPoint(x: self.view.frame.width/2 - 100, y: self.view.frame.height/1.4), size: CGSize(width: 200, height: 50)))
+        tryAgainOrNext.backgroundColor = UIColor(red: 129/255, green: 203/255, blue: 235/255, alpha: 100)
+        tryAgainOrNext.addTarget(self, action: #selector(tryAgainOrNextAction(sender:)), for: .touchUpInside)
+
+        tryAgainOrNext.titleLabel?.lineBreakMode = .byWordWrapping
+        tryAgainOrNext.titleLabel?.font = UIFont.systemFont(ofSize: 30)
+        tryAgainOrNext.titleLabel?.textAlignment = .center
+        tryAgainOrNext.layer.masksToBounds = true
+        tryAgainOrNext.layer.cornerRadius = 10
+        tryAgainOrNext.setTitleColor(UIColor.white, for: .normal)
+        tryAgainOrNext.isEnabled = false
+        tryAgainOrNext.isHidden = true
+        self.navigationController?.view.addSubview(tryAgainOrNext)
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -110,15 +113,11 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return header
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Return the number of items in the sample data structure.
-        
         var count:Int?
         if tableView == self.tableView {
-            //count = historicalData.historicalDate.count
             count = questionArray?.dateArray.count
         }
         if tableView == self.tableView1 {
-            //count =  historicalData.historicalEvent.count
             count = questionArray?.questionArray.count
         }
         return count!
@@ -148,7 +147,6 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             headerLabel = headerLabelTableView
         }
         if tableView == self.tableView1{
-            //headerLabelTableView1.backgroundColor = UIColor.lightGray
             headerLabelTableView1.font = UIFont(name: "Verdana", size: 20)
             headerLabelTableView1.textColor = UIColor.blue
             headerLabelTableView1.text = self.tableView(self.tableView1, titleForHeaderInSection: section)
@@ -181,14 +179,12 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         if tableView == self.tableView {
             cell = (tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! CellForTableView)
-            //cell?.dateCellLabel.text = historicalData.historicalDate[indexPath.row].0
             cell?.dateCellLabel.text = questionArray?.dateArray[indexPath.row].0
             cell?.displayWhiteDateCell(cell: cell!)
         }
         
         if tableView == self.tableView1 {
             cell = (tableView.dequeueReusableCell(withIdentifier: "Cell1", for: indexPath as IndexPath) as! CellForTableView)
-            //cell?.eventCellLabel.text = historicalData.historicalEvent[indexPath.row].0
             cell?.eventCellLabel.text = questionArray?.questionArray[indexPath.row].0
             
             cell?.displayWhiteEventCell(cell: cell!)
@@ -196,7 +192,10 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         return (cell)!
     }
-    
+
+////////////////////////////////////////////////////////
+//  Functions
+///////////////////////////////////////////////////////
     // Timing of the display of the dates for the quiz
     func runTimedCode() {
         totalCycle = totalCycle - 1
@@ -207,12 +206,11 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             questionArray = responseFromQuestionTimer.1
             timer.invalidate()
             counter = 51
+            
             timerProgressBar = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimerProgress), userInfo: nil, repeats: true)
             headerLabelTableView1.isHidden = false
         }
-        
     }
-    
     // Timing for total time to respond and checking result
     func runTimerProgress() {
         counter = counter - 1
@@ -220,37 +218,55 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         infoDisplay.text = "Time remaining: \(timeCounter)"
         let progress: Double = Double(counter)
         timerProgress.progress = Float(progress)/50
+        
         let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
-        let responseIsGood = checkResponse.checkResponse()
+        responseIsGood = checkResponse.checkResponse()
         if responseIsGood && (progress < 0 || labelIsDropped == true){
             resultMessage()
-            resultMessageLabel.text = "Well Done!"
+            tryAgainOrNext.setTitle("Next Quiz", for: .normal)
         }else if responseIsGood == false && (progress < 0 || labelIsDropped == true){
-            let displayButtons = DisplayOutlet(eliminateButton: eliminateButton, tryAgainButton: tryAgainButton, showButton: showButton)
+            let displayButtons = DisplayOutlet(eliminateButton: eliminateButton, showButton: showButton, tryAgainOrNext: tryAgainOrNext)
             displayButtons.forWrongAnswer()
             resultMessage()
-            resultMessageLabel.text = "Sorry!"
+            tryAgainOrNext.setTitle("Try Again", for: .normal)
             
         }
         
     }
-    func startButtonAction (sender: UIButton) {
+
+
+    func resultMessage() {
+        timerProgressBar.invalidate()
+        tryAgainOrNext.isEnabled = true
+        tryAgainOrNext.isHidden = false
+        longPress.isEnabled = false
+    }
+    
+    func startNewQuiz() {
         counter = 0
         startButton.isHidden = true
         startButton.isEnabled = false
         headerLabelTableView.isHidden = false
-        let buttons = DisplayOutlet(eliminateButton: eliminateButton, tryAgainButton: tryAgainButton, showButton: showButton)
+        let buttons = DisplayOutlet(eliminateButton: eliminateButton, showButton: showButton, tryAgainOrNext: tryAgainOrNext)
         buttons.quizMode()
         infoDisplay.text = "Here comes the Dates!"
         infoDisplay.backgroundColor = UIColor(red: 129/255, green: 203/255, blue: 235/255, alpha: 100)
         infoDisplay.textColor = UIColor.white
         totalCycle = (questionArray?.questionArray.count)! - 1
-        let cellDate = tableView.cellForRow(at: [0, 0]) as! CellForTableView
-        cellDate.dateCellLabel.textColor = UIColor.blue
-        let cellEvent = tableView1.cellForRow(at: [0, 0]) as! CellForTableView
+        let cellEvent = tableCell.definedBy(tableView: tableView1, index: 0)
         cellEvent.displayGrayEventCell(cell: cellEvent)
         cellEvent.isHidden = true
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
+
+    }
+    
+
+    
+////////////////////////////////////////////////////////
+// Buttons main storyBoard and programmed
+///////////////////////////////////////////////////////
+    func startButtonAction (sender: UIButton) {
+        startNewQuiz()
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
     }
     
     @IBAction func eliminateEventAction(_ sender: Any) {
@@ -262,7 +278,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             }
             print(index)
         }
-        let cellEvent = tableView1.cellForRow(at: [0, index]) as! CellForTableView
+        let cellEvent = tableCell.definedBy(tableView: tableView1, index: index)
         cellEvent.eventCellLabel.text = ""
         questionArray?.questionArray[index] = ("", 5)
         totalAvailableCredit = totalAvailableCredit - 2
@@ -272,29 +288,9 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
     }
     
-    @IBAction func tryAgainAction(_ sender: Any) {
-        questionArray = questionArray?.rearangeForQuiz()
-        for n in 0 ... 6 {
-            let cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
-            cellEvent.isHidden = false
-            cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
-            cellEvent.displayGrayEventCell(cell: cellEvent)
-            cellEvent.eventCellLabel.textColor = UIColor.blue
-        }
-        let displayButton = DisplayOutlet(eliminateButton: eliminateButton, tryAgainButton: tryAgainButton, showButton: showButton)
-        displayButton.forTryAgain()
-        resultMessageLabel.isHidden = true
-        longPress.isEnabled = true
-        counter = 51
-        labelIsDropped = false
-        timerProgressBar = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimerProgress), userInfo: nil, repeats: true)
-        totalAvailableCredit = totalAvailableCredit - 2
-        creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
-        
-    }
     @IBAction func buyCreditAction(_ sender: Any) {
         let shake = Shake()
-        let cellEvent = tableView1.cellForRow(at: [0, 1]) as! CellForTableView
+        let cellEvent = tableCell.definedBy(tableView: tableView1, index: 1)
         let shakeLabel = cellEvent.eventCellLabel
         shake.shakeViewVertical(vw: shakeLabel!)
         
@@ -303,9 +299,10 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBAction func showNextEventButton(_ sender: Any) {
         var n = 0
         var i = 0
-        var cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
+        var cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
         for _ in 0 ... 6 {
-            cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
+
+            cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
             if cellEvent.eventCellLabel.text == "" {break}
             n = n + 1
         }
@@ -315,26 +312,69 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         if n != i {swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n])}
         if i != n + 1{swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n + 1])}
-        cellEvent = tableView1.cellForRow(at: [0, n]) as! CellForTableView
+        cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
         cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
-        cellEvent = tableView1.cellForRow(at: [0, i]) as! CellForTableView
+        cellEvent = tableCell.definedBy(tableView: tableView1, index: i)
         cellEvent.eventCellLabel.text = questionArray?.questionArray[i].0
-        cellEvent = tableView1.cellForRow(at: [0, n + 1]) as! CellForTableView
+        cellEvent = tableCell.definedBy(tableView: tableView1, index: n + 1)
         cellEvent.eventCellLabel.text = questionArray?.questionArray[n + 1].0
-        
+    
         totalAvailableCredit = totalAvailableCredit - 2
         creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
         let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
         labelIsDropped = checkResponse.allAnswered()
         
     }
-    
-    func resultMessage() {
-        timerProgressBar.invalidate()
-        resultMessageLabel.isEnabled = true
-        resultMessageLabel.isHidden = false
-        longPress.isEnabled = false
+    func tryAgainOrNextAction (sender: UIButton) {
+        longPress.isEnabled = true
+        labelIsDropped = false
+        if responseIsGood{
+            var n = 0
+            let arraySection = sectionTotalArray.flatMap { $0 }
+            print(arraySection)
+            for section in arraySection{
+                if section == sectionDetail {
+                    print(n)
+                    sectionDetail = arraySection [n + 1]
+                    break
+                }
+                n = n + 1
+            }
+            let historicalData = HistoricalData()
+            pageTitle = historicalData.sectionHeaderTable[n]
+            questionArray = QuestionArray(sectionDetail: sectionDetail)
+            questionArray = questionArray?.rearangeForQuiz()
+            startNewQuiz()
+            for n in 0 ... 5 {
+                let cellDate = tableCell.definedBy(tableView: tableView, index: n)
+                let cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
+                cellDate.isHidden = true
+                cellEvent.isHidden = true
+            }
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
+        }else{
+            questionArray = questionArray?.rearangeForQuiz()
+            
+            for n in 0 ... 6 {
+                let cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
+                cellEvent.isHidden = false
+                cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
+                cellEvent.displayGrayEventCell(cell: cellEvent)
+                cellEvent.eventCellLabel.textColor = UIColor.blue
+            }
+            let displayButton = DisplayOutlet(eliminateButton: eliminateButton, showButton: showButton, tryAgainOrNext: tryAgainOrNext)
+            displayButton.forTryAgain()
+            tryAgainOrNext.isHidden = true
+            longPress.isEnabled = true
+            counter = 51
+            labelIsDropped = false
+            timerProgressBar = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimerProgress), userInfo: nil, repeats: true)
+            totalAvailableCredit = totalAvailableCredit - 2
+            creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
+        }
     }
+    
+
     
     ////////////////////////////////////////////////
     // Logic for the LongPresse gesture and movement
@@ -364,7 +404,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             snapshot?.alpha = 0.0
             tableView1.addSubview(snapshot!)
             
-            UIView.animate(withDuration: 0.25, animations: { () -> Void in
+            UIView.animate(withDuration: 0.01, animations: { () -> Void in
                 center.y = location.y
                 self.snapshot?.center = center
                 self.snapshot?.transform = CGAffineTransform(scaleX: 1.05, y: 1.05)
@@ -404,7 +444,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             let cell = tableView1.cellForRow(at: indexPath as IndexPath)!
             cell.alpha = 0.0
-            UIView.animate(withDuration: 0.25, animations: { () -> Void in
+            UIView.animate(withDuration: 0.2, animations: { () -> Void in
                 self.snapshot?.center = cell.center
                 self.snapshot?.transform = CGAffineTransform.identity
                 self.snapshot?.alpha = 0.0
@@ -435,7 +475,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         snapshot.layer.cornerRadius = 0.0
         snapshot.layer.shadowOffset = CGSize(width: -5.0, height: 0.0)
         snapshot.layer.shadowRadius = 5.0
-        snapshot.layer.shadowOpacity = 0.2
+        snapshot.layer.shadowOpacity = 0.5
         return snapshot
     }
     

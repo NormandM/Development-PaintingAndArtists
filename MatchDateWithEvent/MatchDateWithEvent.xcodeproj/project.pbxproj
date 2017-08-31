@@ -151,8 +151,8 @@
 		8E9482141F52588200D1F68F /* QuizViewControllerFiles */ = {
 			isa = PBXGroup;
 			children = (
-				8E9482101F4CC70C00D1F68F /* QuestionArray.swift */,
 				8E9482071F4CA87600D1F68F /* QuizViewController.swift */,
+				8E9482101F4CC70C00D1F68F /* QuestionArray.swift */,
 				8E94820E1F4CBADC00D1F68F /* CellForTableView.swift */,
 				8E9482151F5258F900D1F68F /* QuestionTimer.swift */,
 				8E9482171F52593300D1F68F /* ResponseTimer.swift */,

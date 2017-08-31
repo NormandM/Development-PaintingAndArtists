@@ -11,40 +11,44 @@ import UIKit
 
 class DisplayOutlet {
     let eliminateButton: UIButton
-    let tryAgainButton: UIButton
     let showButton: UIButton
-    init(eliminateButton: UIButton, tryAgainButton: UIButton, showButton:UIButton){
+    let tryAgainOrNext: UIButton
+    
+    init(eliminateButton: UIButton, showButton:UIButton, tryAgainOrNext: UIButton){
         self.eliminateButton = eliminateButton
-        self.tryAgainButton = tryAgainButton
         self.showButton = showButton
+        self.tryAgainOrNext = tryAgainOrNext
     }
 }
 extension DisplayOutlet{
     func forTryAgain(){
         eliminateButton.isHidden = false
         eliminateButton.isEnabled = true
-        tryAgainButton.isHidden = true
-        tryAgainButton.isEnabled = false
         showButton.isHidden = false
         showButton.isEnabled = true
+        tryAgainOrNext.isHidden = true
+        tryAgainOrNext.isEnabled = false
     }
     func forWrongAnswer() {
         showButton.isHidden = true
         showButton.isEnabled = false
         eliminateButton.isHidden = true
         eliminateButton.isEnabled = false
-        tryAgainButton.isEnabled = true
-        tryAgainButton.isHidden = false
+        tryAgainOrNext.isHidden = false
+        tryAgainOrNext.isEnabled = true
+        tryAgainOrNext.setTitle("Try Again", for: .normal)
+
+
     }
     func quizMode() {
         showButton.isHidden = false
         showButton.isEnabled = true
         eliminateButton.isHidden = false
         eliminateButton.isEnabled = true
-        tryAgainButton.isEnabled = false
-        tryAgainButton.isHidden = true
-        
-        
+        tryAgainOrNext.isHidden = true
+        tryAgainOrNext.isEnabled = false
+
+
     }
     
 }

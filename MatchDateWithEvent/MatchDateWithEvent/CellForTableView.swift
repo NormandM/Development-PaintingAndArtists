@@ -23,6 +23,8 @@ class CellForTableView: UITableViewCell {
         // Configure the view for the selected state
     }
 
+
+
 }
 extension CellForTableView {
     func displayWhiteDateCell(cell: CellForTableView) {
@@ -36,10 +38,14 @@ extension CellForTableView {
         cell.eventCellLabel?.textColor = UIColor.white
     }
     func displayGrayEventCell(cell: CellForTableView) {
+        cell.eventCellLabel.isEnabled = true
         cell.eventCellLabel.textColor = UIColor.blue
         cell.eventCellLabel.layer.masksToBounds = true
         cell.eventCellLabel.layer.cornerRadius = 10.0
         cell.eventCellLabel.backgroundColor = UIColor.lightGray
+        cell.eventCellLabel.numberOfLines = 0
+        cell.eventCellLabel.lineBreakMode = .byWordWrapping
+        cell.eventCellLabel.adjustsFontSizeToFitWidth = true
     }
     func displayGreenEventCell(cell: CellForTableView) {
         cell.eventCellLabel.textColor = UIColor.blue
@@ -53,6 +59,10 @@ extension CellForTableView {
         cell.eventCellLabel.layer.cornerRadius = 10.0
         cell.eventCellLabel.backgroundColor = UIColor.red
     }
+    func definedBy(tableView: UITableView, index: Int) ->  CellForTableView{
+        return tableView.cellForRow(at: [0, index]) as! CellForTableView
+    }
+
     
 }
 

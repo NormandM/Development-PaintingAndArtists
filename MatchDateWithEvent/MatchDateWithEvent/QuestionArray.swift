@@ -30,8 +30,6 @@ class QuestionArray {
                 n = n + 1
                 print(n)
             }
-            
-            
         }
         questionEvents.append("")
         questionDates.append("")

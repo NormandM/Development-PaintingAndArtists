@@ -90,7 +90,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xr-OW-10E">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="0Xr-OW-10E">
                                                     <rect key="frame" x="75" y="22" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -120,7 +120,7 @@
                                     <constraint firstAttribute="width" constant="70" id="6bU-lW-3FB"/>
                                     <constraint firstAttribute="height" constant="70" id="fdL-4i-sCG"/>
                                 </constraints>
-                                <state key="normal" title="Eliminate 2 events: 2 crdits"/>
+                                <state key="normal" title="Eliminate 1 events: 2 credits"/>
                                 <connections>
                                     <action selector="eliminateEventAction:" destination="35j-R5-XPv" eventType="touchUpInside" id="GOV-OW-TrN"/>
                                 </connections>
@@ -149,20 +149,6 @@
                                     <action selector="buyCreditAction:" destination="35j-R5-XPv" eventType="touchUpInside" id="b3w-mR-9xX"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="COv-Ij-AWG">
-                                <rect key="frame" x="112.5" y="592" width="70" height="70"/>
-                                <color key="backgroundColor" red="0.50765306119999998" green="0.79607843140000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="4oC-i1-3PU"/>
-                                    <constraint firstAttribute="width" constant="70" id="TgE-rf-ehX"/>
-                                </constraints>
-                                <state key="normal" title="Try Again! : 2 credits">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tryAgainAction:" destination="35j-R5-XPv" eventType="touchUpInside" id="m5n-0c-Jca"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DisplayLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84A-2v-Cfy">
                                 <rect key="frame" x="0.0" y="64" width="375" height="35"/>
                                 <constraints>
@@ -186,9 +172,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="225" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMQ-KU-qcK">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="cMQ-KU-qcK">
                                                     <rect key="frame" x="15" y="5" width="175" height="34"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -230,15 +216,12 @@
                             <constraint firstItem="Ixh-4Y-3d8" firstAttribute="top" secondItem="84A-2v-Cfy" secondAttribute="bottom" constant="8" id="6V3-sb-3Pj"/>
                             <constraint firstItem="emJ-fL-C2T" firstAttribute="leading" secondItem="wxa-NF-QIr" secondAttribute="trailing" constant="8" id="76x-Vd-4AO"/>
                             <constraint firstItem="KYh-h6-LjL" firstAttribute="centerX" secondItem="fYb-Pi-IIE" secondAttribute="centerX" constant="-40" id="7qh-99-UiH"/>
-                            <constraint firstItem="wxa-NF-QIr" firstAttribute="leading" secondItem="COv-Ij-AWG" secondAttribute="trailing" constant="5" id="BZL-n6-FCi"/>
-                            <constraint firstItem="COv-Ij-AWG" firstAttribute="leading" secondItem="Bpe-Ns-1CE" secondAttribute="trailing" constant="5" id="DAM-Yy-ySZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ixh-4Y-3d8" secondAttribute="trailing" constant="8" id="DEv-ju-yMJ"/>
                             <constraint firstItem="BzD-7M-rmi" firstAttribute="top" secondItem="emJ-fL-C2T" secondAttribute="bottom" id="Dwy-T8-tFv"/>
                             <constraint firstItem="BzD-7M-rmi" firstAttribute="top" secondItem="wxa-NF-QIr" secondAttribute="bottom" constant="5" id="GtA-V4-s4N"/>
                             <constraint firstItem="Ixh-4Y-3d8" firstAttribute="top" secondItem="84A-2v-Cfy" secondAttribute="bottom" constant="8" id="HWw-Ux-bEp"/>
                             <constraint firstItem="wxa-NF-QIr" firstAttribute="leading" secondItem="KYh-h6-LjL" secondAttribute="trailing" constant="5" id="KM7-aJ-az9"/>
                             <constraint firstItem="84A-2v-Cfy" firstAttribute="top" secondItem="8qb-wY-hiC" secondAttribute="bottom" id="Ken-Ri-fly"/>
-                            <constraint firstItem="BzD-7M-rmi" firstAttribute="top" secondItem="COv-Ij-AWG" secondAttribute="bottom" constant="5" id="MGV-0O-PAe"/>
                             <constraint firstItem="dgY-pD-gaS" firstAttribute="top" secondItem="Ixh-4Y-3d8" secondAttribute="bottom" constant="10" id="MTH-HY-Ne5"/>
                             <constraint firstItem="dgY-pD-gaS" firstAttribute="leading" secondItem="sw0-Nx-Plc" secondAttribute="trailing" id="Myg-Xd-GR9"/>
                             <constraint firstAttribute="trailing" secondItem="dgY-pD-gaS" secondAttribute="trailing" id="No3-Wx-9V7"/>
@@ -254,7 +237,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="12R-WB-gec">
-                        <barButtonItem key="leftBarButtonItem" title="←Home" id="NF2-Mj-dJA"/>
                         <barButtonItem key="rightBarButtonItem" title="Next →" id="tuw-JS-EIs"/>
                     </navigationItem>
                     <connections>
@@ -266,7 +248,6 @@
                         <outlet property="tableView" destination="sw0-Nx-Plc" id="l7z-Vd-ybl"/>
                         <outlet property="tableView1" destination="dgY-pD-gaS" id="mKP-7w-eSL"/>
                         <outlet property="timerProgress" destination="Ixh-4Y-3d8" id="9Ef-nz-kah"/>
-                        <outlet property="tryAgainButton" destination="COv-Ij-AWG" id="Coe-6I-05h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwq-Ua-S6t" sceneMemberID="firstResponder"/>

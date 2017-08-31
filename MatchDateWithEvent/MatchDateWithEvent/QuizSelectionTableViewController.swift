@@ -50,12 +50,8 @@ class QuizSelectionTableViewController: UITableViewController {
             
             n = n + 1
         }
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        print(sectionTotalArray)
+        print(titleArray)
     }
     
     
@@ -91,6 +87,12 @@ class QuizSelectionTableViewController: UITableViewController {
                 sectionDetail = sectionTotalArray[indexPath.section][indexPath.row]
                 let pageTitle = titleArray[indexPath.section]
                 let controller = segue.destination as! QuizViewController
+                let backItem = UIBarButtonItem()
+                backItem.title = "Home"
+                navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+                
+                controller.sectionTotalArray = sectionTotalArray
+                controller.titleArray = titleArray
                 controller.pageTitle = pageTitle
                 controller.sectionDetail = sectionDetail
                 controller.sectionHeaderTable = sectionHeaderTable
