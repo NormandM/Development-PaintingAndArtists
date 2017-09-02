@@ -50,8 +50,6 @@ class QuizSelectionTableViewController: UITableViewController {
             
             n = n + 1
         }
-        print(sectionTotalArray)
-        print(titleArray)
     }
     
     

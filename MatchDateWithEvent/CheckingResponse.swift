@@ -29,18 +29,16 @@ class CheckResponse {
         let shake = Shake()
         let progress: Double = Double(counter)
         if progress < 0 || labelIsDropped == true{
-            let finaltEvent = questionArray.questionArray.dropLast(4)
-            let finalDate = questionArray.dateArray.dropLast(4)
-            var n = 0
+            let finaltEvent = questionArray.questionArray.dropLast(2)
+            let finalDate = questionArray.dateArray.dropLast(1)
             responseIsGood = false
-            for _ in finalDate {
+            for n in 0 ... 4 {
                 if finalDate[n].1 != finaltEvent[n].1{
                     responseIsGood = false
                     break
                 }else{
                     responseIsGood = true
                 }
-                n = n + 1
             }
             if responseIsGood {
                 for n in 0 ... 4 {

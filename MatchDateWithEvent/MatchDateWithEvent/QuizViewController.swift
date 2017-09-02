@@ -276,7 +276,6 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 
                 index = n
             }
-            print(index)
         }
         let cellEvent = tableCell.definedBy(tableView: tableView1, index: index)
         cellEvent.eventCellLabel.text = ""
@@ -299,11 +298,11 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBAction func showNextEventButton(_ sender: Any) {
         var n = 0
         var i = 0
+        var j = 0
         var cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
-        for _ in 0 ... 6 {
 
-            cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
-            if cellEvent.eventCellLabel.text == "" {break}
+        for _ in 0 ... 6 {
+            if questionArray?.questionArray[n].1 != n {break}
             n = n + 1
         }
         for _ in 0 ... 6 {
@@ -311,11 +310,29 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             i = i + 1
         }
         if n != i {swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n])}
-        if i != n + 1{swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n + 1])}
+        for _ in 0 ... 6 {
+            if questionArray?.questionArray[j].0 == "" {break}
+            j = j + 1
+        }
+        if j != n + 1  {swap(&questionArray!.questionArray[j], &questionArray!.questionArray[n + 1])}
         cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
+        let cellEventFrameN = cellEvent.frame
+        let maxXcellEventN = cellEventFrameN.maxX
+        let maxYcellEventN = cellEventFrameN.maxY
         cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
+
+        
         cellEvent = tableCell.definedBy(tableView: tableView1, index: i)
         cellEvent.eventCellLabel.text = questionArray?.questionArray[i].0
+        let cellEventFrameI = cellEvent.frame
+        let maxXcellEventI = cellEventFrameI.maxX
+        let maxYcellEventI = cellEventFrameI.maxY
+
+        UIView.animate(withDuration: 2, animations: {
+            cellEvent.transform = CGAffineTransform(translationX: 0, y: abs(maxYcellEventI - maxYcellEventN))
+        })
+        cellEvent = tableCell.definedBy(tableView: tableView1, index: j)
+        cellEvent.eventCellLabel.text = questionArray?.questionArray[j].0
         cellEvent = tableCell.definedBy(tableView: tableView1, index: n + 1)
         cellEvent.eventCellLabel.text = questionArray?.questionArray[n + 1].0
     
@@ -331,10 +348,8 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if responseIsGood{
             var n = 0
             let arraySection = sectionTotalArray.flatMap { $0 }
-            print(arraySection)
             for section in arraySection{
                 if section == sectionDetail {
-                    print(n)
                     sectionDetail = arraySection [n + 1]
                     break
                 }

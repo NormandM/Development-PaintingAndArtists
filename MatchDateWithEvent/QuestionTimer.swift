@@ -27,7 +27,6 @@ class QuestionTimer {
         
     }
     func runTimedCode() -> (Bool, QuestionArray) {
-        print(totalCycle)
         if totalCycle > 0 {
             let cellDate = tableCell.definedBy(tableView: tableView, index: counter - 1)
             let cellEvent = tableCell.definedBy(tableView: tableView1, index: counter)
@@ -41,8 +40,6 @@ class QuestionTimer {
             isAllDatesDisplayed = true
             var n = 0
             questionArray = questionArray.rearangeForQuiz()
-            print(questionArray.questionArray)
-            
             for event in questionArray.questionArray {
                 let cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
                 cellEvent.isHidden = false
