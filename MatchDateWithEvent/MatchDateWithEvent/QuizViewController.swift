@@ -299,43 +299,49 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         var n = 0
         var i = 0
         var j = 0
-        var cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
-
         for _ in 0 ... 6 {
-            if questionArray?.questionArray[n].1 != n {break}
+            if questionArray?.questionArray[n].1 != n {
+                break}
             n = n + 1
         }
+        print(n)
         for _ in 0 ... 6 {
             if n == questionArray?.questionArray[i].1 {break}
             i = i + 1
         }
-        if n != i {swap(&questionArray!.questionArray[i], &questionArray!.questionArray[n])}
-        for _ in 0 ... 6 {
-            if questionArray?.questionArray[j].0 == "" {break}
-            j = j + 1
+
+        var indexPathDest: IndexPath = [0, n]
+        var sourceIndexPath: IndexPath = [0, i]
+        if indexPathDest != sourceIndexPath {
+            print("\(sourceIndexPath.row),\(indexPathDest.row)")
+            let tmp = questionArray?.questionArray[sourceIndexPath.row]
+            questionArray?.questionArray[sourceIndexPath.row] = (questionArray?.questionArray[indexPathDest.row])!
+            questionArray?.questionArray[sourceIndexPath.row] = (questionArray?.questionArray[indexPathDest.row])!
+            questionArray?.questionArray[indexPathDest.row] = tmp!
+            tableView1.moveRow(at: sourceIndexPath as IndexPath, to: indexPathDest as IndexPath)
+            for _ in 0 ... 6 {
+                if questionArray?.questionArray[j].0 == "" {break}
+                j = j + 1
+            }
+            questionArray?.questionArray.remove(at: j)
+            questionArray?.questionArray.insert(("", 6), at: n + 1)
+            let cellEvent0 = tableCell.definedBy(tableView: tableView1, index: 0)
+            let cellEvent1 = tableCell.definedBy(tableView: tableView1, index: 1)
+            let cellEvent2 = tableCell.definedBy(tableView: tableView1, index: 2)
+            let cellEvent3 = tableCell.definedBy(tableView: tableView1, index: 3)
+            let cellEvent4 = tableCell.definedBy(tableView: tableView1, index: 4)
+            let cellEvent5 = tableCell.definedBy(tableView: tableView1, index: 5)
+            let cellEvent6 = tableCell.definedBy(tableView: tableView1, index: 6)
+            cellEvent0.eventCellLabel.text = questionArray?.questionArray[0].0
+            cellEvent1.eventCellLabel.text = questionArray?.questionArray[1].0
+            cellEvent2.eventCellLabel.text = questionArray?.questionArray[2].0
+            cellEvent3.eventCellLabel.text = questionArray?.questionArray[3].0
+            cellEvent4.eventCellLabel.text = questionArray?.questionArray[4].0
+            cellEvent5.eventCellLabel.text = questionArray?.questionArray[5].0
+            cellEvent6.eventCellLabel.text = questionArray?.questionArray[6].0
+            sourceIndexPath = indexPathDest
+
         }
-        if j != n + 1  {swap(&questionArray!.questionArray[j], &questionArray!.questionArray[n + 1])}
-        cellEvent = tableCell.definedBy(tableView: tableView1, index: n)
-        let cellEventFrameN = cellEvent.frame
-        let maxXcellEventN = cellEventFrameN.maxX
-        let maxYcellEventN = cellEventFrameN.maxY
-        cellEvent.eventCellLabel.text = questionArray?.questionArray[n].0
-
-        
-        cellEvent = tableCell.definedBy(tableView: tableView1, index: i)
-        cellEvent.eventCellLabel.text = questionArray?.questionArray[i].0
-        let cellEventFrameI = cellEvent.frame
-        let maxXcellEventI = cellEventFrameI.maxX
-        let maxYcellEventI = cellEventFrameI.maxY
-
-        UIView.animate(withDuration: 2, animations: {
-            cellEvent.transform = CGAffineTransform(translationX: 0, y: abs(maxYcellEventI - maxYcellEventN))
-        })
-        cellEvent = tableCell.definedBy(tableView: tableView1, index: j)
-        cellEvent.eventCellLabel.text = questionArray?.questionArray[j].0
-        cellEvent = tableCell.definedBy(tableView: tableView1, index: n + 1)
-        cellEvent.eventCellLabel.text = questionArray?.questionArray[n + 1].0
-    
         totalAvailableCredit = totalAvailableCredit - 2
         creditAvailable.text = "Credit Available: \(totalAvailableCredit)"
         let checkResponse = CheckResponse(questionArray: questionArray!, tableView1: tableView1, counter: counter, labelIsDropped: labelIsDropped)
