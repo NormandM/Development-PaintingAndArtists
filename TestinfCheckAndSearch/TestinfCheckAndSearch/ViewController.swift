@@ -133,7 +133,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         print(selection)
         print(verbesChoisi)
-
     }
     
 
