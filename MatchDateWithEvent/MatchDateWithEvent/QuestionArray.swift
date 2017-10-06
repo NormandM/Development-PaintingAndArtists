@@ -45,7 +45,7 @@ extension QuestionArray {
         while i < countHistoricalEvent {
             let j = Int(arc4random_uniform(UInt32(countHistoricalEvent)))
             if i != j{
-                swap(&questionArray[i], &questionArray[j])
+                questionArray.swapAt(i, j)
             }
             i = i + 1
         }

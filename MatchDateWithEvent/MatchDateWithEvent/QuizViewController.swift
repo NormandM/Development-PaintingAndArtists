@@ -197,7 +197,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //  Functions
 ///////////////////////////////////////////////////////
     // Timing of the display of the dates for the quiz
-    func runTimedCode() {
+    @objc func runTimedCode() {
         totalCycle = totalCycle - 1
         counter = counter + 1
         let questionTimer = QuestionTimer(tableView: tableView, tableView1: tableView1, totalCycle: totalCycle, counter: counter, questionArray: questionArray!)
@@ -212,7 +212,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
     }
     // Timing for total time to respond and checking result
-    func runTimerProgress() {
+    @objc func runTimerProgress() {
         counter = counter - 1
         let timeCounter = String(counter)
         infoDisplay.text = "Time remaining: \(timeCounter)"
@@ -264,7 +264,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
 ////////////////////////////////////////////////////////
 // Buttons main storyBoard and programmed
 ///////////////////////////////////////////////////////
-    func startButtonAction (sender: UIButton) {
+    @objc func startButtonAction (sender: UIButton) {
         startNewQuiz()
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
     }
@@ -348,7 +348,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         labelIsDropped = checkResponse.allAnswered()
         
     }
-    func tryAgainOrNextAction (sender: UIButton) {
+    @objc func tryAgainOrNextAction (sender: UIButton) {
         longPress.isEnabled = true
         labelIsDropped = false
         if responseIsGood{
@@ -400,7 +400,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
     ////////////////////////////////////////////////
     // Logic for the LongPresse gesture and movement
     /////////////////////////////////////////////////
-    func longPressGestureRecognized(gesture: UILongPressGestureRecognizer) {
+    @objc func longPressGestureRecognized(gesture: UILongPressGestureRecognizer) {
         var indexPath = NSIndexPath()
         let state: UIGestureRecognizerState = gesture.state
         let location: CGPoint = gesture.location(in: tableView1)
