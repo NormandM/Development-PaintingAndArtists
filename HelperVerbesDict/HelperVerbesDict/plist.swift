@@ -52,11 +52,11 @@ struct Plist {
         }
     }
     //1
-    func getValuesInPlistFile() -> NSDictionary?{
+    func getValuesInPlistFile() -> NSArray?{
         let fileManager = FileManager.default
         
         if fileManager.fileExists(atPath: destPath!) {
-            guard let FrenchToEnglish = NSDictionary(contentsOfFile: destPath!) else { return .none }
+            guard let FrenchToEnglish = NSArray(contentsOfFile: destPath!) else { return .none }
             print("ok1")
             return FrenchToEnglish
         } else {
@@ -64,18 +64,18 @@ struct Plist {
         }
     }
     //2
-    func getMutablePlistFile() -> NSMutableDictionary?{
+    func getMutablePlistFile() -> NSDictionary?{
         print("ok2")
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: destPath!) {
             guard let FrenchToEnglish = NSDictionary(contentsOfFile: destPath!) else { return .none }
-            return FrenchToEnglish as! NSMutableDictionary
+            return FrenchToEnglish
         } else {
             return .none
         }
     }
     //3
-    func addValuesToPlistFile(_ dict:NSMutableDictionary) throws {
+    func addValuesToPlistFile(_ dict:NSDictionary) throws {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: destPath!) {
             if !dict.write(toFile: destPath!, atomically: false) {
