@@ -16,22 +16,22 @@ var anglaisFrancais = [String: String]()
 var arr: NSMutableArray = []
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       // print(arrayVerbe)
-        
-//        for verbe in arrayVerbe {
-//            anglaisFrancais[verbe] = verbe
-//        }
-//        print(anglaisFrancais)
-//        let anglaisFrancaisIntermediaire = anglaisFrancais as NSDictionary
-//         let anglaisFrancaisFinal = NSMutableDictionary(dictionary: anglaisFrancaisIntermediaire)
-/////////////////////////////////////////////////////////////////////////////
-        ////////Getting a Plist of the verbs in array form
-//        if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
+//        if let plistPath = Bundle.main.path(forResource: "SpanishVerbs", ofType: "plist"),
 //            let verbArray = NSArray(contentsOfFile: plistPath){
 //            arrayVerbe = verbArray as! [[String]]
 //            print("ok")
 //        }
+//        print(arrayVerbe)
+        
+//        for verbe in arrayVerbe {
+//            anglaisFrancais[verbe] = verbe[2]
+//        }
+//       print(anglaisFrancais)
+//        let anglaisFrancaisIntermediaire = anglaisFrancais as NSDictionary
+//         let anglaisFrancaisFinal = NSMutableDictionary(dictionary: anglaisFrancaisIntermediaire)
+///////////////////////////////////////////////////////////////////////////
+        //////Getting a Plist of the verbs in array form
+
 //        for array in arrayVerbe{
 //            arrN.append(array[2])
 //        }
@@ -53,8 +53,9 @@ var arr: NSMutableArray = []
 //        }else{
 //            print("unable to get plist")
 //        }
+//    }
 //////////////////////////////////////////////////////////////////////////////
-        if let plistPath = Bundle.main.path(forResource: "VerbPourDic", ofType: "plist"),
+        if let plistPath = Bundle.main.path(forResource: "FrenchToEnglish2", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [String]
             print("ok")
@@ -68,9 +69,9 @@ var arr: NSMutableArray = []
         }
         print(dicTranslate)
         if let plist = Plist(name: "FrenchToEnglish"){
-            let dict = plist.getMutablePlistFile()!
+            //let dict = plist.getMutablePlistFile()!
             do {
-                try plist.addValuesToPlistFile(dicTranslate as! NSDictionary)
+                try plist.addValuesToPlistFile(dicTranslate as NSDictionary)
             } catch {
                 print(error)
             }
