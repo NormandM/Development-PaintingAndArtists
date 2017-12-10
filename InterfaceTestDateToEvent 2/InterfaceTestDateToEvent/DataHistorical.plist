@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>cosmology</string>
+          <string>13 800</string>
+          <string>Big Bang</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>cosmology</string>
+          <string>12 850</string>
+          <string>First galaxies are formed</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>cosmology</string>
+          <string>11 000</string>
+          <string>Milky Way Galaxy is formed</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>cosmology</string>
+          <string>4 600</string>
+          <string>Earth Forms</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>cosmology</string>
+          <string>4 500</string>
+          <string>Moon formation</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Beginnings of life</string>
+          <string>4280</string>
+          <string>Earliest appearence of life</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Beginnings of life</string>
+          <string>800</string>
+          <string>First Multicellular Life</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Beginnings of life</string>
+          <string>750</string>
+          <string>First protozoa </string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Beginnings of life</string>
+          <string>500</string>
+          <string>Appearance of Fish and Proto-amphibians</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Beginnings of life</string>
+          <string>400</string>
+          <string>First Insects</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>First Animals</string>
+          <string>360</string>
+          <string>First Amphibians</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>First Animals</string>
+          <string>300</string>
+          <string>First Reptiles</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>First Animals</string>
+          <string>230</string>
+          <string>Appearance of Dinosaurs</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>First Animals</string>
+          <string>200</string>
+          <string>First Mammals</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>First Animals</string>
+          <string>65</string>
+          <string>Extinction of dinosaures</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Primates and man</string>
+          <string>55</string>
+          <string>Primates</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Primates and man</string>
+          <string>15</string>
+          <string>Apes</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Primates and man</string>
+          <string>7</string>
+          <string>Hominids</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Primates and man</string>
+          <string>2.5</string>
+          <string>Primitive Humans and Stone Tools</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Beginning of the Universe</string>
+          <string>Primates and man</string>
+          <string>0.2</string>
+          <string>Anatomically Modern Humans</string>
+          <string>millions of years</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>First explorers</string>
+          <string>1001</string>
+          <string>Leif Ericson lands in NewFounland</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>First explorers</string>
+          <string>1265</string>
+          <string>Marco Polo begins his exploration of China and Asia</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>First explorers</string>
+          <string>1492</string>
+          <string>The Discovery of America by Christopher Columbus</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>First explorers</string>
+          <string>1497</string>
+          <string>John Cabot lands on the coast of NewFoundland</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>First explorers</string>
+          <string>1498</string>
+          <string>Vasco da Gama sails around the Cape of Good Hope and reaches India</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of South ameraica</string>
+          <string>1499</string>
+          <string>Alonzo de Ojeda explores Columbia  and Venezuela</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of South ameraica</string>
+          <string>1500</string>
+          <string>Vicente Pinzon and Juan Dias de Solis discover Brazil</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of South ameraica</string>
+          <string>1508</string>
+          <string>Juan Dias de Solis explores Argentina</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of South ameraica</string>
+          <string>1516</string>
+          <string>Juan Dias de Solis explores Uruguay</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of South ameraica</string>
+          <string>1531</string>
+          <string>Francisco Pizarro explores Peru</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of Mexico and central America</string>
+          <string>1500</string>
+          <string>Rodrigo de Bastidas and Juan de la Cosa discover Panama</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of Mexico and central America</string>
+          <string>1517</string>
+          <string>Francisco Hernandez de Cordoba explores Yucatan</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of Mexico and central America</string>
+          <string>1518</string>
+          <string>Juan de Grijalava explores Mexico</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of Mexico and central America</string>
+          <string>1522</string>
+          <string>Gil Gonzales de Avila and Francisco Hernandez de Cordoba explore Nicaragua &amp; Granada</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of Mexico and central America</string>
+          <string>1524</string>
+          <string>Hernando Cortes explores the Honduras</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of North America</string>
+          <string>1534</string>
+          <string>Jacques Cartier explores the Great Lakes and the the St. Lawrence River</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of North America</string>
+          <string>1539</string>
+          <string>Hernando de Soto explores south-eastern North America</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of North America</string>
+          <string>1540</string>
+          <string>Discovery of the Grand Canyon by Garcia Lopez de Cardenas</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of North America</string>
+          <string>1584</string>
+          <string>Philip Amadas and Arthur Barlowe explore the coast of North Carolina</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Exploration of North America</string>
+          <string>1791</string>
+          <string>George Vancouver explores British Colombia</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Round the Globe expeditions</string>
+          <string>1519-1521</string>
+          <string>Ferdinand Magellan sales around the world</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Round the Globe expeditions</string>
+          <string>1577-1580</string>
+          <string>Francis Drake sales around the world</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Round the Globe expeditions</string>
+          <string>1924</string>
+          <string>Firast aerail globe tour by United States Army team.</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Round the Globe expeditions</string>
+          <string>1929</string>
+          <string>Charle Kinford Smith flyes around the world</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Great explorations</string>
+          <string>Round the Globe expeditions</string>
+          <string>april 12th 1961</string>
+          <string>Youri Gagarine first man in space to go around the world</string>
+          <string>A.D.</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+    <array>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+          <string>Dummy info</string>
+    </array>
+</array>
+</plist>
