@@ -169,32 +169,7 @@ class LabelAndButtonDisplay {
         buttonSixthDate.isEnabled = true
         buttonSixthDate.backgroundColor = UIColor.lightGray
     }
-    func startQuizExtra() {
-        labelFirstEvent.isHidden = true
-        labelSecondEvent.isHidden = true
-        labelThirdEvent.isHidden = true
-        labelFourthEvent.isHidden = true
-        labelFifthEvent.isHidden = true
-        labelFirstDate.isHidden = true
-        labelSecondDate.isHidden = true
-        labelThirdDate.isHidden = true
-        labelFourthDate.isHidden = true
-        labelFifthDate.isHidden = true
-        buttonFirstDate.backgroundColor = UIColor.lightGray
-        buttonFirstDate.isEnabled = true
-        buttonSecondDate.backgroundColor = UIColor.lightGray
-        buttonSecondDate.isEnabled = true
-        buttonThirdDate.backgroundColor = UIColor.lightGray
-        buttonThirdDate.isEnabled = true
-        buttonFourthDate.backgroundColor = UIColor.lightGray
-        buttonFourthDate.isEnabled = true
-        buttonFifthDate.backgroundColor = UIColor.lightGray
-        buttonFifthDate.isEnabled = true
-        buttonSixthDate.backgroundColor = UIColor.lightGray
-        buttonSixthDate.isEnabled = true
-        
-        
-    }
+
     func stopQuiz() {
         buttonFirstDate.isEnabled = false
         buttonSecondDate.isEnabled = false
@@ -206,3 +181,167 @@ class LabelAndButtonDisplay {
     }
 
 }
+
+class LabelAndButtonDisplayExtra {
+    var firstEventExtra: UILabel!
+    var labelSecondEventExtra: UILabel!
+    var labelThirdEventExtra: UILabel!
+    var labelFourthEventExtra: UILabel!
+    var labelFifthEventExtra: UILabel!
+    var labelFirstDateExtra: UILabel!
+    var labelSecondDateExtra: UILabel!
+    var labelThirdDateExtra: UILabel!
+    var labelFourthDateExtra: UILabel!
+    var labelFifthDateExtra: UILabel!
+    var timerLabelExtra: UILabel!
+    var buttonFirstDateExtra: UIButton!
+    var buttonSecondDateExtra: UIButton!
+    var buttonThirdDateExtra: UIButton!
+    var buttonFourthDateExtra: UIButton!
+    var buttonFifthDateExtra: UIButton!
+    var buttonSixthDateExtra: UIButton!
+    var buttonCreditExtra: UIButton!
+    let fontSizeAndScreenSize = ScreenSize()
+    
+    init (firstEventExtra: UILabel, labelSecondEventExtra: UILabel, labelThirdEventExtra: UILabel, labelFourthEventExtra: UILabel, labelFifthEventExtra: UILabel, labelFirstDateExtra: UILabel, labelSecondDateExtra: UILabel, labelThirdDateExtra: UILabel, labelFourthDateExtra: UILabel, labelFifthDateExtra: UILabel, buttonFirstDateExtra: UIButton, buttonSecondDateExtra: UIButton, buttonThirdDateExtra: UIButton, buttonFourthDateExtra: UIButton, buttonFifthDateExtra: UIButton, buttonSixthDateExtra: UIButton, buttonCreditExtra: UIButton){
+        self.firstEventExtra = firstEventExtra
+        self.labelSecondEventExtra = labelSecondEventExtra
+        self.labelThirdEventExtra = labelThirdEventExtra
+        self.labelFourthEventExtra = labelFourthEventExtra
+        self.labelFifthEventExtra = labelFifthEventExtra
+        self.labelFirstDateExtra = labelFirstDateExtra
+        self.labelSecondDateExtra = labelSecondDateExtra
+        self.labelThirdDateExtra = labelThirdDateExtra
+        self.labelFourthDateExtra = labelFourthDateExtra
+        self.labelFifthDateExtra = labelFifthDateExtra
+        self.buttonFirstDateExtra = buttonFirstDateExtra
+        self.buttonSecondDateExtra = buttonSecondDateExtra
+        self.buttonThirdDateExtra = buttonThirdDateExtra
+        self.buttonFourthDateExtra = buttonFourthDateExtra
+        self.buttonFifthDateExtra = buttonFifthDateExtra
+        self.buttonSixthDateExtra = buttonSixthDateExtra
+        self.buttonCreditExtra = buttonCreditExtra
+    }
+    func fontAndScreenSize () -> (UIFont, UIFont){
+        var fontSize = UIFont()
+        var fontSize2 = UIFont()
+        if fontSizeAndScreenSize.identify().0 == "small"{
+            fontSize = fontSizeAndScreenSize.identify().1
+            fontSize2 = fontSizeAndScreenSize.identify().2
+        }else if fontSizeAndScreenSize.identify().0 == "average"{
+            fontSize = fontSizeAndScreenSize.identify().1
+            fontSize2 = fontSizeAndScreenSize.identify().2
+        }else if fontSizeAndScreenSize.identify().0 == "large"{
+            fontSize = fontSizeAndScreenSize.identify().1
+            fontSize2 = fontSizeAndScreenSize.identify().2
+        }else if fontSizeAndScreenSize.identify().0 == "extraLarge"{
+            fontSize = fontSizeAndScreenSize.identify().1
+            fontSize2 = fontSizeAndScreenSize.identify().2
+        }else if fontSizeAndScreenSize.identify().0 == "extraExtraLarge"{
+            fontSize = fontSizeAndScreenSize.identify().1
+            fontSize2 = fontSizeAndScreenSize.identify().2
+        }
+        return (fontSize, fontSize2)
+    }
+    func labelFormat(){
+        firstEventExtra.font = fontAndScreenSize().0
+        labelSecondEventExtra.font = fontAndScreenSize().0
+        labelThirdEventExtra.font = fontAndScreenSize().0
+        labelFourthEventExtra.font = fontAndScreenSize().0
+        labelFifthEventExtra.font = fontAndScreenSize().0
+        labelFirstDateExtra.font = fontAndScreenSize().1
+        labelSecondDateExtra.font = fontAndScreenSize().1
+        labelThirdDateExtra.font = fontAndScreenSize().1
+        labelFourthDateExtra.font = fontAndScreenSize().1
+        labelFifthDateExtra.font = fontAndScreenSize().1
+    }
+    
+    func startQuizExtra() {
+        firstEventExtra.isHidden = true
+        labelSecondEventExtra.isHidden = true
+        labelThirdEventExtra.isHidden = true
+        labelFourthEventExtra.isHidden = true
+        labelFifthEventExtra.isHidden = true
+        labelFirstDateExtra.isHidden = true
+        labelSecondDateExtra.isHidden = true
+        labelThirdDateExtra.isHidden = true
+        labelFourthDateExtra.isHidden = true
+        labelFifthDateExtra.isHidden = true
+        buttonFirstDateExtra.backgroundColor = UIColor.lightGray
+        buttonFirstDateExtra.isEnabled = true
+        buttonSecondDateExtra.backgroundColor = UIColor.lightGray
+        buttonSecondDateExtra.isEnabled = true
+        buttonThirdDateExtra.backgroundColor = UIColor.lightGray
+        buttonThirdDateExtra.isEnabled = true
+        buttonFourthDateExtra.backgroundColor = UIColor.lightGray
+        buttonFourthDateExtra.isEnabled = true
+        buttonFifthDateExtra.backgroundColor = UIColor.lightGray
+        buttonFifthDateExtra.isEnabled = true
+        buttonSixthDateExtra.backgroundColor = UIColor.lightGray
+        buttonSixthDateExtra.isEnabled = true
+        buttonCreditExtra.isHidden = false
+        
+    }
+    func allShown() {
+        firstEventExtra.isHidden = false
+        labelSecondEventExtra.isHidden = false
+        labelThirdEventExtra.isHidden = false
+        labelFourthEventExtra.isHidden = false
+        labelFifthEventExtra.isHidden = false
+        labelFirstDateExtra.isHidden = false
+        labelSecondDateExtra.isHidden = false
+        labelThirdDateExtra.isHidden = false
+        labelFourthDateExtra.isHidden = false
+        labelFifthDateExtra.isHidden = false
+        buttonFirstDateExtra.isHidden = false
+        buttonSecondDateExtra.isHidden = false
+        buttonThirdDateExtra.isHidden = false
+        buttonFourthDateExtra.isHidden = false
+        buttonFifthDateExtra.isHidden = false
+        buttonSixthDateExtra.isHidden = false
+    }
+    func buttonFormat(event: [String], indexEvent: [Int]) {
+        buttonFirstDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonFirstDateExtra.layer.cornerRadius = 20
+        buttonFirstDateExtra.backgroundColor = UIColor.lightGray
+        buttonFirstDateExtra.setTitle(event[indexEvent[0]], for: .normal)
+        buttonFirstDateExtra.titleLabel?.font = fontAndScreenSize().0
+        buttonSecondDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonSecondDateExtra.layer.cornerRadius = 20
+        buttonSecondDateExtra.backgroundColor = UIColor.lightGray
+        buttonSecondDateExtra.setTitle(event[indexEvent[1]], for: .normal)
+        buttonSecondDateExtra.titleLabel?.font = fontAndScreenSize().0
+        buttonThirdDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonThirdDateExtra.layer.cornerRadius = 20
+        buttonThirdDateExtra.backgroundColor = UIColor.lightGray
+        buttonThirdDateExtra.setTitle(event[indexEvent[2]], for: .normal)
+        buttonThirdDateExtra.titleLabel?.font = fontAndScreenSize().0
+        buttonFourthDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonFourthDateExtra.layer.cornerRadius = 20
+        buttonFourthDateExtra.backgroundColor = UIColor.lightGray
+        buttonFourthDateExtra.setTitle(event[indexEvent[3]], for: .normal)
+        buttonFourthDateExtra.titleLabel?.font = fontAndScreenSize().0
+        buttonFifthDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonFifthDateExtra.layer.cornerRadius = 20
+        buttonFifthDateExtra.backgroundColor = UIColor.lightGray
+        buttonFifthDateExtra.setTitle(event[indexEvent[4]], for: .normal)
+        buttonFifthDateExtra.titleLabel?.font = fontAndScreenSize().0
+        buttonSixthDateExtra.titleLabel?.textAlignment = NSTextAlignment.center
+        buttonSixthDateExtra.layer.cornerRadius = 20
+        buttonSixthDateExtra.backgroundColor = UIColor.lightGray
+        buttonSixthDateExtra.setTitle(event[indexEvent[5]], for: .normal)
+        buttonSixthDateExtra.titleLabel?.font = fontAndScreenSize().0
+    }
+    func stopQuiz() {
+        buttonFirstDateExtra.isEnabled = false
+        buttonSecondDateExtra.isEnabled = false
+        buttonThirdDateExtra.isEnabled = false
+        buttonFourthDateExtra.isEnabled = false
+        buttonFifthDateExtra.isEnabled = false
+        buttonSixthDateExtra.isEnabled = false
+        
+    }
+    
+}
+
+

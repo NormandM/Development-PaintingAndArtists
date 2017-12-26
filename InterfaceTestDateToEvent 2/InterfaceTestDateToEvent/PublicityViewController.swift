@@ -13,7 +13,6 @@ class PublicityViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         creditPublicity = creditPublicity + 20
-        print("Credit: \(creditPublicity)")
         UserDefaults.standard.set(creditPublicity, forKey: "credit")
     }
 

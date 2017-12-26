@@ -13,12 +13,12 @@ class ViewController: UIViewController {
     var arrayVerbeSup: [[String]] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
+        if let plistPath = Bundle.main.path(forResource: "History1", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [[String]]
         }
 
-        if let plistPath = Bundle.main.path(forResource: "ItalianVerbsListSup", ofType: "plist"),
+        if let plistPath = Bundle.main.path(forResource: "History8", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbeSup = verbArray as! [[String]]
         }
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         }
 
     
-    if let plist = Plist(name: "ItalianVerbsList"){
+    if let plist = Plist(name: "History1"){
         do {
             try plist.addValuesToPlistFile(arrayVerbe as NSArray)
         } catch {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5470501FDF21B600580ECD /* History1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E54704F1FDF21B600580ECD /* History1.plist */; };
 		8EB3E9441EBA3C060042B592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E9431EBA3C060042B592 /* AppDelegate.swift */; };
 		8EB3E9461EBA3C060042B592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E9451EBA3C060042B592 /* ViewController.swift */; };
 		8EB3E9491EBA3C060042B592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3E9471EBA3C060042B592 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E54704F1FDF21B600580ECD /* History1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = History1.plist; path = "../../../../Library/Developer/CoreSimulator/Devices/23EB3E8F-1705-425A-80EA-94924B8BEBDA/data/Containers/Data/Application/FF0239BE-B227-42FE-B188-E71BCD013D38/Documents/History1.plist"; sourceTree = "<group>"; };
 		8EB3E9401EBA3C060042B592 /* LinkingItalianPilists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkingItalianPilists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB3E9431EBA3C060042B592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB3E9451EBA3C060042B592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		8EB3E9421EBA3C060042B592 /* LinkingItalianPilists */ = {
 			isa = PBXGroup;
 			children = (
+				8E54704F1FDF21B600580ECD /* History1.plist */,
 				8EB3E9431EBA3C060042B592 /* AppDelegate.swift */,
 				8EB3E9451EBA3C060042B592 /* ViewController.swift */,
 				8EB3E9731EBA3C690042B592 /* ItalianVerbsList.plist */,
@@ -247,6 +250,7 @@
 				8EB3E94E1EBA3C060042B592 /* LaunchScreen.storyboard in Resources */,
 				8EB3E94B1EBA3C060042B592 /* Assets.xcassets in Resources */,
 				8EB3E9491EBA3C060042B592 /* Main.storyboard in Resources */,
+				8E5470501FDF21B600580ECD /* History1.plist in Resources */,
 				8EB3E9741EBA3C690042B592 /* ItalianVerbsList.plist in Resources */,
 				8EB3E9721EBA3C5C0042B592 /* ItalianVerbsListSup.plist in Resources */,
 			);
@@ -528,6 +532,7 @@
 				8EB3E96A1EBA3C060042B592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EB3E96B1EBA3C060042B592 /* Build configuration list for PBXNativeTarget "LinkingItalianPilistsTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				8EB3E96D1EBA3C060042B592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EB3E96E1EBA3C060042B592 /* Build configuration list for PBXNativeTarget "LinkingItalianPilistsUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				8EB3E9701EBA3C060042B592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
