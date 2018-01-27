@@ -7,491 +7,441 @@
 		<string>Quiz # 1</string>
 		<string>Oct 3, 1942</string>
 		<string>First man-made object to reach space: the A4-rocket from Germany</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 1</string>
-		<string>Feb 24, 1949</string>
-		<string>V-2/WAC-Corporal first American rocket to outer space.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 1</string>
 		<string>Oct 4, 1957</string>
 		<string>The first  orbital launch was of the Soviet unmanned Sputnik 1 mission</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 1</string>
 		<string>Nov 3, 1957</string>
 		<string>USSR launches Sputnik 2  carrying the dog Laika: the first animal in orbit</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 1</string>
+		<string>Mar 31, 1966</string>
+		<string>USSR launches Luna 10 the first spaceprobe to enter orbit around the Moon.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 1</string>
+		<string>Jun 2, 1966</string>
+		<string>Surveyor 1 lands on the Moon: the first US spacecraft to land on another world.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 1</string>
+		<string>Apr 24, 1967</string>
+		<string>Vladimir M Komarov s first to die in space, aboard Soyuz 1 at age 40.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 2</string>
 		<string>Jan 4, 1959</string>
-		<string>Luna 1 becomes the first spacecraft to reach the vicinity of the Moon.</string>
-		<string></string>
+		<string>USSR&apos;s Luna 1 becomes the first spacecraft to reach the vicinity of the Moon.</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 2</string>
 		<string>Dec 1, 1959</string>
 		<string>The first color photograph of Earth is received from outer space.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 2</string>
 		<string>Apr 12, 1961</string>
 		<string>Yuri Gagarin becomes the first man to fly in space.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 2</string>
+		<string>Jun 12, 1967</string>
+		<string>USSR&apos;s Venera 4 is launched: the first to enter the an other planet atmosphere and return data</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 2</string>
+		<string>Sep 15, 1968</string>
+		<string>USSR launches Zond 5: first to fly around the Moon and re-enter the Earth&apos;s atmosphere.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 2</string>
+		<string>May 10, 1969</string>
+		<string>Apollo 10 transmits first color pictures of Earth from space.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 3</string>
 		<string>May 5, 1961</string>
 		<string>Mercury: Alan Shepard is the first American into space, a flight of 15 minutes.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 2</string>
+		<string>Quiz # 3</string>
 		<string>Feb 20, 1962</string>
 		<string>First orbital flight for the USA when John Glenn  orbited Earth.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 2</string>
+		<string>Quiz # 3</string>
 		<string>Dec 14, 1962</string>
-		<string>NASA's Mariner 2 becomes the first spacecraft to fly by Venus.</string>
-		<string></string>
+		<string>NASA&apos;s Mariner 2 becomes the first spacecraft to fly by Venus.</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 3</string>
-		<string>May 15, 1963</string>
-		<string>Gordon Cooper, the first American to spend more than a day in space.
-</string>
-		<string></string>
+		<string>Aug 17, 1970</string>
+		<string>USSR&apos;s Venera 7 is lauched: the first spacecraft transmit data from the surface of another planet, Venus.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 3</string>
-		<string>Jun 16, 1963</string>
-		<string>Soviet Union: Valentina Tereshkova becomes the first woman in space.</string>
-		<string></string>
+		<string>Aug 4, 1971</string>
+		<string>US launches first satellite into lunar orbit from manned spacecraft.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 3</string>
-		<string>Oct 12, 1964</string>
-		<string>Soviet Union: Voskhod 1 is first spacecraft with a multi-person crew.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 3</string>
-		<string>Mar 18, 1965</string>
-		<string>Aleksei Leonov, becomes the first person to walk in space: 2 for 12 minutes.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 3</string>
-		<string>Mar 23, 1965</string>
-		<string>NASA launches Gemini 3, the United States' first two-man space flight.</string>
-		<string></string>
+		<string>Nov 3, 1973</string>
+		<string>NASA launches the Mariner 10 the first space probe to reach Mercury.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 4</string>
-		<string>Jun 3, 1965</string>
-		<string>Launch of Gemini 4, the first multi-day space mission by an NASA crew.</string>
-		<string></string>
+		<string>Jun 16, 1963</string>
+		<string>Soviet Union: Valentina Tereshkova becomes the first woman in space.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 4</string>
+		<string>Mar 18, 1965</string>
+		<string>Aleksei Leonov, becomes the first person to walk in space: 2 for 12 minutes.</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 4</string>
 		<string>Nov 26, 1965</string>
 		<string>France launches first satellite:  A1-capsule , becoming third nation in space.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 4</string>
+		<string>Jul 17, 1975</string>
+		<string>An Apollo and Soyuz spacecraft dock with each other first link-up between nations</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 4</string>
+		<string>Sep 18, 1977</string>
+		<string>US Voyager I takes the first space photograph of the Earth and Moon together.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 4</string>
+		<string>Jan 11, 1978</string>
+		<string>Soyuz 27 links with Salyut 6 and Soyuz 26 (first time three spacecraft link).</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 5</string>
 		<string>Feb 3, 1966</string>
 		<string>USSR’s Luna 9 makes the first controlled rocket-assisted landing on the Moon.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 4</string>
+		<string>Quiz # 5</string>
 		<string>Mar 1, 1966</string>
 		<string>USSR space probe crashes on Venus: the first spacecraft to land on another planet.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 4</string>
-		<string>Mar 16, 1966</string>
-		<string>The USA launches Gemini 8: first space docking with the Agena Target Vehicle.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 5</string>
-		<string>Mar 31, 1966</string>
-		<string>USSR launches Luna 10 the first spaceprobe to enter orbit around the Moon.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 5</string>
-		<string>Jun 2, 1966</string>
-		<string>Surveyor 1 lands on the Moon: the first US spacecraft to land on another world.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 5</string>
-		<string>Apr 24, 1967</string>
-		<string>Vladimir M Komarov s first to die in space, aboard Soyuz 1 at age 40.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 5</string>
-		<string>Jun 12, 1967</string>
-		<string>Venera 4 is launched: the first to enter the knother planet atmosphere and return data</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 5</string>
-		<string>Sep 15, 1968</string>
-		<string>USSR launches Zond 5: first to fly around the Moon and re-enter the Earth's atmosphere.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 6</string>
-		<string>May 10, 1969</string>
-		<string>Apollo 10 transmits first color pictures of Earth from space.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 6</string>
 		<string>Jul 16, 1969</string>
 		<string>Apollo 11 is launched the first manned space mission to land on the moon.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 6</string>
-		<string>Aug 17, 1970</string>
-		<string>Venera 7 is the first spacecraft transmit data from the surface of another planet, Venus.</string>
-		<string></string>
+		<string>Quiz # 5</string>
+		<string>Mar 25, 1979</string>
+		<string>The first space shuttle orbiter, Columbia, is delivered to the John F. Kennedy Space Center.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 5</string>
+		<string>Nov 12, 1980</string>
+		<string>Voyager I makes its closest approach to Saturn, when it flies within 77,000 miles.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 5</string>
+		<string>Apr 7, 1983</string>
+		<string>Space Shuttle astronauts perform the first space shuttle spacewalk for 4 hours, 10 min.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 6</string>
 		<string>Nov 17, 1970</string>
 		<string>USSR lands Lunokhod 1 on the Moon, the first roving robot to land on another world.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 6</string>
 		<string>Dec 15, 1970</string>
 		<string>Soviet Venera 7 is first spacecraft to land on another planet (Venus).</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 7</string>
+		<string>Quiz # 6</string>
 		<string>Apr 19, 1971</string>
 		<string>Launch of Salyut 1, first human-made space station.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 7</string>
-		<string>Aug 4, 1971</string>
-		<string>US launches first satellite into lunar orbit from manned spacecraft.</string>
-		<string></string>
+		<string>Quiz # 6</string>
+		<string>Feb 3, 1984</string>
+		<string>Astronauts from Space Shuttle Challenger make first untethered spacewalk.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 6</string>
+		<string>Jul 25, 1984</string>
+		<string>Salyut 7: Svetlana Savitskaya becomes the first woman to perform a space walk.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 6</string>
+		<string>Nov 12, 1984</string>
+		<string>Space shuttle astronauts snare a satellite; first space salvage.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 7</string>
 		<string>Nov 13, 1971</string>
 		<string>The American space probe, Mariner 9: first spacecraft to orbit another planet Mars</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 7</string>
 		<string>May 14, 1973</string>
 		<string>Skylab, USA’s first space station, is launched.</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 7</string>
-		<string>Nov 3, 1973</string>
-		<string>NASA launches the Mariner 10 the first space probe to reach Mercury.</string>
-		<string></string>
+		<string>1973</string>
+		<string>Jupiter is reached by Pionner 10</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 8</string>
-		<string>1973</string>
-		<string>Jupiter is reached by Pionner 10</string>
-		<string></string>
+		<string>Quiz # 7</string>
+		<string>May 13, 1992</string>
+		<string>Three astronauts simultaneous walk in space for the first time.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 7</string>
+		<string>Mar 14, 1995</string>
+		<string>Norman Thagard is the first American to ride into space aboard a Russian launch vehicle.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 7</string>
+		<string>Jun 29, 1995</string>
+		<string>Atlantis space shuttle docks with the Russian space station Mir for the first time.</string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 8</string>
 		<string>1974</string>
 		<string>Mercury is reached by Mariner 10</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 8</string>
-		<string>Jul 17, 1975</string>
-		<string>An Apollo and Soyuz spacecraft dock with each other first link-up between nations</string>
-		<string></string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 8</string>
 		<string>Sep 3, 1976</string>
-		<string>The Viking 2  lands on Mars and takes the first color photos of the planet's surface.</string>
-		<string></string>
+		<string>The Viking 2  lands on Mars and takes the first color photos of the planet&apos;s surface.</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
 		<string>Quiz # 8</string>
-		<string>Sep 18, 1977</string>
-		<string>US Voyager I takes the first space photograph of the Earth and Moon together.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 9</string>
-		<string>Jan 11, 1978</string>
-		<string>Soyuz 27 links with Salyut 6 and Soyuz 26 (first time three spacecraft link).</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 9</string>
-		<string>Mar 25, 1979</string>
-		<string>The first space shuttle orbiter, Columbia, is delivered to the John F. Kennedy Space Center.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 9</string>
 		<string>Sep 1, 1979</string>
-		<string>Pioneer 11 becomes the first spacecraft to visit Saturne,.</string>
-		<string></string>
+		<string>Pioneer 11 becomes the first spacecraft to passed by Saturne,.</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 9</string>
-		<string>Nov 12, 1980</string>
-		<string>Voyager I makes its closest approach to Saturn, when it flies within 77,000 miles.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 9</string>
-		<string>Apr 7, 1983</string>
-		<string>Space Shuttle astronauts perform the first space shuttle spacewalk for 4 hours, 10 min.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 10</string>
-		<string>Jun 18, 1983</string>
-		<string>Space Shuttle Astronaut Sally Ride becomes the first American woman in space.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 10</string>
-		<string>Feb 3, 1984</string>
-		<string>Astronauts from Space Shuttle Challenger make first untethered spacewalk.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 10</string>
-		<string>Jul 25, 1984</string>
-		<string>Salyut 7: Svetlana Savitskaya becomes the first woman to perform a space walk.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 10</string>
-		<string>Nov 12, 1984</string>
-		<string>Space shuttle astronauts snare a satellite; first space salvage.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 10</string>
-		<string>Jan 28, 1986</string>
-		<string>Challenger breaks apart 73 seconds after liftoff: all seven astronauts died.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 11</string>
-		<string>1986</string>
-		<string>Voyager 2 reaches Uranus</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 11</string>
-		<string>1989</string>
-		<string>Neptune is reached by Voyager 2</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 11</string>
-		<string>May 20, 1990</string>
-		<string>Hubble Space Telescope sends first photographs from space.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 11</string>
-		<string>Oct 29, 1991</string>
-		<string>The American Galileo spacecraft is the first probe to visit an asteroid.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 11</string>
-		<string>May 13, 1992</string>
-		<string>Three astronauts simultaneous walk in space for the first time.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 12</string>
-		<string>Mar 22, 1995</string>
-		<string>Cosmonaut Valeri Polyakov returns after setting a record for 438 days in space</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 12</string>
-		<string>Mar 14, 1995</string>
-		<string>Norman Thagard is the first American to ride into space aboard a Russian launch vehicle.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 12</string>
-		<string>Jun 29, 1995</string>
-		<string>Atlantis space shuttle docks with the Russian space station Mir for the first time.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 12</string>
+		<string>Quiz # 8</string>
 		<string>Apr 21, 1997</string>
 		<string>A  rocket carries the remains of 24 people into Earth orbit, in the first space burial.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 12</string>
-		<string>Nov 20, 1999</string>
-		<string>The People's Republic of China launches the first Shenzhou spacecraft.</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 13</string>
+		<string>Quiz # 8</string>
 		<string>Feb 14, 2000</string>
 		<string>NEAR enters orbit around asteroid 433 Eros, the first spacecraft to orbit an asteroid.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 13</string>
+		<string>Quiz # 8</string>
 		<string>Apr 28, 2001</string>
 		<string>Soyuz lifts off from carrying the first space tourist, American Dennis Tito.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 13</string>
+		<string>Quiz # 9</string>
+		<string>Jun 18, 1983</string>
+		<string>Space Shuttle Astronaut Sally Ride becomes the first American woman in space.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 9</string>
+		<string>Jan 28, 1986</string>
+		<string>Challenger breaks apart 73 seconds after liftoff: all seven astronauts died.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 9</string>
+		<string>1986</string>
+		<string>Voyager 2 reaches Uranus</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 9</string>
 		<string>Jun 2, 2003</string>
 		<string>Europe launches its first voyage to another planet, Mars.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 13</string>
+		<string>Quiz # 9</string>
 		<string>Aug 10, 2003</string>
 		<string>Yuri Ivanovich Malenchenko became the first person to marry in space.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 13</string>
+		<string>Quiz # 9</string>
 		<string>Oct 15, 2003</string>
 		<string>China launches Shenzhou 5, their first manned space mission.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 14</string>
-		<string>Jun 21, 2004</string>
-		<string>SpaceShipOne becomes the first privately funded spaceplane to achieve spaceflight.</string>
-		<string></string>
+		<string>Quiz # 10</string>
+		<string>1989</string>
+		<string>Neptune is reached by Voyager 2</string>
+		<string>a</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 14</string>
+		<string>Quiz # 10</string>
+		<string>May 20, 1990</string>
+		<string>Hubble Space Telescope sends first photographs from space.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 10</string>
+		<string>Oct 29, 1991</string>
+		<string>The American Galileo spacecraft is the first probe to visit an asteroid.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 10</string>
 		<string>Oct 27, 2005</string>
 		<string>Iran launches its first satellite, sina 1, into space.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 14</string>
+		<string>Quiz # 10</string>
 		<string>Feb 4, 2008</string>
 		<string>Iran opens its first space center and launches a rocket into space.</string>
-		<string></string>
+		<string>b</string>
 	</array>
 	<array>
 		<string>Space Pioneers</string>
-		<string>Quiz # 14</string>
-		<string>2015</string>
-		<string>Dawn orbited Pluto</string>
-		<string></string>
-	</array>
-	<array>
-		<string>Space Pioneers</string>
-		<string>Quiz # 14</string>
+		<string>Quiz # 10</string>
 		<string>April 2016</string>
 		<string>Space X (Private company):  First stage booster first successful landing.</string>
-		<string></string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 11</string>
+		<string>Mar 22, 1995</string>
+		<string>Cosmonaut Valeri Polyakov returns after setting a record for 438 days in space</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 11</string>
+		<string>Nov 20, 1999</string>
+		<string>The People&apos;s Republic of China launches the first Shenzhou spacecraft.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Space Pioneers</string>
+		<string>Quiz # 11</string>
+		<string>Jun 21, 2004</string>
+		<string>SpaceShipOne becomes the first privately funded spaceplane to achieve spaceflight.</string>
+		<string>a</string>
 	</array>
 </array>
 </plist>

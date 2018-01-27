@@ -15,17 +15,26 @@ class CodeDataHandler: NSObject {
         return appDelegate.persistentContainer.viewContext
     }
     // Saving data to CoreData
-    class func saveObject(categories: String, date: String, eventDescription: String, isCompleted: Bool, numberCompleted: Int, quizNumber: String) -> Bool {
+    class func saveObject(selectedTitle: String, date: String, eventDescription: String, isCompleted: Bool, numberCompleted: Int, quizNumber: String, typeOfEvent: String) -> Bool {
         let context = getContext()
         let entity = NSEntityDescription.entity(forEntityName: "Event", in: context)
         let managedObject = NSManagedObject(entity: entity!, insertInto: context)
-        managedObject.setValue(categories, forKey: "categories")
+        managedObject.setValue(selectedTitle, forKey: "selectedTitle")
         managedObject.setValue(date, forKey: "date")
         managedObject.setValue(eventDescription, forKey: "eventDescription")
         managedObject.setValue(isCompleted, forKey: "isCompleted")
         managedObject.setValue(numberCompleted, forKey: "numberCompleted")
         managedObject.setValue(quizNumber, forKey: "quizNumber")
-        
+        managedObject.setValue(typeOfEvent, forKey: "typeOfEvent")
+        do {
+            try context.save()
+            return true
+        }catch{
+            return false
+        }
+    }
+    class func saveSingleObject(event: Event) -> Bool {
+        let context = getContext()
         do {
             try context.save()
             return true
@@ -73,7 +82,7 @@ class CodeDataHandler: NSObject {
         let context = getContext()
         let fetchRequest: NSFetchRequest<Event> = Event.fetchRequest()
         var event: [Event]? = nil
-        let predicate = NSPredicate(format: "\(inAttribute) contains[c]%@", searchFor)
+        let predicate = NSPredicate(format: "\(inAttribute) == %@", searchFor)
         
         fetchRequest.predicate = predicate
         
@@ -84,6 +93,48 @@ class CodeDataHandler: NSObject {
             return event
             
         }
+    }
+    class func filterForCompleted(searchFor: Bool, inAttribute: String) -> [Event]? {
+        let context = getContext()
+        let fetchRequest: NSFetchRequest<Event> = Event.fetchRequest()
+        var event: [Event]? = nil
+        let predicate = NSPredicate(format: "\(inAttribute) == %@", NSNumber(value: true))
+        fetchRequest.predicate = predicate
+        do {
+            try event = context.fetch(fetchRequest)
+            return event
+        }catch{
+            return event
+            
+        }
+    }
+    class func filterForCompletedForSelectedTitle(searchForTitlte: String, serachForCompleted: Bool, inTitleAttribute: String, inCompletedAttribute: String) -> [Event]? {
+        let context = getContext()
+        let fetchRequest: NSFetchRequest<Event> = Event.fetchRequest()
+        var event: [Event]? = nil
+        let predicate1 = NSPredicate(format: "\(inTitleAttribute) == %@", searchForTitlte)
+        let predicate2 = NSPredicate(format: "\(inCompletedAttribute) == %@", NSNumber(value: true))
+        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [predicate1, predicate2])
+        fetchRequest.predicate = predicate
+        do {
+            try event = context.fetch(fetchRequest)
+            return event
+        }catch{
+            return event
+            
+        }
         
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
 }

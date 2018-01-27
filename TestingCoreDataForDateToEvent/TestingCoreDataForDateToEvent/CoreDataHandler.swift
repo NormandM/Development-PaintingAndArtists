@@ -58,6 +58,16 @@ class CoreDataHandler: NSObject {
             return false
         }
     }
+    
+    class func saveSingleObject(event: Event) -> Bool {
+        let context = getContext()
+        do {
+            try context.save()
+            return true
+        }catch{
+            return false
+        }
+    }
 // Delete all objects
     class func cleanDelete () -> Bool {
         let context = getContext()

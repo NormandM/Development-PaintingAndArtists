@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E67BEF91FF2F8920074D2C9 /* WorldWarII.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E67BEF81FF2F8920074D2C9 /* WorldWarII.plist */; };
+		8E12A7A42007E43D004060F2 /* KnowledgeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */; };
+		8E78A2512001468D0012140A /* PublicityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78A2502001468D0012140A /* PublicityViewController.swift */; };
+		8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78A2522001492B0012140A /* PurchaseCreditsController.swift */; };
+		8E7C6B9C200D4C4B00268BA6 /* TypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */; };
+		8E80DBDB1FFD75E0008CEFB1 /* WorldWarII.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */; };
+		8ECF5AA11FF435C200103F6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF5AA01FF435C200103F6C /* ViewController.swift */; };
+		8ECF5AA31FF4360E00103F6C /* RandomizeQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF5AA21FF4360D00103F6C /* RandomizeQuestions.swift */; };
+		8EDD1AEA200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD1AE9200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift */; };
+		8EDD1AEC200BF35800F4D6A8 /* SpacePioneers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD1AEB200BF35800F4D6A8 /* SpacePioneers.plist */; };
 		8EFA3B101FF045AA00375B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B0F1FF045AA00375B6E /* AppDelegate.swift */; };
 		8EFA3B181FF045AA00375B6E /* HistoricDatesQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B161FF045AA00375B6E /* HistoricDatesQuiz.xcdatamodeld */; };
 		8EFA3B1A1FF045AA00375B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA3B191FF045AA00375B6E /* Assets.xcassets */; };
@@ -15,22 +23,15 @@
 		8EFA3B281FF045AB00375B6E /* HistoricDatesQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B271FF045AB00375B6E /* HistoricDatesQuizTests.swift */; };
 		8EFA3B331FF045AB00375B6E /* HistoricDatesQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B321FF045AB00375B6E /* HistoricDatesQuizUITests.swift */; };
 		8EFA3B561FF0461100375B6E /* HistoricalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B401FF0461000375B6E /* HistoricalData.swift */; };
-		8EFA3B571FF0461100375B6E /* HitoricalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B421FF0461000375B6E /* HitoricalTableViewController.swift */; };
 		8EFA3B581FF0461100375B6E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B431FF0461000375B6E /* Device.swift */; };
-		8EFA3B591FF0461100375B6E /* CreditPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B441FF0461000375B6E /* CreditPurchaseViewController.swift */; };
-		8EFA3B5A1FF0461100375B6E /* ExtraQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B451FF0461000375B6E /* ExtraQuizViewController.swift */; };
 		8EFA3B5D1FF0461100375B6E /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B491FF0461000375B6E /* SubjectTableViewController.swift */; };
 		8EFA3B5E1FF0461100375B6E /* TitleSectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B4A1FF0461000375B6E /* TitleSectionManager.swift */; };
-		8EFA3B601FF0461100375B6E /* PublicityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B4C1FF0461000375B6E /* PublicityViewController.swift */; };
 		8EFA3B611FF0461100375B6E /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B4E1FF0461000375B6E /* Animations.swift */; };
 		8EFA3B621FF0461100375B6E /* LabelAndButtonDisplays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B4F1FF0461000375B6E /* LabelAndButtonDisplays.swift */; };
-		8EFA3B631FF0461100375B6E /* RandomizeQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B501FF0461000375B6E /* RandomizeQuestions.swift */; };
 		8EFA3B641FF0461100375B6E /* ScreennSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B511FF0461000375B6E /* ScreennSize.swift */; };
 		8EFA3B651FF0461100375B6E /* ShakingMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B521FF0461000375B6E /* ShakingMovement.swift */; };
-		8EFA3B661FF0461100375B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B531FF0461000375B6E /* ViewController.swift */; };
 		8EFA3B671FF0461100375B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA3B541FF0461100375B6E /* Main.storyboard */; };
 		8EFA3B7C1FF28FF200375B6E /* CodeDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3B7B1FF28FF200375B6E /* CodeDataHandler.swift */; };
-		8EFA3B801FF2E52900375B6E /* SpacePioneers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA3B7F1FF2E52900375B6E /* SpacePioneers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E67BEF81FF2F8920074D2C9 /* WorldWarII.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorldWarII.plist; sourceTree = "<group>"; };
+		8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeListController.swift; sourceTree = "<group>"; };
+		8E78A2502001468D0012140A /* PublicityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicityViewController.swift; sourceTree = "<group>"; };
+		8E78A2522001492B0012140A /* PurchaseCreditsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCreditsController.swift; sourceTree = "<group>"; };
+		8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriter.swift; sourceTree = "<group>"; };
+		8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorldWarII.plist; sourceTree = "<group>"; };
+		8ECF5AA01FF435C200103F6C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../DevelopmenttEventToDate/InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/View Controller Group/ViewController.swift"; sourceTree = "<group>"; };
+		8ECF5AA21FF4360D00103F6C /* RandomizeQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomizeQuestions.swift; path = "../../../DevelopmenttEventToDate/InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/View Controller Group/RandomizeQuestions.swift"; sourceTree = "<group>"; };
+		8EDD1AE9200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndeventTableViewCell.swift; sourceTree = "<group>"; };
+		8EDD1AEB200BF35800F4D6A8 /* SpacePioneers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SpacePioneers.plist; path = "../../../../../Desktop/this-day-in-history/PlistFiles/SpacePioneers.plist"; sourceTree = "<group>"; };
 		8EFA3B0C1FF045AA00375B6E /* HistoricDatesQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoricDatesQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFA3B0F1FF045AA00375B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFA3B171FF045AA00375B6E /* HistoricDatesQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoricDatesQuiz.xcdatamodel; sourceTree = "<group>"; };
@@ -65,22 +74,15 @@
 		8EFA3B321FF045AB00375B6E /* HistoricDatesQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDatesQuizUITests.swift; sourceTree = "<group>"; };
 		8EFA3B341FF045AB00375B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFA3B401FF0461000375B6E /* HistoricalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalData.swift; sourceTree = "<group>"; };
-		8EFA3B421FF0461000375B6E /* HitoricalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitoricalTableViewController.swift; sourceTree = "<group>"; };
 		8EFA3B431FF0461000375B6E /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/Device.swift"; sourceTree = "<group>"; };
-		8EFA3B441FF0461000375B6E /* CreditPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditPurchaseViewController.swift; sourceTree = "<group>"; };
-		8EFA3B451FF0461000375B6E /* ExtraQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraQuizViewController.swift; sourceTree = "<group>"; };
 		8EFA3B491FF0461000375B6E /* SubjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTableViewController.swift; sourceTree = "<group>"; };
 		8EFA3B4A1FF0461000375B6E /* TitleSectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleSectionManager.swift; sourceTree = "<group>"; };
-		8EFA3B4C1FF0461000375B6E /* PublicityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublicityViewController.swift; path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/PublicityViewController.swift"; sourceTree = "<group>"; };
 		8EFA3B4E1FF0461000375B6E /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		8EFA3B4F1FF0461000375B6E /* LabelAndButtonDisplays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelAndButtonDisplays.swift; sourceTree = "<group>"; };
-		8EFA3B501FF0461000375B6E /* RandomizeQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomizeQuestions.swift; sourceTree = "<group>"; };
 		8EFA3B511FF0461000375B6E /* ScreennSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreennSize.swift; sourceTree = "<group>"; };
 		8EFA3B521FF0461000375B6E /* ShakingMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakingMovement.swift; sourceTree = "<group>"; };
-		8EFA3B531FF0461000375B6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EFA3B551FF0461100375B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8EFA3B7B1FF28FF200375B6E /* CodeDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDataHandler.swift; sourceTree = "<group>"; };
-		8EFA3B7F1FF2E52900375B6E /* SpacePioneers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpacePioneers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EDD1AE8200BBF2000F4D6A8 /* KnowledgeListcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */,
+				8EDD1AE9200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift */,
+			);
+			path = KnowledgeListcontroller;
+			sourceTree = "<group>";
+		};
 		8EFA3B031FF045AA00375B6E = {
 			isa = PBXGroup;
 			children = (
@@ -133,12 +144,11 @@
 			isa = PBXGroup;
 			children = (
 				8EFA3B461FF0461000375B6E /* PlistManagement */,
-				8EFA3B411FF0461000375B6E /* HistoricalTableViewGroup */,
 				8EFA3B4D1FF0461000375B6E /* View Controller Group */,
-				8EFA3B451FF0461000375B6E /* ExtraQuizViewController.swift */,
-				8EFA3B441FF0461000375B6E /* CreditPurchaseViewController.swift */,
+				8EDD1AE8200BBF2000F4D6A8 /* KnowledgeListcontroller */,
+				8E78A2522001492B0012140A /* PurchaseCreditsController.swift */,
+				8E78A2502001468D0012140A /* PublicityViewController.swift */,
 				8EFA3B6E1FF1AC4C00375B6E /* Data */,
-				8EFA3B4C1FF0461000375B6E /* PublicityViewController.swift */,
 				8EFA3B431FF0461000375B6E /* Device.swift */,
 				8EFA3B0F1FF045AA00375B6E /* AppDelegate.swift */,
 				8EFA3B191FF045AA00375B6E /* Assets.xcassets */,
@@ -166,20 +176,12 @@
 			path = HistoricDatesQuizUITests;
 			sourceTree = "<group>";
 		};
-		8EFA3B411FF0461000375B6E /* HistoricalTableViewGroup */ = {
-			isa = PBXGroup;
-			children = (
-				8EFA3B421FF0461000375B6E /* HitoricalTableViewController.swift */,
-			);
-			path = HistoricalTableViewGroup;
-			sourceTree = "<group>";
-		};
 		8EFA3B461FF0461000375B6E /* PlistManagement */ = {
 			isa = PBXGroup;
 			children = (
-				8E67BEF81FF2F8920074D2C9 /* WorldWarII.plist */,
-				8EFA3B7F1FF2E52900375B6E /* SpacePioneers.plist */,
+				8EDD1AEB200BF35800F4D6A8 /* SpacePioneers.plist */,
 				8EFA3B491FF0461000375B6E /* SubjectTableViewController.swift */,
+				8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */,
 				8EFA3B4A1FF0461000375B6E /* TitleSectionManager.swift */,
 			);
 			name = PlistManagement;
@@ -189,12 +191,13 @@
 		8EFA3B4D1FF0461000375B6E /* View Controller Group */ = {
 			isa = PBXGroup;
 			children = (
-				8EFA3B531FF0461000375B6E /* ViewController.swift */,
+				8ECF5AA01FF435C200103F6C /* ViewController.swift */,
 				8EFA3B4E1FF0461000375B6E /* Animations.swift */,
+				8ECF5AA21FF4360D00103F6C /* RandomizeQuestions.swift */,
 				8EFA3B4F1FF0461000375B6E /* LabelAndButtonDisplays.swift */,
-				8EFA3B501FF0461000375B6E /* RandomizeQuestions.swift */,
 				8EFA3B511FF0461000375B6E /* ScreennSize.swift */,
 				8EFA3B521FF0461000375B6E /* ShakingMovement.swift */,
+				8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */,
 			);
 			name = "View Controller Group";
 			path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/View Controller Group";
@@ -318,9 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFA3B1D1FF045AA00375B6E /* LaunchScreen.storyboard in Resources */,
-				8EFA3B801FF2E52900375B6E /* SpacePioneers.plist in Resources */,
+				8EDD1AEC200BF35800F4D6A8 /* SpacePioneers.plist in Resources */,
 				8EFA3B1A1FF045AA00375B6E /* Assets.xcassets in Resources */,
-				8E67BEF91FF2F8920074D2C9 /* WorldWarII.plist in Resources */,
+				8E80DBDB1FFD75E0008CEFB1 /* WorldWarII.plist in Resources */,
 				8EFA3B671FF0461100375B6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,21 +349,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFA3B631FF0461100375B6E /* RandomizeQuestions.swift in Sources */,
-				8EFA3B601FF0461100375B6E /* PublicityViewController.swift in Sources */,
 				8EFA3B181FF045AA00375B6E /* HistoricDatesQuiz.xcdatamodeld in Sources */,
 				8EFA3B5E1FF0461100375B6E /* TitleSectionManager.swift in Sources */,
 				8EFA3B621FF0461100375B6E /* LabelAndButtonDisplays.swift in Sources */,
-				8EFA3B5A1FF0461100375B6E /* ExtraQuizViewController.swift in Sources */,
+				8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */,
 				8EFA3B561FF0461100375B6E /* HistoricalData.swift in Sources */,
-				8EFA3B591FF0461100375B6E /* CreditPurchaseViewController.swift in Sources */,
 				8EFA3B5D1FF0461100375B6E /* SubjectTableViewController.swift in Sources */,
 				8EFA3B641FF0461100375B6E /* ScreennSize.swift in Sources */,
 				8EFA3B651FF0461100375B6E /* ShakingMovement.swift in Sources */,
+				8E12A7A42007E43D004060F2 /* KnowledgeListController.swift in Sources */,
+				8EDD1AEA200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift in Sources */,
 				8EFA3B101FF045AA00375B6E /* AppDelegate.swift in Sources */,
-				8EFA3B571FF0461100375B6E /* HitoricalTableViewController.swift in Sources */,
+				8ECF5AA11FF435C200103F6C /* ViewController.swift in Sources */,
+				8E7C6B9C200D4C4B00268BA6 /* TypeWriter.swift in Sources */,
+				8ECF5AA31FF4360E00103F6C /* RandomizeQuestions.swift in Sources */,
+				8E78A2512001468D0012140A /* PublicityViewController.swift in Sources */,
 				8EFA3B611FF0461100375B6E /* Animations.swift in Sources */,
-				8EFA3B661FF0461100375B6E /* ViewController.swift in Sources */,
 				8EFA3B581FF0461100375B6E /* Device.swift in Sources */,
 				8EFA3B7C1FF28FF200375B6E /* CodeDataHandler.swift in Sources */,
 			);

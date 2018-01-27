@@ -17,10 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        navigationBarAppearace.isTranslucent = true
         navigationBarAppearace.tintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
-        navigationBarAppearace.barTintColor = UIColor(red: 171/255, green: 203/255, blue: 235/255, alpha: 1.0)
-        
+        navigationBarAppearace.barTintColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0)
         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 25), NSAttributedStringKey.foregroundColor:UIColor.white]
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
         return true
     }
 
@@ -91,6 +93,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    @objc func rotated() -> Bool {
+        var orientation = Bool()
+        if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
+            orientation = true
+        }
+        if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
+            orientation = false
+        }
+        return orientation
     }
 
 }

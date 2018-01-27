@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3771DE1FFAD85C0005BD29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3771DD1FFAD85B0005BD29 /* ViewController.swift */; };
 		8E4852CB1FE980ED000E2189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4852CA1FE980ED000E2189 /* AppDelegate.swift */; };
-		8E4852CD1FE980ED000E2189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4852CC1FE980ED000E2189 /* ViewController.swift */; };
 		8E4852D01FE980ED000E2189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4852CE1FE980ED000E2189 /* Main.storyboard */; };
 		8E4852D31FE980ED000E2189 /* TestingCoreDataForDateToEvent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E4852D11FE980ED000E2189 /* TestingCoreDataForDateToEvent.xcdatamodeld */; };
 		8E4852D51FE980ED000E2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4852D41FE980ED000E2189 /* Assets.xcassets */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E3771DD1FFAD85B0005BD29 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../DevelopmenttEventToDate/TestingCoreDataForDateToEvent/TestingCoreDataForDateToEvent/ViewController.swift; sourceTree = "<group>"; };
 		8E4852C71FE980ED000E2189 /* TestingCoreDataForDateToEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingCoreDataForDateToEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4852CA1FE980ED000E2189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E4852CC1FE980ED000E2189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E4852CF1FE980ED000E2189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E4852D21FE980ED000E2189 /* TestingCoreDataForDateToEvent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestingCoreDataForDateToEvent.xcdatamodel; sourceTree = "<group>"; };
 		8E4852D41FE980ED000E2189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				8E4852FD1FE99B55000E2189 /* PioneerFirstInSpaceFinal.plist */,
 				8E4852CA1FE980ED000E2189 /* AppDelegate.swift */,
-				8E4852CC1FE980ED000E2189 /* ViewController.swift */,
+				8E3771DD1FFAD85B0005BD29 /* ViewController.swift */,
 				8E4852FB1FE98A8D000E2189 /* CoreDataHandler.swift */,
 				8E4852CE1FE980ED000E2189 /* Main.storyboard */,
 				8E4852D41FE980ED000E2189 /* Assets.xcassets */,
@@ -269,9 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3771DE1FFAD85C0005BD29 /* ViewController.swift in Sources */,
 				8E4852D31FE980ED000E2189 /* TestingCoreDataForDateToEvent.xcdatamodeld in Sources */,
 				8E4852FC1FE98A8D000E2189 /* CoreDataHandler.swift in Sources */,
-				8E4852CD1FE980ED000E2189 /* ViewController.swift in Sources */,
 				8E4852CB1FE980ED000E2189 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
