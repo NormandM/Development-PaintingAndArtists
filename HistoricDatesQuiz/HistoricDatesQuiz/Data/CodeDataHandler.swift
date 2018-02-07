@@ -15,7 +15,7 @@ class CodeDataHandler: NSObject {
         return appDelegate.persistentContainer.viewContext
     }
     // Saving data to CoreData
-    class func saveObject(selectedTitle: String, date: String, eventDescription: String, isCompleted: Bool, numberCompleted: Int, quizNumber: String, typeOfEvent: String) -> Bool {
+    class func saveObject(selectedTitle: String, date: String, eventDescription: String, isCompleted: Bool, numberCompleted: Int, quizNumber: String, typeOfEvent: String, goodResponse: Int, badResponse: Int) -> Bool {
         let context = getContext()
         let entity = NSEntityDescription.entity(forEntityName: "Event", in: context)
         let managedObject = NSManagedObject(entity: entity!, insertInto: context)
@@ -26,6 +26,9 @@ class CodeDataHandler: NSObject {
         managedObject.setValue(numberCompleted, forKey: "numberCompleted")
         managedObject.setValue(quizNumber, forKey: "quizNumber")
         managedObject.setValue(typeOfEvent, forKey: "typeOfEvent")
+        managedObject.setValue(goodResponse, forKey: "goodResponse")
+        managedObject.setValue(badResponse, forKey: "badResponse")
+        
         do {
             try context.save()
             return true
@@ -108,13 +111,29 @@ class CodeDataHandler: NSObject {
             
         }
     }
-    class func filterForCompletedForSelectedTitle(searchForTitlte: String, serachForCompleted: Bool, inTitleAttribute: String, inCompletedAttribute: String) -> [Event]? {
+    class func filterForCompletedForSelectedTitle(searchForTitlte: String, inTitleAttribute: String) -> [Event]? {
         let context = getContext()
         let fetchRequest: NSFetchRequest<Event> = Event.fetchRequest()
         var event: [Event]? = nil
         let predicate1 = NSPredicate(format: "\(inTitleAttribute) == %@", searchForTitlte)
-        let predicate2 = NSPredicate(format: "\(inCompletedAttribute) == %@", NSNumber(value: true))
+        let predicate2 = NSPredicate(format: "isCompleted == %@", NSNumber(value: true))
         let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [predicate1, predicate2])
+        fetchRequest.predicate = predicate
+        do {
+            try event = context.fetch(fetchRequest)
+            return event
+        }catch{
+            return event
+        }
+    }
+    class func filerForCompletedSelectedTitleOfTypeA(searchForTitlte: String, inTitleAttribute: String) -> [Event]? {
+        let context = getContext()
+        let fetchRequest: NSFetchRequest<Event> = Event.fetchRequest()
+        var event: [Event]? = nil
+        let predicate1 = NSPredicate(format: "\(inTitleAttribute) == %@", searchForTitlte)
+        let predicate2 = NSPredicate(format: "isCompleted == %@", NSNumber(value: true))
+        let predicate3 = NSPredicate(format: "typeOfEvent == %@", "a")
+        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [predicate1, predicate2, predicate3])
         fetchRequest.predicate = predicate
         do {
             try event = context.fetch(fetchRequest)
@@ -123,18 +142,5 @@ class CodeDataHandler: NSObject {
             return event
             
         }
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 }

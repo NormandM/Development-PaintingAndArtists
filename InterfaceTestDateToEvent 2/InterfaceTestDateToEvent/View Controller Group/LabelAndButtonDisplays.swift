@@ -22,9 +22,8 @@ class LabelAndButtonDisplay {
     var buttonFourthDate: SpecialButton
     var buttonFifthDate: SpecialButton
     var buttonSixthDate: SpecialButton
-    var buttonCredits: SpecialButton
     let fontSizeAndScreenSize = ScreenSize()
-    init (labelFirstEvent: UILabel, labelSecondEvent: UILabel, labelThirdEvent: UILabel, labelFirstDate: UILabel, labelSecondDate: UILabel, labelThirdDate: UILabel, buttonFirstDate: SpecialButton, buttonSecondDate: SpecialButton, buttonThirdDate: SpecialButton, buttonFourthDate: SpecialButton, buttonFifthDate: SpecialButton, buttonSixthDate: SpecialButton, buttonCredits: SpecialButton){
+    init (labelFirstEvent: UILabel, labelSecondEvent: UILabel, labelThirdEvent: UILabel, labelFirstDate: UILabel, labelSecondDate: UILabel, labelThirdDate: UILabel, buttonFirstDate: SpecialButton, buttonSecondDate: SpecialButton, buttonThirdDate: SpecialButton, buttonFourthDate: SpecialButton, buttonFifthDate: SpecialButton, buttonSixthDate: SpecialButton){
         self.labelFirstEvent = labelFirstEvent
         self.labelSecondEvent = labelSecondEvent
         self.labelThirdEvent = labelThirdEvent
@@ -37,7 +36,6 @@ class LabelAndButtonDisplay {
         self.buttonFourthDate = buttonFourthDate
         self.buttonFifthDate = buttonFifthDate
         self.buttonSixthDate = buttonSixthDate
-        self.buttonCredits = buttonCredits
     }
     func fontAndScreenSize () -> (UIFont, UIFont){
         var fontSize = UIFont()
@@ -94,9 +92,9 @@ class LabelAndButtonDisplay {
         buttonSixthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonSixthDate.setTitle(event[indexEvent[5]], for: .normal)
         buttonSixthDate.titleLabel?.font = fontAndScreenSize().0
-        buttonCredits.titleLabel?.textAlignment = NSTextAlignment.center
-        buttonCredits.layer.cornerRadius = 20
-        buttonCredits.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+//        buttonCredits.titleLabel?.textAlignment = NSTextAlignment.center
+//        buttonCredits.layer.cornerRadius = 20
+//        buttonCredits.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
     }
     func labelFormat(){
         labelFirstEvent.font = fontAndScreenSize().0
@@ -105,9 +103,7 @@ class LabelAndButtonDisplay {
         labelFirstDate.font = fontAndScreenSize().1
         labelSecondDate.font = fontAndScreenSize().1
         labelThirdDate.font = fontAndScreenSize().1
-
     }
-
     func allShown() {
         labelFirstEvent.isHidden = false
         labelSecondEvent.isHidden = false
@@ -122,6 +118,21 @@ class LabelAndButtonDisplay {
         buttonFifthDate.isHidden = false
         buttonSixthDate.isHidden = false
     }
+    func allHidden() {
+        labelFirstEvent.isHidden = true
+        labelSecondEvent.isHidden = true
+        labelThirdEvent.isHidden = true
+        labelFirstDate.isHidden = true
+        labelSecondDate.isHidden = true
+        labelThirdDate.isHidden = true
+        buttonFirstDate.isHidden = true
+        buttonSecondDate.isHidden = true
+        buttonThirdDate.isHidden = true
+        buttonFourthDate.isHidden = true
+        buttonFifthDate.isHidden = true
+        buttonSixthDate.isHidden = true
+    }
+    
     func startQuiz() {
         labelFirstEvent.isHidden = true
         labelSecondEvent.isHidden = true
@@ -142,7 +153,7 @@ class LabelAndButtonDisplay {
         buttonFifthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonSixthDate.isEnabled = true
         buttonSixthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
-        buttonCredits.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+//        buttonCredits.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonFirstDate.buttonWasMoved = false
         buttonSecondDate.buttonWasMoved = false
         buttonThirdDate.buttonWasMoved = false
@@ -156,9 +167,6 @@ class LabelAndButtonDisplay {
         buttonFifthDate.buttonRightResponse = "0"
         buttonSixthDate.buttonRightResponse = "0"
     }
-
-
-
     func prepareForAnimation() {
         labelFirstEvent.isHidden = true
         labelSecondEvent.isHidden = true
@@ -189,6 +197,25 @@ class SpecialButton: UIButton {
     var buttonRightResponse: String = "0"
 }
 
+class BarButtons {
+    class func creditButton(creditButton: UIButton) -> UIButton{
+        creditButton.backgroundColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 0.5)
+        let imageName = "coin.png"
+        let coinImage = UIImage(named: imageName)
+        let coinImageView = UIImageView(image: coinImage!)
+        coinImageView.frame = CGRect(origin: CGPoint(x: 25, y: 7), size: CGSize(width: 30, height: 30))
+        creditButton.addSubview(coinImageView)
+        return creditButton
+    }
+    class func knowledgeButton(knowledgeButton: UIButton){
+                knowledgeButton.backgroundColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 0.5)
+        let imageName = "book.png"
+        let knowledgeButtonImage = UIImage(named: imageName)
+        let knowledgeButtonImageView = UIImageView(image: knowledgeButtonImage!)
+        knowledgeButtonImageView.frame = CGRect(origin: CGPoint(x: 5, y: 7), size: CGSize(width: 30, height: 30))
+        knowledgeButton.addSubview(knowledgeButtonImageView)
+    }
+}
 
 class CountDownLabel {
     class func countDownLabel(myTypeWriter: UITextView) -> UILabel{
@@ -196,7 +223,7 @@ class CountDownLabel {
         let screen = ScreenSize()
         let screenSize = screen.identify().0
         if screenSize == "extraLarge" || screenSize == "extraExtraLarge" || screenSize == "extraExtraExtraLarge"{
-            countDownLabel = UILabel(frame: CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 50, y: myTypeWriter.frame.height - 170 ), size: CGSize(width: 100, height: 100)))
+            countDownLabel = UILabel(frame: CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 75, y: myTypeWriter.frame.height - 170 ), size: CGSize(width: 150, height: 100)))
             countDownLabel.font = UIFont.systemFont(ofSize: 120)
         }else{
             countDownLabel.font = UIFont.systemFont(ofSize: 60)
@@ -214,26 +241,46 @@ class QuizProgressionBar {
         let screen = ScreenSize()
         let screenSize = screen.identify().0
         if screenSize == "extraLarge" || screenSize == "extraExtraLarge" || screenSize == "extraExtraExtraLarge"{
-            quizProgressionBar.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 200, y: myTypeWriter.frame.height/1.3 ), size: CGSize(width: 400, height: 0))
+            quizProgressionBar.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 200, y: myTypeWriter.frame.height/1.7 ), size: CGSize(width: 400, height: 0))
         }else{
-            quizProgressionBar.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 100, y: myTypeWriter.frame.height/1.2 ), size: CGSize(width: 200, height: 0))
+            quizProgressionBar.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 100, y: myTypeWriter.frame.height/1.8 ), size: CGSize(width: 200, height: 0))
         }
         let percentcompleted = Double(numberCompleted)/Double(totalNumber)
         quizProgressionBar.progressViewStyle = .bar
         quizProgressionBar.progress = Float(percentcompleted)
         quizProgressionBar.progressTintColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         quizProgressionBar.trackTintColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0)
-        quizProgressionBar.transform = quizProgressionBar.transform.scaledBy(x: 1, y: 5)
+        quizProgressionBar.transform = quizProgressionBar.transform.scaledBy(x: 1, y: 3)
         quizProgressionBar.clipsToBounds = true
         quizProgressionBar.layer.cornerRadius = 15.0
         myTypeWriter.addSubview(quizProgressionBar)
     }
         
 }
+class ContinueQuizButton {
+    @objc class func continueQuiz(myTypeWriter: UITextView) -> UIButton {
+        let screen = ScreenSize()
+        let screenSize = screen.identify().0
+        let continueQuizButton = UIButton()
+        if screenSize == "extraLarge" || screenSize == "extraExtraLarge" || screenSize == "extraExtraExtraLarge"{
+            continueQuizButton.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 100, y: myTypeWriter.frame.height/1.4 ), size: CGSize(width: 200, height: 50))
+            continueQuizButton.titleLabel?.font = UIFont.systemFont(ofSize: 18)
+        }else{
+            continueQuizButton.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 50, y: myTypeWriter.frame.height/1.5 ), size: CGSize(width: 100, height: 40))
+                continueQuizButton.titleLabel?.font = UIFont.systemFont(ofSize: 11)
+        }
 
+        continueQuizButton.titleLabel?.textAlignment = NSTextAlignment.center
+        continueQuizButton.layer.cornerRadius = 15
+        continueQuizButton.setTitle("Continue Quiz", for: .normal)
+        continueQuizButton.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+        continueQuizButton.titleLabel?.textColor = UIColor.white
+        continueQuizButton.showsTouchWhenHighlighted = true
+        myTypeWriter.addSubview(continueQuizButton)
+        return continueQuizButton
+    }
 
-
-
-
+    
+}
 
 

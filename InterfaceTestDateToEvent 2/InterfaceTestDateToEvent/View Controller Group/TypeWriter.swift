@@ -26,7 +26,6 @@ class TypeWriter {
         let screenSize = ScreenSize()
         let screenDimension = screenSize.identify().0
         let myTypeWriter = HelperFormat.helper(view: view, isPositionUp: true, position: screenDimension)
-        print(screenDimension)
         TypeWriter.typeWriter(myTypeWriter: myTypeWriter)
         uiViewController.navigationController?.view.addSubview(myTypeWriter)
         let dateFormater = DateFormatter()
@@ -65,6 +64,7 @@ class TypeWriter {
         TypeWriter.typeWriter(myTypeWriter: myTypeWriter)
         uiViewController.navigationController?.view.addSubview(myTypeWriter)
         myText = Array("""
+
 Learn these events and their dates
 
 """)
@@ -150,7 +150,7 @@ class HelperFormat {
                 myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 22)
             }else{
                 myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.69 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 22)
+                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 18)
             }
         case TypeWriterPosition.average.rawValue:
             if isPositionUp {
@@ -158,7 +158,7 @@ class HelperFormat {
                 myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 27)
             }else{
                 myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.71 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 27)
+                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 22)
             }
         case TypeWriterPosition.large.rawValue:
             if isPositionUp {
@@ -166,7 +166,7 @@ class HelperFormat {
                 myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 30)
             }else{
                 myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.72 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 30)
+                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 24)
             }
         case TypeWriterPosition.extraLarge.rawValue:
             if orientation {
@@ -177,7 +177,7 @@ class HelperFormat {
                     myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 54)
                 }else{
                     myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.73 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 54)
+                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 45)
                 }
         case TypeWriterPosition.extraExtraLarge.rawValue:
             if orientation {
@@ -187,7 +187,7 @@ class HelperFormat {
                     myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 57)
                 }else{
                     myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.735 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 57)
+                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 49)
                 }
             }else{
                 if isPositionUp {
@@ -195,7 +195,7 @@ class HelperFormat {
                     myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 57)
                 }else{
                     myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.735 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 57)
+                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 49)
                 }
             }
 
@@ -207,7 +207,7 @@ class HelperFormat {
                     myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 68)
                 }else{
                     myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.735 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 68)
+                    myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 60)
                 }
             }
             if isPositionUp {
@@ -215,7 +215,7 @@ class HelperFormat {
                 myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 68)
             }else{
                 myTypeWriter = UITextView(frame: CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height * 0.735 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2)))
-                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 68)
+                myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 60)
             }
         default:
             print("There is no such screen")

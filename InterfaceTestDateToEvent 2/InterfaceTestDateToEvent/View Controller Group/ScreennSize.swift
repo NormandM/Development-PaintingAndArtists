@@ -27,7 +27,6 @@ struct ScreenSize {
         let screenWidth = screenSize.width
         let screenHeight = screenSize.height
         let surfaceScreen = screenWidth * screenHeight
-        print(surfaceScreen)
         if surfaceScreen < 200000 {
             screenDimension = "small"
             fontSize = UIFont(name: "HelveticaNeue-Italic", size: 11)!

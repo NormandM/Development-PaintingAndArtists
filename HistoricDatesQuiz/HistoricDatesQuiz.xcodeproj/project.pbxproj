@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8E12A7A42007E43D004060F2 /* KnowledgeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */; };
+		8E19848A201FA9C40022C3AD /* FetchingDataForQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E198489201FA9C40022C3AD /* FetchingDataForQuiz.swift */; };
+		8E1B0C8D202B591700E95B65 /* CountBadOrGoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B0C8C202B591700E95B65 /* CountBadOrGoodResponse.swift */; };
 		8E78A2512001468D0012140A /* PublicityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78A2502001468D0012140A /* PublicityViewController.swift */; };
 		8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78A2522001492B0012140A /* PurchaseCreditsController.swift */; };
+		8E798B6A2020E9EE00B40A70 /* HelperForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E798B692020E9EE00B40A70 /* HelperForViewController.swift */; };
+		8E798B6C2022691C00B40A70 /* FinishedQuizDiploma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E798B6B2022691C00B40A70 /* FinishedQuizDiploma.swift */; };
+		8E798B6E2027A67700B40A70 /* SubjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E798B6D2027A67700B40A70 /* SubjectsTableViewCell.swift */; };
 		8E7C6B9C200D4C4B00268BA6 /* TypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */; };
 		8E80DBDB1FFD75E0008CEFB1 /* WorldWarII.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */; };
 		8ECF5AA11FF435C200103F6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF5AA01FF435C200103F6C /* ViewController.swift */; };
@@ -53,8 +58,13 @@
 
 /* Begin PBXFileReference section */
 		8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeListController.swift; sourceTree = "<group>"; };
+		8E198489201FA9C40022C3AD /* FetchingDataForQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingDataForQuiz.swift; sourceTree = "<group>"; };
+		8E1B0C8C202B591700E95B65 /* CountBadOrGoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBadOrGoodResponse.swift; sourceTree = "<group>"; };
 		8E78A2502001468D0012140A /* PublicityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicityViewController.swift; sourceTree = "<group>"; };
 		8E78A2522001492B0012140A /* PurchaseCreditsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCreditsController.swift; sourceTree = "<group>"; };
+		8E798B692020E9EE00B40A70 /* HelperForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperForViewController.swift; sourceTree = "<group>"; };
+		8E798B6B2022691C00B40A70 /* FinishedQuizDiploma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedQuizDiploma.swift; sourceTree = "<group>"; };
+		8E798B6D2027A67700B40A70 /* SubjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTableViewCell.swift; sourceTree = "<group>"; };
 		8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriter.swift; sourceTree = "<group>"; };
 		8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorldWarII.plist; sourceTree = "<group>"; };
 		8ECF5AA01FF435C200103F6C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../DevelopmenttEventToDate/InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/View Controller Group/ViewController.swift"; sourceTree = "<group>"; };
@@ -183,6 +193,7 @@
 				8EFA3B491FF0461000375B6E /* SubjectTableViewController.swift */,
 				8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */,
 				8EFA3B4A1FF0461000375B6E /* TitleSectionManager.swift */,
+				8E798B6D2027A67700B40A70 /* SubjectsTableViewCell.swift */,
 			);
 			name = PlistManagement;
 			path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/PlistManagement";
@@ -198,6 +209,10 @@
 				8EFA3B511FF0461000375B6E /* ScreennSize.swift */,
 				8EFA3B521FF0461000375B6E /* ShakingMovement.swift */,
 				8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */,
+				8E198489201FA9C40022C3AD /* FetchingDataForQuiz.swift */,
+				8E798B692020E9EE00B40A70 /* HelperForViewController.swift */,
+				8E798B6B2022691C00B40A70 /* FinishedQuizDiploma.swift */,
+				8E1B0C8C202B591700E95B65 /* CountBadOrGoodResponse.swift */,
 			);
 			name = "View Controller Group";
 			path = "../../InterfaceTestDateToEvent 2/InterfaceTestDateToEvent/View Controller Group";
@@ -355,17 +370,22 @@
 				8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */,
 				8EFA3B561FF0461100375B6E /* HistoricalData.swift in Sources */,
 				8EFA3B5D1FF0461100375B6E /* SubjectTableViewController.swift in Sources */,
+				8E798B6E2027A67700B40A70 /* SubjectsTableViewCell.swift in Sources */,
+				8E798B6A2020E9EE00B40A70 /* HelperForViewController.swift in Sources */,
 				8EFA3B641FF0461100375B6E /* ScreennSize.swift in Sources */,
 				8EFA3B651FF0461100375B6E /* ShakingMovement.swift in Sources */,
 				8E12A7A42007E43D004060F2 /* KnowledgeListController.swift in Sources */,
 				8EDD1AEA200BBF6100F4D6A8 /* DateAndeventTableViewCell.swift in Sources */,
 				8EFA3B101FF045AA00375B6E /* AppDelegate.swift in Sources */,
 				8ECF5AA11FF435C200103F6C /* ViewController.swift in Sources */,
+				8E19848A201FA9C40022C3AD /* FetchingDataForQuiz.swift in Sources */,
 				8E7C6B9C200D4C4B00268BA6 /* TypeWriter.swift in Sources */,
 				8ECF5AA31FF4360E00103F6C /* RandomizeQuestions.swift in Sources */,
 				8E78A2512001468D0012140A /* PublicityViewController.swift in Sources */,
+				8E1B0C8D202B591700E95B65 /* CountBadOrGoodResponse.swift in Sources */,
 				8EFA3B611FF0461100375B6E /* Animations.swift in Sources */,
 				8EFA3B581FF0461100375B6E /* Device.swift in Sources */,
+				8E798B6C2022691C00B40A70 /* FinishedQuizDiploma.swift in Sources */,
 				8EFA3B7C1FF28FF200375B6E /* CodeDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
