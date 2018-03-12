@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>Apr 5, 1764</string>
+		<string>Great Britain passes the Sugar Act doubling the duties on foreign goods reshipped to the colonies</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>Mar 22, 1765</string>
+		<string>Great Britain passes the Stamp Act, applying certain stamp duties in the British colonies.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>Mar 24, 1765</string>
+		<string>The Quartering Act is passed requiring the 13 American colonies to house British troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>Feb 9, 1775</string>
+		<string>British Parliament declares Massachusetts in rebellion.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>Apr 20, 1775</string>
+		<string>the siege of Boston begins, which followed the first battles at Lexington and Concord.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 1</string>
+		<string>May 10, 1775</string>
+		<string>Ethan Allen and Benedict Arnold lead the capture Fort Ticonderoga.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>Mar 5, 1770</string>
+		<string>Boston Massacre: Five Americans are killed by British troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>May 10, 1773</string>
+		<string>The Tea Act:  Unsold tea from east India Company was to be sold in the colonies.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>Dec 16, 1773</string>
+		<string>Boston Tea Party: Members of the Sons of Liberty dump tea into Boston harbor.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>Jun 12, 1775</string>
+		<string>British general Thomas Gage declares martial law in Massachusetts. </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>Jun 17, 1775</string>
+		<string>Battle of Bunker Hill: British forces take Breed&apos;s Hill outside of Boston.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 2</string>
+		<string>Jul 3, 1775</string>
+		<string>George Washington takes command of the Continental Army at Cambridge, Massachusetts.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>May 28, 1774</string>
+		<string>The first Continental Congress convenes.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>Mar 23, 1775</string>
+		<string>Patrick Henry delivers his famous speech -&quot;give me liberty or give me death&quot; in Richmond.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>Apr 19, 1775</string>
+		<string>British troops fire the first shots of the American Revolution at Lexington.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>Sep 25, 1775</string>
+		<string>War hero Ethan Allen captured.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>Nov 10, 1775</string>
+		<string>The Continental Congress passes a resolution creating the Continental Marines.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 3</string>
+		<string>May 15, 1776</string>
+		<string>Virginia convention instructs its delegates to propose a declaration of independence.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>May 17, 1775</string>
+		<string>The Continental Congress bans trade with Canada.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>Jun 14, 1775</string>
+		<string>The United States Army is established by the Continental Congress.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>Jun 15, 1775</string>
+		<string>George Washington is appointed commander-in-chief of the Continental Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>Sep 10, 1776</string>
+		<string>Nathan Hale volunteers to spy.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>Sep 15, 1776</string>
+		<string>British land at Kip&apos;s Bay during the New York Campaign.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 4</string>
+		<string>Sep 16, 1776</string>
+		<string>the Battle of Harlem Heights is fought.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Nov 13, 1775</string>
+		<string>American Revolutionary forces capture Montreal, hoping the population would join the revolution.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Dec 31, 1775</string>
+		<string>Battle of Quebec British forces repulse an attack by Continental Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Mar 17, 1776</string>
+		<string>British forces evacuate Boston, after Washington and Knox place artillery overlooking the city.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Sep 22, 1776</string>
+		<string>Nathan Hale is hanged for spying during American Revolution.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Oct 11, 1776</string>
+		<string>On Lake Champlain 15 American gunboats are defeated but gives time to prepare NY City defenses.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 5</string>
+		<string>Nov 16, 1776</string>
+		<string>Hessian mercenaries capture Fort Washington from the Patriots.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Jun 8, 1776</string>
+		<string>Battle of Trois-Rivières - American invaders are driven back at Trois-Rivière, Quebec.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Jul 4, 1776</string>
+		<string>The Continental Congress approves a Declaration of Independence from Great Britain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Sep 11, 1776</string>
+		<string>British-American peace conference on Staten Island fails to stop nascent American Revolution.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Jul 6, 1777</string>
+		<string>Due to a bombardment by British artillery, American forces retreat from Fort Ticonderoga, NY.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Jul 7, 1777</string>
+		<string>Battle of Hubbardton</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 6</string>
+		<string>Aug 16, 1777</string>
+		<string>Battle of Bennington - British forces are defeated by American troops.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Oct 28, 1776</string>
+		<string>British Army forces arrive at White Plains, attack and capture Chatterton Hill from the Americans.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Dec 26, 1776</string>
+		<string>The British are defeated in the Battle of Trenton.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Jan 15, 1777</string>
+		<string>New Connecticut (present day Vermont) declares its independence.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Sep 26, 1777</string>
+		<string>British troops occupy Philadelphia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Dec 19, 1777</string>
+		<string>George Washington&apos;s Continental Army goes into winter quarters at Valley Forge, Pennsylvania.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 7</string>
+		<string>Feb 23, 1778</string>
+		<string>Baron von Steuben arrives at Valley Forge, Pennsylvania to help to train the Continental Army.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Jun 13, 1777</string>
+		<string>Marquis de Lafayette lands in South Carolina to help the Continental Congress to train its army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Sep 3, 1777</string>
+		<string>In Delaware where the Flag of the US flag was flown in battle for the first time.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Sep 11, 1777</string>
+		<string>Battle of Brandywine: Major American Revolutionary war victory for British in Chester County.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Jun 18, 1778</string>
+		<string>British troops abandon Philadelphia, Pennsylvania.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Jun 28, 1778</string>
+		<string>Battle of Monmouth fought between George Washington and the Sir Henry Clinton.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 8</string>
+		<string>Jul 27, 1778</string>
+		<string>First Battle of Ushant - British and French fleets fight to a standoff.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>Oct 7, 1777</string>
+		<string>Americans beat the British in the Battle of Second Saratoga and the Battle of Bemis Heights.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>Nov 15, 1777</string>
+		<string>After 16 months of debate the Continental Congress approves the Articles of Confederation.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>Feb 6, 1778</string>
+		<string>In Paris the Treaty of Alliance and the Treaty of Amity are signed by the US and France.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>Sep 23, 1779</string>
+		<string>USS Bonhomme Richard, commanded by John Paul Jones, wins a fight against British ships.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>Jan 16, 1780</string>
+		<string>Battle of Cape St. Vincent.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 9</string>
+		<string>May 12, 1780</string>
+		<string>Charleston, South Carolina is taken by British forces.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Jul 3, 1778</string>
+		<string>British forces massacre 360 men, women &amp; children in the Wyoming Valley massacre.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Jul 10, 1778</string>
+		<string>Louis XVI of France declares war on the Kingdom of Great Britain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Jun 1, 1779</string>
+		<string>Benedict Arnold is court-martialed for malfeasance in his treatment of government property.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Sep 23, 1780</string>
+		<string>British Major John Andre arrested as a spy exposing Benedict Arnold&apos;s treason.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Oct 7, 1780</string>
+		<string>Battle of Kings Mountain American Patriot militia defeat Loyalist irregulars.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 10</string>
+		<string>Mar 15, 1781</string>
+		<string>Battle of Guilford Courthouse - 1,900 British troops defeat an American force numbering 4,400.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Jul 16, 1779</string>
+		<string>US forces led by General Anthony Wayne capture Stony Point, New York from British troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Sep 28, 1779</string>
+		<string>Samuel Huntington is elected President of the Continental Congress, succeeding John Jay.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Aug 16, 1780</string>
+		<string>Battle of Camden - The British defeat the Americans near Camden, South Carolina.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Oct 17, 1781</string>
+		<string>General Charles Cornwallis offers his surrender to the American revolutionaries at Yorktown.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Dec 12, 1781</string>
+		<string>Second Battle of Ushant - A Royal Navy squadron defeats a French fleet.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 11</string>
+		<string>Aug 19, 1782</string>
+		<string>Battle of Blue Licks: the last major battle of the American Revolutionary War.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Sep 21, 1780</string>
+		<string>Benedict Arnold gives the British the plans to West Point.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Oct 16, 1780</string>
+		<string>Royalton, Vermont and Tunbridge, Vermont last major raid of the American Revolutionary War</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Jan 5, 1781</string>
+		<string>Richmond, Virginia is burned by British naval forces led by Benedict Arnold.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Feb 3, 1783</string>
+		<string>Spain recognizes United States independence.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Apr 11,  1783</string>
+		<string>Congress Official declaration of the end to the Revolutionary War</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 12</string>
+		<string>Nov 25, 1783</string>
+		<string>The last British troops leave NY City three months after the signing of the Treaty of Paris.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Sep 28, 1781</string>
+		<string>American forces backed by a French fleet begin the siege of Yorktown, Virginia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Oct 19, 1781</string>
+		<string>At Yorktown, Virginia, British General Lord Cornwallis surrenders 8,000 British soldiers.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Nov 30, 1782</string>
+		<string>In Paris, representatives from the US and  Great Britain sign preliminary peace articles.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Jun 12, 1775</string>
+		<string>British general Thomas Gage declares martial law in Massachusetts. </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Jun 17, 1775</string>
+		<string>Battle of Bunker Hill: British forces take Breed&apos;s Hill outside of Boston.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 13</string>
+		<string>Jul 3, 1775</string>
+		<string>George Washington takes command of the Continental Army at Cambridge, Massachusetts.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>Feb 4, 1783</string>
+		<string>The United Kingdom formally declares that it will cease hostilities with the USA</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>Sep 3, 1783</string>
+		<string>The war ends with the signing of the Treaty of Paris by the US and Great Britain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>Jan 14, 1784</string>
+		<string>The United States ratifies a peace treaty with England.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>Sep 25, 1775</string>
+		<string>War hero Ethan Allen captured.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>Nov 10, 1775</string>
+		<string>The Continental Congress passes a resolution creating the Continental Marines.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Revolution</string>
+		<string>Quiz # 14</string>
+		<string>May 15, 1776</string>
+		<string>Virginia convention is to propose a declaration of independence from Great Britain.</string>
+		<string>b</string>
+	</array>
+</array>
+</plist>

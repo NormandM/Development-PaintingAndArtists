@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 1</string>
+		<string>1001</string>
+		<string>Leif Ericson explores North America</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 1</string>
+		<string>1265</string>
+		<string>Marco Polo begins his exploration of China and Asia</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 1</string>
+		<string>1445</string>
+		<string>Dinis Dias sails the west coast of Africa</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>May 29, 1500</string>
+		<string>Bartholomeu Diaz de Narvaez (Novaez) Portuguese sea explorer, drowns.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 1</string>
+		<string>1501</string>
+		<string>Diego Dias discovers Magacascar.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 1</string>
+		<string>1502</string>
+		<string>Gonçalo Coelho discovers &quot;Rio de Janeiro&quot; (Guanabara Bay)</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 2</string>
+		<string>1488</string>
+		<string>Bartholomeu Dias of Portugal sails from the Iberian Peninsula to the south of Africa.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 2</string>
+		<string>1492</string>
+		<string>The Discovery of America by Christopher Columbus</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 2</string>
+		<string>1497</string>
+		<string>John Cabot and his son Sebastian discover Canada, landing on the coast of Newfoundland</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 2</string>
+		<string>1513</string>
+		<string>Juan Ponce de Leon explores Florida</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>Feb 8, 1513</string>
+		<string>Alonso de Ojeda Spanish explorer (Cura?ao and Bonaire), dies.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 2</string>
+		<string>1516</string>
+		<string>Juan Dias de Solis explores Uruguay </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 3</string>
+		<string>1498</string>
+		<string>Vasco da Gama sails around the Cape of Good Hope and reaches India</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 3</string>
+		<string>1499</string>
+		<string>Alonzo de Ojeda explores Columbia  and Venezuela</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 3</string>
+		<string>1500</string>
+		<string> Vicente Pinzon and Juan Dias de Solis discover Brazil</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 3</string>
+		<string>1519</string>
+		<string>Hernando Cortez kidnaps Aztec Emperor Montezuma and loots the Aztec gold</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 3</string>
+		<string>1519</string>
+		<string>Alonzo de Pineda explores gulf Coast of America</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Apr 27, 1521</string>
+		<string>Battle of Mactan: Explorer Ferdinand Magellan is killed by natives in the Philippines led by chief Lapu-Lapu.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1501</string>
+		<string> Amerigo Vespucci explores the coast of South America</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1508</string>
+		<string>Juan Dias de Solis explores Argentina</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1513</string>
+		<string>Vasco Nunez de Balboa explores the Pacific coast of Panama and discovers Pacific Ocean</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1524</string>
+		<string>Giovanni Verrazano discovers New York Bay</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1526</string>
+		<string>Francisco Montejo explores Yucatan</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 4</string>
+		<string>1528</string>
+		<string>Panfilo de Narvaez conquers Cuba and explores Florida </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1517</string>
+		<string>Francisco Hernandez de Cordoba explores Yucatan</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1518</string>
+		<string>Juan de Grijalava explores Mexico</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1519</string>
+		<string>Ferdinand Magellan is the first to go around the world</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1528</string>
+		<string>Alvar Cabeza de Vaca explores Texas, Arizona and New Mexico</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1533</string>
+		<string> Sebastian de Benalcazar explores Ecuador </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 5</string>
+		<string>1536</string>
+		<string>Pedro de Mendoza explores Paraguay</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>1522</string>
+		<string>Gil Gonzales de Avila and Francisco Hernandez de Cordoba explore Nicaragua &amp; Granada</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>Oct 12, 524</string>
+		<string>Hernando Cortes leaves to explores Honduras and kills the Aztedc emperor Cuauhtémoc.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>June, 1524</string>
+		<string>Pedro de Alvarado explores Guatemala and El Salvador </string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>1539</string>
+		<string>Hernando de Soto explores south-eastern North America</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>1540</string>
+		<string>Francisco VÃ¡zquez de Coronado explores south-western North America</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 6</string>
+		<string>1541</string>
+		<string>Francisco VÃ¡squez de Coronado explores Kansas</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1531</string>
+		<string> Francisco Pizarro explores Peru</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1532</string>
+		<string> Francisco Pizarro invades and loots the Incan Empire</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1534</string>
+		<string>Jacques Cartier explores the Great Lakes and the the St. Lawrence River</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1542</string>
+		<string>Juan Rodriguez Cabrillo discovers San Diego Bay, California</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1559</string>
+		<string>Tristan de Luna explores North America</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 7</string>
+		<string>1562</string>
+		<string>John Hawkins sails to Africa</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>Sept,1540</string>
+		<string>Discovery of the Grand Canyon by Garcia Lopez de Cardenas</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>June 1542</string>
+		<string>Francisco de Orellana explores the Amazon River</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>Sept, 1542</string>
+		<string>Cabrillo explores and discovers the Californian coast</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>1584</string>
+		<string>Philip Amadas and Arthur Barlowe explore the coast of North Carolina</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>1585</string>
+		<string>Sir Walter Raleigh establishes the Roanoke colony</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 8</string>
+		<string>1595</string>
+		<string>Cornelis de Houtman discovers Sea Route to Indonesia </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 9</string>
+		<string>1542</string>
+		<string>Rey Lopez de Villalobos explores the Philippines</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 9</string>
+		<string>1563</string>
+		<string>Francisco de Ibarra explores New Mexico</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 9</string>
+		<string>1576</string>
+		<string>Sir Martin Frobisher explores Baffin Bay and the Hudson Strait</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 9</string>
+		<string>1598</string>
+		<string>Juan de Archuleta explores Colorado</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Nov 17, 1603</string>
+		<string>English explorer, writer and courtier Sir Walter Raleigh goes on trial for treason.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Jul 3, 1608</string>
+		<string>City of Quebec founded by French explorer Samuel de Champlain.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 10</string>
+		<string>1577</string>
+		<string>Sir Francis Drake starts his trip around the world.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 10</string>
+		<string>1593</string>
+		<string>Sir Richard Hawkins travels to the South Pacific</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 10</string>
+		<string>1595</string>
+		<string>Sir Walter Raleigh seeks golden city of El Dorado in South America</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Jan 1, 1738</string>
+		<string>Bouvet Island is discovered by French explorer Jean-Baptiste Charles Bouvet de Lozier.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Jul 20, 1738</string>
+		<string>North America: French explorer Pierre Gaultier de Varennes reaches the western shore of Lake Michigan.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Dec 19, 1741</string>
+		<string>Vitus J Bering Dutch navigator/explorer, dies.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1607</string>
+		<string>Captain John Smith explorer and founder of Jamestown</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1609</string>
+		<string>Henry Hudson explored parts of the Arctic Ocean and northeastern North America including the Hudson River</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1642</string>
+		<string>Abel Tasman explores Tasmania and New Zealand</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1791</string>
+		<string>George Vancouver explores Canada</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1804</string>
+		<string>Meriwether Lewis and William Clark explore the Louisiana Territory</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 11</string>
+		<string>1820</string>
+		<string>Fabian Gottlieb von Bellingshausen becomes the first person to see the Antarctic continent</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 12</string>
+		<string>1652</string>
+		<string>Jan van Riebeeck explores Africa and founded Cape Town</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>1682</string>
+		<string>Rene-Robert Cavelier La Salle explores the Mississippi and Louisiana.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 12</string>
+		<string>1768</string>
+		<string>Captain James Cook discovers New Zealand</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Feb 14, 1779</string>
+		<string>James Cook British explorer, murdered by natives in fracas with Hawaiians.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Nov 8, 1805</string>
+		<string>The Lewis and Clark expedition arrives at the Pacific Ocean by an overland route from the east.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Feb 19, 1819</string>
+		<string>British explorer William Smith discovers the South Shetland Islands.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 13</string>
+		<string>1843</string>
+		<string>Dr. David Livingstone explores Africa</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 13</string>
+		<string>1897</string>
+		<string>Adrien de Gerlache explores Antarctica</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 13</string>
+		<string>1912</string>
+		<string>Roald Amundsen first on the South Pole.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 13</string>
+		<string>1513</string>
+		<string>Juan Ponce de Leon explores Florida</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Feb 8, 1513</string>
+		<string>Alonso de Ojeda Spanish explorer (Cura?ao and Bonaire), dies.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 13</string>
+		<string>1516</string>
+		<string>Juan Dias de Solis explores Uruguay </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 14</string>
+		<string>1953</string>
+		<string>Edmund Hillary  and Tenzing Norgay became the first climbers to reache the summit of Mount Everest</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 14</string>
+		<string>April 12, 1961</string>
+		<string>Yuri Gagarin becomes the first Man in Space</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 14</string>
+		<string>July 20, 1969</string>
+		<string>Neil Armstrong commander of the Apollo 11 mission accompanied by Buzz Aldrin land on the moon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 14</string>
+		<string>1519</string>
+		<string>Hernando Cortez kidnaps Aztec Emperor Montezuma and loots the Aztec gold</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Great Explorers</string>
+		<string>Quiz # 14</string>
+		<string>1519</string>
+		<string>Alonzo de Pineda explores gulf Coast of America</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Apr 27, 1521</string>
+		<string>Battle of Mactan: Explorer Ferdinand Magellan is killed by natives in the Philippines led by chief Lapu-Lapu.</string>
+		<string>b</string>
+	</array>
+</array>
+</plist>

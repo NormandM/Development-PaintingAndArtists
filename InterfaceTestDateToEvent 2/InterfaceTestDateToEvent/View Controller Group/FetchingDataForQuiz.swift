@@ -10,7 +10,6 @@ import Foundation
 class FetchDataForQuiz {
     class func fetchData(selectedTitle: String) -> [Event]{
         var event: [Event]? = nil
-        //let numberOfEvents = (event?.count)!
         var numberOfQuizCompleted = 0
         var quiz = [Event]()
         var n = 0

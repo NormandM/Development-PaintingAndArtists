@@ -19,20 +19,23 @@ class KnowledgeListController: UITableViewController {
         self.navigationItem.hidesBackButton = true
         let newBackButton = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.plain, target: self, action: #selector(KnowledgeListController.back(sender:)))
         self.navigationItem.leftBarButtonItem = newBackButton
-        let sumOfBadResponse = CountGoodOrBadResponse.sumOfBadResponses()
-        let sumOfGoodResponse = CountGoodOrBadResponse.sumOfGoodResponse()
-        let totalResponse = sumOfBadResponse + sumOfGoodResponse
-        let percentOfGoodResponse = Int(Double(sumOfGoodResponse) * 100/Double(totalResponse))
-        print(percentOfGoodResponse)
+        //let sumOfBadResponse = CountGoodOrBadResponse.sumOfBadResponses()
+        //let sumOfGoodResponse = CountGoodOrBadResponse.sumOfGoodResponse()
+        //let totalResponse = sumOfBadResponse + sumOfGoodResponse
+        //let percentOfGoodResponse = Int(Double(sumOfGoodResponse) * 100/Double(totalResponse))
         for subject in arraySectionSubject{
             var listForSubject = [String]()
             listOfDates = []
             listOfEventDescription = []
-            let finishedAndSelected = CodeDataHandler.filerForCompletedSelectedTitleOfTypeA(searchForTitlte: subject, inTitleAttribute: "selectedTitle")
-            for event in finishedAndSelected!{
-                listForSubject.append("\(event.date!), \(event.eventDescription!)")
-                listOfDates.append(event.date!)
-                listOfEventDescription.append(event.eventDescription!)
+            guard let finishedAndSelected = CodeDataHandler.filerForCompletedSelectedTitleOfTypeA(searchForTitlte: subject, inTitleAttribute: "selectedTitle") else {
+                print("There is no completed events for this title")
+                return
+            }
+            for event in finishedAndSelected{
+                guard let newdate = event.date, let newEventDescription = event.eventDescription else {print("no event date or description"); return}
+                listForSubject.append("\(newdate), \(newEventDescription)")
+                listOfDates.append(newdate)
+                listOfEventDescription.append(newEventDescription)
             }
             arrayOfDates.append(listOfDates)
             arrayOfEventDescription.append(listOfEventDescription)

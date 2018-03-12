@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Mar 1, 1914</string>
+		<string>Dutch Minister of war H Colijn named director of British Petroleum.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Jun 28, 1914</string>
+		<string>Franz Ferdinand, Archduke of Austria and his wife Sophia are assassinated in Sarajevo by young Serbian nationalist Gavrilo Princip , the casus belli of World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Jul 23, 1914</string>
+		<string>Austria-Hungary issues an ultimatum to Serbia allowing the Austrians to find out who killed Archduke Franz Ferdinand. When Serbia denies Austria-Hungary their demands World War I is sparked on July 28, 1914</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Jul 28, 1914</string>
+		<string>Austria-Hungary declares war on Serbia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Jul 31, 1914</string>
+		<string>The New York Stock Exchange closes its doors due to the war in Europe.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 1</string>
+		<string>Aug 1, 1914</string>
+		<string>Germany declares war on Russia in WW I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 3, 1914</string>
+		<string>Germany invades Belgium and declares war on France; France declares war on Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 4, 1914</string>
+		<string>Germany declares war on Belgium; Britain declares war on Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 6, 1914</string>
+		<string>Serbia declares war against Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 12, 1914</string>
+		<string>Beginning of the Battle of Cer between Austria-Hungary and Serbia</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 17, 1914</string>
+		<string>The German army of General Hermann von Francois defeats the Russian force commanded by Pavel Rennenkampf at the Battle of Stalluponen.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 2</string>
+		<string>Aug 20, 1914</string>
+		<string>World War I: German forces occupy Brussels.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Aug 22, 1914</string>
+		<string>In Belgium, British and German troops clash for the first time in the war.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Aug 23, 1914</string>
+		<string>Japan declares war on Germany in World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Aug 24, 1914</string>
+		<string>German troops capture Namur.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Aug 26, 1914</string>
+		<string>The German colony of Togoland is invaded by French and British forces, who take it after 5 days.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Sep 5, 1914</string>
+		<string>First Battle of the Marne begins. Northeast of Paris, the French attack and defeat German forces who are advancing on the capital.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 3</string>
+		<string>Sep 9, 1914</string>
+		<string>The creation of the Canadian Automobile Machine Gun Brigade, the first fully mechanized unit in the British Army.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Sep 13, 1914</string>
+		<string>South African troops open hostilities in German SW Africa (Namibia) with an assault on the Ramansdrift police station.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Sep 15, 1914</string>
+		<string>The Battle of Aisne begins between Germany and France.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Sep 18, 1914</string>
+		<string>The Battle of Aisne ends with Germans beating French.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Oct 9, 1914</string>
+		<string>Siege of Antwerp - Antwerp, Belgium falls to German troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Nov 1, 1914</string>
+		<string>The first British naval defeat of the war, the Battle of Coronel is fought off of the coast of Chile.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 4</string>
+		<string>Nov 2, 1914</string>
+		<string>Russia declares war on the Ottoman Empire.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Nov 28, 1914</string>
+		<string>Following a war-induced closure in July, the New York Stock Exchange re-opens for bond trading.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Dec 8, 1914</string>
+		<string>Battle of the Falkland Islands - The Kaiserliche Marine under the command of Admiral Graf Maximilian von Spee is engaged by the Royal Navy.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Dec 24, 1914</string>
+		<string>World War I: The &quot;Christmas truce&quot; begins.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Dec 25, 1914</string>
+		<string>Known as the Christmas truce, German and British troops on the Western Front temporarily cease fire.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Jan 31, 1915</string>
+		<string>World War I: Germany uses poison gas against Russians.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 5</string>
+		<string>Feb 19, 1915</string>
+		<string>World War I: The Battle of Gallipoli began.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Mar 5, 1915</string>
+		<string>World War I: LZ 33, a zeppelin, is damaged by enemy fire and stranded south of Ostend.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Mar 14, 1915</string>
+		<string>World War I: Cornered off the coast of Chile by the Royal Navy after fleeing the disastrous Battle of the Falkland Islands, the German light cruiser SMS Dresden is abandoned and scuttled by her crew.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Mar 18, 1915</string>
+		<string>World War I: Massive naval attack in Battle of Gallipoli. Three battleships are sunk during a failed British &amp; French naval attack on the Dardanelles.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Apr 18, 1915</string>
+		<string>Early French aviator and a fighter aircraft pilot Roland Garros was shot down and glided to a landing on the German side of the lines during World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Apr 22, 1915</string>
+		<string>The use of poison gas in World War I escalates when chlorine gas is released as a chemical weapon in the Second Battle of Ypres.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 6</string>
+		<string>Apr 25, 1915</string>
+		<string>The ANZAC tradition begins during World War I with a landing at Gallipoli on the Turkish coast.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>May 7, 1915</string>
+		<string>A German submarine U-20 sinks the RMS Lusitania, killing 1,198 people.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>May 9, 1915</string>
+		<string>Second Battle of Artois between German and French forces.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>May 23, 1915</string>
+		<string>Italy declares war on Austria-Hungary and Germany during WWI.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>May 24, 1915</string>
+		<string>Italy declares war on Austria-Hungary.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>Aug 6, 1915</string>
+		<string>The Battle of Sari Bair begins - The Allies mount a diversionary attack timed to coincide with a major Allied landing of reinforcements at Suvla Bay.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 7</string>
+		<string>Aug 16, 1915</string>
+		<string>World War I: Should victory be achieved over the Central Powers, the Triple Entente promises the Kingdom of Serbia: the Austro-Hungarian territories of Baranja, Srem, Slavonia, and Bosnia and Herzegovina; and the eastern 2/3 of Dalmatia (from the river of Krka to the city of Bar).</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Oct 5, 1915</string>
+		<string>Bulgaria enters World War I as one of the Central Powers.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Oct 12, 1915</string>
+		<string>British nurse Edith Cavell is executed by a German firing squad for helping Allied soldiers escape from Belgium</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Dec 12, 1915</string>
+		<string>Aristide Briand forms French war government.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Jan 8, 1916</string>
+		<string>Allied forces withdraw from Gallipoli.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Jan 29, 1916</string>
+		<string>World War I: Paris is first bombed by German zeppelins .</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 8</string>
+		<string>Feb 21, 1916</string>
+		<string>In France the Battle of Verdun begins.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>Mar 9, 1916</string>
+		<string>Germany declares war against Portugal.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>Apr 9, 1916</string>
+		<string>Battle of Verdun - German forces launch their third offensive of the battle.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>May 31, 1916</string>
+		<string>The German and British navies clash in the Battle of Jutland, the largest naval battle of the war.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>Jul 20, 1916</string>
+		<string>In Armenia, Russian troops capture Gumiskhanek.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>Aug 2, 1916</string>
+		<string>Austrian sabotage causes the sinking of the Italian battleship Leonardo da Vinci in Taranto.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 9</string>
+		<string>Aug 28, 1916</string>
+		<string>Italy declares war against Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Sep 15, 1916</string>
+		<string>Tanks are used for the first time in battle, at the Battle of the Somme.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Sep 17, 1916</string>
+		<string>Manfred von Richthofen (&quot;The Red Baron&quot;), a flying ace of the German Luftstreitkr&amp;auml;fte, won his first aerial combat near Cambrai, France.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Nov 18, 1916</string>
+		<string>First Battle of the Somme ends - In France, British Expeditionary Force commander Douglas Haig calls off the battle which started on July 1, 1916.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Dec 11, 1916</string>
+		<string>David Lloyd George forms British war government.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Dec 19, 1916</string>
+		<string>Battle of Verdun - On the Western Front, the French Army successfully holds off the German Army and drives it back to its starting position.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 10</string>
+		<string>Dec 23, 1916</string>
+		<string>Battle of Magdhaba - Allied forces defeat Turkish forces in Egypt&apos;s Sinai peninsula.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Jan 9, 1917</string>
+		<string>World War I: Battle of Rafa.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Jan 16, 1917</string>
+		<string>The German minister, Arthur Zimmermann, sends a telegram through the German ambassador in Washington to the German ambassador in Mexico offering Mexico an alliance against the United States. He proposes that Mexico will be assisted in retaking Texas, New Mexico and Arizona. The telegram is intercepted and decoded by British intelligence and given to President Woodrow Wilson. The telegram becomes instrumental in forming American public opinion against Germany and for entering the war as Wilson gives it to the press in March.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Jan 22, 1917</string>
+		<string>President Woodrow Wilson calls for &quot;peace without victory&quot; in Europe.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Jan 31, 1917</string>
+		<string>Germany announces its U-boats will engage in unrestricted submarine warfare.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Feb 3, 1917</string>
+		<string>The United States breaks off diplomatic relations with Germany a day after Germany announces a new policy of unrestricted submarine warfare.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 11</string>
+		<string>Feb 24, 1917</string>
+		<string>The U.S. ambassador to the United Kingdom is given the Zimmermann Telegram, in which Germany pledges to ensure the return of New Mexico, Texas, and Arizona to Mexico if that country declares war on the United States.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>Mar 26, 1917</string>
+		<string>First Battle of Gaza - British troops are halted after 17,000 Turks block their advance.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>Apr 2, 1917</string>
+		<string>US President Woodrow Wilson asks Congress to declare war against Germany.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>Apr 6, 1917</string>
+		<string>US declares war on Germany, enters World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>Apr 9, 1917</string>
+		<string>Battle of Arras - The battle begins with Canadian forces executing a massive assault on Vimy Ridge.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>May 18, 1917</string>
+		<string>The Selective Service Act passes the U.S. Congress giving the President the power of conscription.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 12</string>
+		<string>Jun 5, 1917</string>
+		<string>Conscription begins in the United States as &quot;Army registration day.&quot;</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Jun 7, 1917</string>
+		<string>Allied ammonal mines underneath German trenches in Mesen Ridge are detonated, killing 10,000 German troops.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Jul 6, 1917</string>
+		<string>Arabian troops led by Lawrence of Arabia and Auda ibu Tayi capture Aqaba from the Turks during the Arab Revolt.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Jul 20, 1917</string>
+		<string>In the United States, the first military draft numbers are drawn for World War I.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Aug 14, 1917</string>
+		<string>China declares war on Germany and Austria.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Oct 15, 1917</string>
+		<string>At Vincennes outside of Paris, Dutch dancer Mata Hari is executed by firing squad for spying for Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 13</string>
+		<string>Oct 17, 1917</string>
+		<string>First British bombing of Germany in World War I</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Oct 24, 1917</string>
+		<string>Battle of Caporetto starts on the Austro-Italian front of World War I</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Oct 31, 1917</string>
+		<string>Battle of Beersheba - &quot;last successful cavalry charge in history&quot;</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Nov 6, 1917</string>
+		<string>Third Battle of Ypres ends: After three months of fierce fighting, Canadian forces take Passchendaele in Belgium.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Nov 7, 1917</string>
+		<string>Third Battle of Gaza ends: British forces capture Gaza from the Ottoman Empire.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Nov 20, 1917</string>
+		<string>Battle of Cambrai begins - British forces make early progress in an attack on German positions but are later pushed back.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 14</string>
+		<string>Dec 7, 1917</string>
+		<string>US becomes 13th country to declare war on Austria during World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Jan 8, 1918</string>
+		<string>President Woodrow Wilson announces his &quot;Fourteen Points&quot; for the aftermath of World War I.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Jan 26, 1918</string>
+		<string>US food administrator Hoover calls for &quot;wheatless&quot; and &quot;meatless&quot; days for war effort.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Mar 3, 1918</string>
+		<string>Germany, Austria and Russia sign the Treaty of Brest-Litovsk ending Russia&apos;s involvement in World War I, and leading to the independence of Finland, Estonia, Latvia, Lithuania and Poland.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Mar 7, 1918</string>
+		<string>Finland forms an alliance with Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Mar 21, 1918</string>
+		<string>Second Battle of the Somme begins.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 15</string>
+		<string>Apr 4, 1918</string>
+		<string>Second Battle of the Somme ends.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>Apr 8, 1918</string>
+		<string>Actors Douglas Fairbanks and Charlie Chaplin sell war bonds on the streets of New York, New York&apos;s financial district.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>Apr 21, 1918</string>
+		<string>German fighter ace Manfred von Richthofen, known as &quot;The Red Baron&quot;, is shot down and killed over Vaux sur Somme in France.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>May 15, 1918</string>
+		<string>43rd Preakness (first Division): Johnny Loftus aboard War Cloud wins in 1:53.6.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>Jun 1, 1918</string>
+		<string>Battle for Belleau Wood begins.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>Jul 15, 1918</string>
+		<string>Second Battle of the Marne - The battle begins near the River Marne with a German attack.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 16</string>
+		<string>Jul 20, 1918</string>
+		<string>German troops cross the Marne.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Aug 2, 1918</string>
+		<string>Japan announces that it is deploying troops to Siberia in the aftermath of World War I.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Aug 8, 1918</string>
+		<string>Battle of Amiens - Canadian troops, backed by Australians, begin a string of almost continuous victories with a push through the German front lines.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Aug 11, 1918</string>
+		<string>Battle of Amiens ends</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Sep 26, 1918</string>
+		<string>Battle of Meuse.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Sep 29, 1918</string>
+		<string>The Hindenburg Line is broken by Allied forces during World War I.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 17</string>
+		<string>Oct 1, 1918</string>
+		<string>Arab forces under T. E. Lawrence (aka &quot;Lawrence of Arabia&quot;) capture Damascus.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Oct 13, 1918</string>
+		<string>Mehmed Talat Pasha and the Young Turk (C.U.P.) ministry resign and sign an armistice, ending Ottoman participation in World War I</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Oct 30, 1918</string>
+		<string>The Ottoman Empire signs an armistice with the Allies, ending the First World War in the Middle East</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Nov 3, 1918</string>
+		<string>Austria-Hungary enters an armistice with the World War I Allies, and the Habsburg-ruled empire dissolves.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Nov 4, 1918</string>
+		<string>World War I: Austria-Hungary surrenders to Italy.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Nov 11, 1918</string>
+		<string>The Great War ends, after Germany, the last of the Central Powers, surrenders to the Allies.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>World War I</string>
+		<string>Quiz # 18</string>
+		<string>Dec 4, 1918</string>
+		<string>US President Woodrow Wilson sails for the World War I peace talks in Versailles, becoming the first US president to travel to Europe while in office.</string>
+		<string>b</string>
+	</array>
+</array>
+</plist>

@@ -26,7 +26,7 @@ class Animations {
 }
 
 class ButtonTranslation {
-    class func translate(fromButton: SpecialButton, toLabel: UILabel, labelDate: UILabel) {
+    class func translate(fromButton: SpecialButton, toLabel: UILabel, labelDate: SpecialLabel) {
         let fromButtonFrame = fromButton.frame
         let toLabelFrame = toLabel.frame
         let maxXFromButton = fromButtonFrame.maxX
@@ -34,9 +34,9 @@ class ButtonTranslation {
         let maxXToLabel = toLabelFrame.maxX
         let maxYToLabel = toLabelFrame.maxY
         UIView.animate(withDuration: 1, animations: {
-            fromButton.transform = CGAffineTransform(translationX: maxXToLabel - maxXFromButton, y: maxYToLabel - maxYFromButton)}, completion:{finished in completionAnimation(fromButton: fromButton, toLabel: toLabel, labelDate: labelDate)})
+            fromButton.transform = CGAffineTransform(translationX: maxXToLabel - maxXFromButton, y: maxYToLabel - maxYFromButton)}, completion:{finished in completionAnimation(fromButton: fromButton, toLabel: toLabel, labelDate: labelDate )})
         }
-    class func completionAnimation(fromButton: SpecialButton, toLabel: UILabel, labelDate: UILabel){
+    class func completionAnimation(fromButton: SpecialButton, toLabel: UILabel, labelDate: SpecialLabel){
         let screen = ScreenSize()
         let screenSize = screen.identify()
         let fontDate = screenSize.2
@@ -44,6 +44,8 @@ class ButtonTranslation {
         toLabel.isHidden = true
         labelDate.isHidden = false
         labelDate.layer.masksToBounds = true
+        labelDate.leftInset = 2
+        labelDate.rightInset = 2
         labelDate.numberOfLines = 0
         labelDate.lineBreakMode = .byWordWrapping
         labelDate.layer.cornerRadius = labelDate.frame.width/2

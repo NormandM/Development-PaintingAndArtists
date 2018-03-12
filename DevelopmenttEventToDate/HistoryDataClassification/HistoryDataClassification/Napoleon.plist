@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>Nov 21, 1791</string>
+		<string>Napoleon Bonaparte is appointed Commander-in-Chief of the Armies of the French Republic.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>May 15, 1795</string>
+		<string>First Coalition: Napoleon I of France enters Milan in triumph.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>Oct 3, 1795</string>
+		<string>Napoleon  rises to national prominence being named to defend the revolutionary government.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>Mar 9, 1796</string>
+		<string>Napoleon Bonaparte marries Josephine de Beauharnais.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>Apr 13, 1796</string>
+		<string>Battle at Millesimo Italy: Napoleon beats Austrians.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 1</string>
+		<string>Apr 22, 1796</string>
+		<string>Napoleon defeats Piedmontese at Battle of Mondovi.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>Apr 28, 1796</string>
+		<string>Cherasco Armistice: signed by Napoleon and the King of Sardinia, expanding French territory.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>May 10, 1796</string>
+		<string>Napoleon defeats Austria in Battle of Lodi Bridge.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>Sep 8, 1796</string>
+		<string>Battle of Bassano - French forces defeat Austrian troops at Bassano.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>Nov 17, 1796</string>
+		<string>Battle of Arcole-Napoleon I&apos;s French forces beat Austrians in Italy.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>May 5, 1797</string>
+		<string>Napoleon I&apos;s sister Elisa marries Felix Bacciochi.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 2</string>
+		<string>May 12, 1797</string>
+		<string>First Coalition: Napoleon I of France conquers Venice.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Jul 23, 1798</string>
+		<string>Napoleon captures Alexandria, Egypt.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Mar 6, 1799</string>
+		<string>Napoleon captures Jaffa Palestine.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Mar 7, 1799</string>
+		<string>Napoleon captures Jaffa in Palestine and his troops proceed to kill  2,000 Albanian captives.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Apr 14, 1799</string>
+		<string>Napoleon called for establishing Jerusalem for Jews.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Apr 16, 1799</string>
+		<string>Battle of Mount Tabor: Napoleon drives Ottoman Turks across the River Jordan near Acre.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 3</string>
+		<string>Apr 20, 1799</string>
+		<string>Napoleon issues a decree calling for establishing Jerusalem for Jews.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Jul 25, 1799</string>
+		<string>At Aboukir in Egypt, Napoleon I of France defeats 10,000 Ottomans under Mustafa Pasha.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Aug 23, 1799</string>
+		<string>Napoleon leaves Egypt for France en route to seize power</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Nov 9, 1799</string>
+		<string>Napoleon becomes dictator (first consul) of France.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Dec 24, 1799</string>
+		<string>Jakobijns plot against Napoleon uncovered.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Jan 20, 1800</string>
+		<string>Napoleon I&apos;s sister Carolina marries King Joachim Murat of Naples.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 4</string>
+		<string>Jun 14, 1800</string>
+		<string>Napoleon&apos;s French Army defeats the Austrians at the Battle of Marengo and re-conquers Italy.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>Dec 24, 1800</string>
+		<string>A bomb explodes in Paris, France, just after Napoleon Bonaparte passes, killing his escort.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>Apr 2, 1801</string>
+		<string>Napoleonic Wars: Battle of Copenhagen - The British destroy the Danish fleet.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>Jan 25, 1802</string>
+		<string>Napoleon elected President of the Italian (Cisalpine) Republic.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>Apr 26, 1802</string>
+		<string>A general amnesty signed by Napoleon to make peace with factions of the Ancien Regime.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>May 19, 1802</string>
+		<string>The Légion d&apos;Honneur is founded by Napoleon Bonaparte.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 5</string>
+		<string>May 18, 1803</string>
+		<string>Britain declares war on France after Napoleon continues interfering in Italy and Switzerland.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>Feb 23, 1804</string>
+		<string>Conspirators against Napoleon, for restoration of Louis XVIII.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>Mar 21, 1804</string>
+		<string>French civil Code of Napoleon adopted.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>May 18, 1804</string>
+		<string>Napoleon Bonaparte proclaimed Emperor of France.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>Dec 1, 1804</string>
+		<string>Emperor Napoleon marries Joséphine of Martinique.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>Dec 2, 1804</string>
+		<string>Napoleon Bonaparte crowned first emperor of France in Paris by Pope Pius VII.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 6</string>
+		<string>Mar 17, 1805</string>
+		<string>The Italian Republic becomes the Kingdom of Italy, with Napoleon as King.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>May 23, 1805</string>
+		<string>Napoleon Bonaparte is crowned King of Italy in the Cathedral of Milan.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>May 26, 1805</string>
+		<string>Napoleon is crowned king of Italy.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>Oct 21, 1805</string>
+		<string>Austrian General Mack surrenders his army to Napoleon at Ulm, one of Napoleon&apos;s finest hours.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>Dec 2, 1805</string>
+		<string>Napoleon defeats Russians and Austrians at Austerlitz.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>Jan 20, 1807</string>
+		<string>Napoleon convenes the great Sanhedrin, Paris.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 7</string>
+		<string>Feb 8, 1807</string>
+		<string>Napoleon defeats Russians in battle of Eylau.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Feb 9, 1807</string>
+		<string>French Sanhedrin convened by Napoleon.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Jul 7, 1807</string>
+		<string>Peace of Tilsit between France, Prussia and Russia ends the Fourth Coalition.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Sep 2, 1807</string>
+		<string>British Navy bombards Copenhagen to prevent Denmark from surrendering its fleet to Napoleon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Jan 19, 1808</string>
+		<string>Louis Napoleon signs first Dutch aviation law.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Mar 23, 1808</string>
+		<string>Napoleon&apos;s brother Joseph takes the throne of Spain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 8</string>
+		<string>Apr 9, 1808</string>
+		<string>Mayor Wolters offers French king Louis Napoleon townhall as a palace.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Apr 17, 1808</string>
+		<string>Bayonne Decree by Napoleon I of France orders seizure of US ships.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>May 30, 1808</string>
+		<string>Napoleon annexes Tuscany and gave it seats in French Senate.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Feb 1, 1809</string>
+		<string>Dutch King Louis Napoleon accepts metric system.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Apr 14, 1809</string>
+		<string>Napoleon defeated Austria in the Battle of Abensberg, Bavaria.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Apr 20, 1809</string>
+		<string>Napoleon I defeats Austria at Battle of Abensberg, Bavaria.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 9</string>
+		<string>Apr 22, 1809</string>
+		<string>Battle at Eckmnhl - Napoleon beats Austria arch duke Karl.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>May 17, 1809</string>
+		<string>Napoleon I of France orders the annexation of the Papal States to the French Empire.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>May 21, 1809</string>
+		<string>Battle at Aspern-Essling: Austrian arch duke Karl beats Napoleon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Dec 16, 1809</string>
+		<string>Napoleon Bonaparte divorces Empress Josephine by the French Senate.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Jan 10, 1810</string>
+		<string>French church annuls marriage of Napoleon I and Joséphine.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Feb 11, 1810</string>
+		<string>Napoleon marries Marie-Louise of Austria.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 10</string>
+		<string>Feb 20, 1810</string>
+		<string>Andreas Hofer military leader (fought Napoleon&apos;s France), executed at age 42.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>Mar 11, 1810</string>
+		<string>Emperor Napoleon married by proxy to Archduchess Marie Louise.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>May 25, 1810</string>
+		<string>Argentina declares independence from Napoleonic Spain (National Day).</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>Jul 9, 1810</string>
+		<string>Napoleon officially makes Holland part of his empire.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>Jan 9, 1812</string>
+		<string>Swedish Pomerania (Germany) seized by Napoleon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>Jun 12, 1812</string>
+		<string>Napoleon&apos;s invasion of Russia begins.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 11</string>
+		<string>Jun 22, 1812</string>
+		<string>Napoleon invades Russia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Jun 24, 1812</string>
+		<string>Napoleon&apos;s Grande Armée crosses the Neman River beginning his invasion of Russia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Jul 22, 1812</string>
+		<string>Peninsular War: British forces defeat French troops near Salamanca, Spain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Sep 7, 1812</string>
+		<string>Napoleon defeats the Russian army of Alexander I near the village of Borodino.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Sep 14, 1812</string>
+		<string>Napoleon occupies Moscow.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Sep 15, 1812</string>
+		<string>The French army under Napoleon reaches the Kremlin in Moscow.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 12</string>
+		<string>Oct 19, 1812</string>
+		<string>Napoleon begins his retreat from Moscow.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Oct 23, 1812</string>
+		<string>De Malet, a French general, conspires against Napoleon. He was executed on October 29.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Oct 24, 1812</string>
+		<string>The Battle of Maloyaroslavets takes place near Moscow.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Nov 29, 1812</string>
+		<string>Napoleon&apos;s Grand Army crosses Berezina River in retreat from Russia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Mar 4, 1813</string>
+		<string>Russian troops fighting the army of Napoleon reach Berlin in Germany.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>May 20, 1813</string>
+		<string>Napoleon leads his troops to victory in Saxony, against the armies of Russia and Prussia. </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 13</string>
+		<string>Aug 27, 1813</string>
+		<string>Napoleon defeats the Austrians, Russians and Prussians at the Battle of Dresden</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Oct 19, 1813</string>
+		<string>The Battle of Leipzig concludes, giving Napoleon Bonaparte one of his worst defeats.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Mar 7, 1814</string>
+		<string>Napoleon wins the Battle of Craonne.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Mar 10, 1814</string>
+		<string>Napoleon I of France is defeated at the Battle of Laon in France.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Mar 30, 1814</string>
+		<string>Britain and allies march into Paris after defeating Napoleon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Mar 31, 1814</string>
+		<string>Forces allied against Napoleon capture Paris France.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 14</string>
+		<string>Apr 4, 1814</string>
+		<string>Napoleon abdicates for the first time.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>Apr 6, 1814</string>
+		<string>Napoleon abdicates. He is then exiled to Elba.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>Apr 11, 1814</string>
+		<string>Napoleon Bonaparte abdicates and is banished to the Mediterranean island of Elba.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>May 4, 1814</string>
+		<string>Emperor Napoleon I of France arrives at Portoferraio on the island of Elba to begin his exile.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>May 30, 1814</string>
+		<string>The First Treaty of Paris is signed returning French borders to their 1792 extent. </string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>Oct 1, 1814</string>
+		<string>The Congress of Vienna: redraw the Europe&apos;s political map after the defeat of Napoleon.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 15</string>
+		<string>Feb 26, 1815</string>
+		<string>Napoleon and 1,200 leave Elba to start 100-day re-conquest of France.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Mar 1, 1815</string>
+		<string>Napoleon returns to France from his banishment on Elba.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Mar 7, 1815</string>
+		<string>Napoleon meets troops of the Fifth Regiment and they join him on his march to Paris.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Mar 20, 1815</string>
+		<string>Napoleon enters Paris after escape from Elba, begins 100-day rule.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Jun 1, 1815</string>
+		<string>Napoleon swears fidelity to the Constitution of France.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Jun 18, 1815</string>
+		<string>Battle of Waterloo leads to Napoleon Bonaparte abdicating for a second and final time.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 16</string>
+		<string>Jun 22, 1815</string>
+		<string>Second abdication of Napoleon (after Waterloo).</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Jul 15, 1815</string>
+		<string>Napoleon Bonaparte captured.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Jul 17, 1815</string>
+		<string>In France, Napoleon surrenders at Rochefort, Charente-Maritime to British forces.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Aug 8, 1815</string>
+		<string>Napoleon Bonaparte set sail for exile on Saint Helena.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Oct 15, 1815</string>
+		<string>Napoleon I of France begins his exile on St. Helena in the Atlantic Ocean.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Dec 7, 1815</string>
+		<string>Michel Ney, Marshal of France, is executed by firing squad for his support of Napoleon.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 17</string>
+		<string>Dec 15, 1817</string>
+		<string>Maria Walewska [Leszczinska] lover of emperor Napoleon I, dies.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Dec 2, 1852</string>
+		<string>Second French empire: Louis Napoleon (Napoleon&apos;s nephew) becomes emperor.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Jan 14, 1858</string>
+		<string>French Emperor Napoleon III escapes attempt on his life by Felice Orsini.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Jun 4, 1859</string>
+		<string>In the Battle of Magenta, the French army, under Louis-Napoleon, defeats an Austrian army.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Sep 1, 1870</string>
+		<string>Napoleon III captured at Sedan.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Sep 2, 1870</string>
+		<string>Battle of Sedan - Prussian forces take Napoleon III and 100,000 of his soldiers prisoner.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Test</string>
+		<string>Quiz # 18</string>
+		<string>Sep 4, 1870</string>
+		<string>Emperor Napoleon III of France is deposed and the Third Republic is declared.</string>
+		<string>a</string>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>13.8 billion YA</string>
+		<string>Big Bang: the beginning of the universe.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>4.54 billion YA</string>
+		<string>The earth forms</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>4.4 billion YA</string>
+		<string>First appearance of liquid water on Earth.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>1.2 billion YA</string>
+		<string>Sexual reproduction first appears.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>750 million YA</string>
+		<string>First protozoa.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 1</string>
+		<string>550 million YA</string>
+		<string>Porifera (sponges), Anthozoa (corals and sea anemones) appear.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>4.28 billion YA</string>
+		<string>Earliest appearance of life on Earth.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>2.8 billion YA</string>
+		<string>Oldest evidence for microbial life.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>1.85 billion YA</string>
+		<string>Cells that contain a nucleus appear.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>485 million YA</string>
+		<string>First vertebrates with true bones (jawless fishes)</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>420 million YA</string>
+		<string>Earliest ray-finned fishes, trigonotarbid arachnids, and land scorpions.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 2</string>
+		<string>410 million YA</string>
+		<string>First signs of teeth in fish.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>800 million YA</string>
+		<string>First multicellular organism.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>600 million YA</string>
+		<string>Formation of an ozone layer.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>560 million YA</string>
+		<string>Earliest fungi</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>395 million YA</string>
+		<string>The first known tetrapod tracks on land.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>360 million YA</string>
+		<string>First crabs and ferns. Land flora dominated by seed ferns.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 3</string>
+		<string>340 million YA</string>
+		<string>Diversification of amphibians</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>535 million YA</string>
+		<string>Major diversification of living things in the oceans.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>530 million YA</string>
+		<string>The first known footprints on land.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>434 million YA</string>
+		<string>The first primitive plants move onto land.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>251.4 million YA</string>
+		<string>The Permian–Triassic extinction event eliminates over 90-95% of marine species.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>248 million YA</string>
+		<string>Sturgeon and paddlefish (Acipenseridae) first appear.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 4</string>
+		<string>240 million YA</string>
+		<string>Increase in diversity of gomphodont cynodonts and rhynchosaurs</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>350 million YA</string>
+		<string>First large sharks, ratfishes, and hagfish</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>305 million YA</string>
+		<string>Earliest reptiles.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>280 million YA</string>
+		<string>Earliest beetles, seed plants and conifers.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>176 million YA</string>
+		<string>First members of the Stegosauria group of dinosaurs</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>165 million YA</string>
+		<string>First rays and glycymeridid bivalves</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 5</string>
+		<string>163 million YA</string>
+		<string>Pterodactyloid pterosaurs first appear.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>225 million YA</string>
+		<string>Earliest dinosaurs, first mammals.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>220 million YA</string>
+		<string>First flies and turtles.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>195 million YA</string>
+		<string>First pterosaurs.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>115 million YA</string>
+		<string>First monotreme mammals</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>110 million YA</string>
+		<string>First hesperornithes, toothed diving birds.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 6</string>
+		<string>106 million YA</string>
+		<string>Spinosaurus, the largest theropod dinosaur, appears in the fossil record</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>190 million YA</string>
+		<string>Extensive development of sponge reefs.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>170 million YA</string>
+		<string>Earliest salamanders.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>130 million YA</string>
+		<string>The rise of the angiosperms pollinated by wind or water. </string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>66 million YA</string>
+		<string>The Cretaceous–Paleogene extinction event eradicates about half of all animal species.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>56 million YA</string>
+		<string>Gastornis, a large flightless bird, appears in the fossil record</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 7</string>
+		<string>55 million YA</string>
+		<string>Modern bird groups diversify.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>100 million YA</string>
+		<string>Earliest bees</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>90 million YA</string>
+		<string>Earliest snakes</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>80 million YA</string>
+		<string>First ants</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>40 million YA</string>
+		<string>Modern-type butterflies and moths appear.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>35 million YA</string>
+		<string>First eagles and hawks.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 8</string>
+		<string>33 million YA</string>
+		<string>Evolution of the thylacinid marsupials (Badjcinus)</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>70 million YA</string>
+		<string>Mammals increase in diversity.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>68 million YA</string>
+		<string>Tyrannosaurus, the largest terrestrial predator of what is now western North America</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>60 million YA</string>
+		<string>Earliest true primates.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>15 million YA</string>
+		<string>First bovids and kangaroos</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>10 million YA</string>
+		<string>Grasslands and savannas are established, diversity in insects, especially ants and termites.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 9</string>
+		<string>5.5 million YA</string>
+		<string>Ardipithecus, early “proto-human” shares traits with chimps and gorillas, and is forest-dwelling</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>52 million YA</string>
+		<string>First bats appear (Onychonycteris)</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>50 million YA</string>
+		<string>Tapirs, rhinoceroses, and camels appear.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>25 million YA</string>
+		<string>First deer</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>4.8 million YA</string>
+		<string>Mammoths appear.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>2.5 million YA</string>
+		<string>Homo Habilis appears.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 10</string>
+		<string>1.7 million YA</string>
+		<string>Extinction of australopithecines</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>20 million YA</string>
+		<string>First giraffes, hyenas, bears and giant anteaters.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>6.5 million YA</string>
+		<string>First hominins (Sahelanthropus)</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>5.8 million YA</string>
+		<string>Orrorin tugenensis, oldest human ancestor thought to have walked on two legs</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>400 thousand YA</string>
+		<string>Early humans begin to hunt with spears</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>250 thousand YA</string>
+		<string>Anatomically modern humans appear in Africa.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 11</string>
+		<string>150 thousand YA</string>
+		<string>Humans possibly capable of speech. </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>4 million YA</string>
+		<string>Australopithecines appear. They have brains no larger than a chimpanzee’s</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>1.8 million YA</string>
+		<string>Homo erectus is found in Asia. First true hunter-gatherer ancestor, and also first to have migrated out of Africa</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>0.6 million YA</string>
+		<string>Homo Heidelbergensis lives in Africa and Europe. Similar brain capacity to modern humans</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>50 thousand YA</string>
+		<string>Humans begin burying their dead ritually; create clothes from animal hides.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>40 thousand YA</string>
+		<string>The last of the giant monitor lizards (Varanus priscus) die out</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 12</string>
+		<string>15 thousand YA</string>
+		<string>The last woolly rhinoceros are believed to have gone extinct</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>350 thousand YA</string>
+		<string>Evolution of Neanderthals</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>325 thousand YA</string>
+		<string>Oldest early human footprints.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>195 thousand YA</string>
+		<string>Our own species Homo sapiens appears on the scene – and shortly after begins to migrate across Asia and Europe. </string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>11 thousand YA</string>
+		<string>Short-faced bears vanish from North America.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>8 thousand YA</string>
+		<string>The Giant Lemur died out</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 13</string>
+		<string>5 thousand YA</string>
+		<string>Earliest known writing</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>33 thousand YA</string>
+		<string>Oldest cave art. Later, Stone Age artisans create the spectacular murals at Lascaux and Chauvet in France</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>30 thousand YA</string>
+		<string>Extinction of Neanderthals.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>12 thousand YA</string>
+		<string>Modern people reach the Americas</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>485 million YA</string>
+		<string>First vertebrates with true bones (jawless fishes)</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>420 million YA</string>
+		<string>Earliest ray-finned fishes, trigonotarbid arachnids, and land scorpions.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 14</string>
+		<string>410 million YA</string>
+		<string>First signs of teeth in fish.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>10 thousand YA</string>
+		<string>Agriculture develops and spread. First villages. Possible domestication of dogs.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>5 500 YA</string>
+		<string>Stone Age ends and Bronze Age begins. Humans begin to smelt and work copper and tin</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>4 thousand YA</string>
+		<string>The Sumerians of Mesopotamia develop the world’s first civilisation</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>395 million YA</string>
+		<string>The first known tetrapod tracks on land.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>360 million YA</string>
+		<string>First crabs and ferns. Land flora dominated by seed ferns.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>Life Evolution</string>
+		<string>Quiz # 15</string>
+		<string>340 million YA</string>
+		<string>Diversification of amphibians</string>
+		<string>b</string>
+	</array>
+</array>
+</plist>

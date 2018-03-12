@@ -98,12 +98,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var orientation = Bool()
         if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
             orientation = true
+
+            
         }
         if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
             orientation = false
         }
         return orientation
     }
+
 
 }
 

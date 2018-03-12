@@ -23,7 +23,7 @@ class LabelAndButtonDisplay {
     var buttonFifthDate: SpecialButton
     var buttonSixthDate: SpecialButton
     let fontSizeAndScreenSize = ScreenSize()
-    init (labelFirstEvent: UILabel, labelSecondEvent: UILabel, labelThirdEvent: UILabel, labelFirstDate: UILabel, labelSecondDate: UILabel, labelThirdDate: UILabel, buttonFirstDate: SpecialButton, buttonSecondDate: SpecialButton, buttonThirdDate: SpecialButton, buttonFourthDate: SpecialButton, buttonFifthDate: SpecialButton, buttonSixthDate: SpecialButton){
+    init (labelFirstEvent: UILabel, labelSecondEvent: UILabel, labelThirdEvent: UILabel, labelFirstDate: SpecialLabel, labelSecondDate: SpecialLabel, labelThirdDate: SpecialLabel, buttonFirstDate: SpecialButton, buttonSecondDate: SpecialButton, buttonThirdDate: SpecialButton, buttonFourthDate: SpecialButton, buttonFifthDate: SpecialButton, buttonSixthDate: SpecialButton){
         self.labelFirstEvent = labelFirstEvent
         self.labelSecondEvent = labelSecondEvent
         self.labelThirdEvent = labelThirdEvent
@@ -66,35 +66,69 @@ class LabelAndButtonDisplay {
         buttonFirstDate.layer.cornerRadius = 20
         buttonFirstDate.backgroundColor = UIColor(displayP3Red: 199/255, green: 173/255, blue: 136/255, alpha: 1.0)
         buttonFirstDate.setTitle(event[indexEvent[0]], for: .normal)
+        buttonFirstDate.titleLabel?.numberOfLines = 0
         buttonFirstDate.titleLabel?.font = fontAndScreenSize().0
+        buttonFirstDate.titleLabel?.lineBreakMode = .byWordWrapping
+        
         buttonSecondDate.titleLabel?.textAlignment = NSTextAlignment.center
         buttonSecondDate.layer.cornerRadius = 20
         buttonSecondDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonSecondDate.setTitle(event[indexEvent[1]], for: .normal)
         buttonSecondDate.titleLabel?.font = fontAndScreenSize().0
+        buttonSecondDate.titleLabel?.numberOfLines = 0
+        buttonSecondDate.titleLabel?.lineBreakMode = .byWordWrapping
+       
         buttonThirdDate.titleLabel?.textAlignment = NSTextAlignment.center
         buttonThirdDate.layer.cornerRadius = 20
         buttonThirdDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonThirdDate.setTitle(event[indexEvent[2]], for: .normal)
         buttonThirdDate.titleLabel?.font = fontAndScreenSize().0
+        buttonThirdDate.titleLabel?.numberOfLines = 0
+        buttonThirdDate.titleLabel?.lineBreakMode = .byWordWrapping
+        
+        
         buttonFourthDate.titleLabel?.textAlignment = NSTextAlignment.center
         buttonFourthDate.layer.cornerRadius = 20
         buttonFourthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonFourthDate.setTitle(event[indexEvent[3]], for: .normal)
         buttonFourthDate.titleLabel?.font = fontAndScreenSize().0
+        buttonFourthDate.titleLabel?.numberOfLines = 0
+        buttonFourthDate.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+       
         buttonFifthDate.titleLabel?.textAlignment = NSTextAlignment.center
         buttonFifthDate.layer.cornerRadius = 20
         buttonFifthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonFifthDate.setTitle(event[indexEvent[4]], for: .normal)
         buttonFifthDate.titleLabel?.font = fontAndScreenSize().0
+        buttonFifthDate.titleLabel?.numberOfLines = 0
+        buttonFifthDate.titleLabel?.lineBreakMode = .byWordWrapping
+        
+        
         buttonSixthDate.titleLabel?.textAlignment = NSTextAlignment.center
         buttonSixthDate.layer.cornerRadius = 20
         buttonSixthDate.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         buttonSixthDate.setTitle(event[indexEvent[5]], for: .normal)
         buttonSixthDate.titleLabel?.font = fontAndScreenSize().0
-//        buttonCredits.titleLabel?.textAlignment = NSTextAlignment.center
-//        buttonCredits.layer.cornerRadius = 20
-//        buttonCredits.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+        buttonSixthDate.titleLabel?.numberOfLines = 0
+        buttonSixthDate.titleLabel?.lineBreakMode = .byWordWrapping
+        
+    }
+    func buttonAllDisabled() {
+        buttonFirstDate.isEnabled = false
+        buttonSecondDate.isEnabled = false
+        buttonThirdDate.isEnabled = false
+        buttonFourthDate.isEnabled = false
+        buttonFifthDate.isEnabled = false
+        buttonSixthDate.isEnabled = false
+    }
+    func buttonsAllEnabled() {
+        buttonFirstDate.isEnabled = true
+        buttonSecondDate.isEnabled = true
+        buttonThirdDate.isEnabled = true
+        buttonFourthDate.isEnabled = true
+        buttonFifthDate.isEnabled = true
+        buttonSixthDate.isEnabled = true
+        
     }
     func labelFormat(){
         labelFirstEvent.font = fontAndScreenSize().0
@@ -195,6 +229,19 @@ class LabelAndButtonDisplay {
 class SpecialButton: UIButton {
     var buttonWasMoved: Bool = false
     var buttonRightResponse: String = "0"
+
+}
+class SpecialLabel: UILabel {
+    var topInset:       CGFloat = 0
+    var rightInset:     CGFloat = 5
+    var bottomInset:    CGFloat = 0
+    var leftInset:      CGFloat = 5
+    override func drawText(in rect: CGRect) {
+        let insets: UIEdgeInsets = UIEdgeInsets(top: self.topInset, left: self.leftInset, bottom: self.bottomInset, right: self.rightInset)
+        self.setNeedsLayout()
+        return super.drawText(in: UIEdgeInsetsInsetRect(rect, insets))
+    }
+    
 }
 
 class BarButtons {
@@ -246,6 +293,7 @@ class QuizProgressionBar {
             quizProgressionBar.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 100, y: myTypeWriter.frame.height/1.8 ), size: CGSize(width: 200, height: 0))
         }
         let percentcompleted = Double(numberCompleted)/Double(totalNumber)
+        quizProgressionBar.isUserInteractionEnabled = false
         quizProgressionBar.progressViewStyle = .bar
         quizProgressionBar.progress = Float(percentcompleted)
         quizProgressionBar.progressTintColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
@@ -258,25 +306,27 @@ class QuizProgressionBar {
         
 }
 class ContinueQuizButton {
-    @objc class func continueQuiz(myTypeWriter: UITextView) -> UIButton {
+    @objc class func continueQuiz(myTypeWriter: UITextView, view: UIView) -> UIButton {
         let screen = ScreenSize()
         let screenSize = screen.identify().0
         let continueQuizButton = UIButton()
+        let typeWriterFrameX = myTypeWriter.frame.midX
+        let typeWriterFrameY = myTypeWriter.frame.minY
         if screenSize == "extraLarge" || screenSize == "extraExtraLarge" || screenSize == "extraExtraExtraLarge"{
-            continueQuizButton.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 100, y: myTypeWriter.frame.height/1.4 ), size: CGSize(width: 200, height: 50))
+            continueQuizButton.frame = CGRect(origin: CGPoint(x: typeWriterFrameX - 100, y: typeWriterFrameY + myTypeWriter.frame.height/1.4 ), size: CGSize(width: 200, height: 50))
             continueQuizButton.titleLabel?.font = UIFont.systemFont(ofSize: 18)
         }else{
-            continueQuizButton.frame = CGRect(origin: CGPoint(x: myTypeWriter.frame.width/2 - 50, y: myTypeWriter.frame.height/1.5 ), size: CGSize(width: 100, height: 40))
+            continueQuizButton.frame = CGRect(origin: CGPoint(x: typeWriterFrameX - 50, y: typeWriterFrameY + myTypeWriter.frame.height/1.5 ), size: CGSize(width: 100, height: 40))
                 continueQuizButton.titleLabel?.font = UIFont.systemFont(ofSize: 11)
         }
-
         continueQuizButton.titleLabel?.textAlignment = NSTextAlignment.center
         continueQuizButton.layer.cornerRadius = 15
         continueQuizButton.setTitle("Continue Quiz", for: .normal)
         continueQuizButton.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         continueQuizButton.titleLabel?.textColor = UIColor.white
         continueQuizButton.showsTouchWhenHighlighted = true
-        myTypeWriter.addSubview(continueQuizButton)
+        continueQuizButton.isEnabled = true
+        view.addSubview(continueQuizButton)
         return continueQuizButton
     }
 

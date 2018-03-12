@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>Dec 20, 1860</string>
+		<string>South Carolina is the first state to secede from the United States</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>Jan 9, 1861</string>
+		<string>Mississippi becomes the second state to secede from the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>Jan 18, 1861</string>
+		<string>Georgia joins South Carolina, Florida, Mississippi, and Alabama in secession.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>Apr 12, 1861</string>
+		<string>Confederate forces fire on Fort Sumter, in the harbor of Charleston, South Carolina.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>Apr 13, 1861</string>
+		<string>Fort Sumter surrenders to rebel forces.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 1</string>
+		<string>May 6, 1861</string>
+		<string>Arkansas secedes from the Union.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>Feb 1, 1861</string>
+		<string>Texas secedes from the United States.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>Feb 4, 1861</string>
+		<string>In Montgomery, Alabama the Confederate States of America is formed.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>Feb 9, 1861</string>
+		<string>Jefferson Davis is elected the Provisional President of the Confederate States.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>May 13, 1861</string>
+		<string>Queen Victoria of Britain issues a &quot;proclamation of neutrality&quot;.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>May 20, 1861</string>
+		<string>The state of Kentucky proclaims its neutrality.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 2</string>
+		<string>Jun 8, 1861</string>
+		<string>Tennessee secedes from the Union.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Apr 17, 1861</string>
+		<string>Virginia secedes from the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Apr 20, 1861</string>
+		<string>Robert E. Lee resigns his commission in the United States Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Apr 29, 1861</string>
+		<string>Maryland&apos;s House of Delegates votes not to secede from the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Aug 5, 1861</string>
+		<string>The United States government issues the first income tax.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Jan 19, 1862</string>
+		<string>The Confederacy suffers its first significant defeat: Battle of Mill Springs.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 3</string>
+		<string>Mar 7, 1862</string>
+		<string>Union forces led by General Curtis defeat Confederate troops in Arkansas.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>May 8, 1861</string>
+		<string>Richmond, Virginia, is named the capital of the Confederate States of America.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>Jul 21, 1861</string>
+		<string> At Manassas Junction, Virginia, the first major battle of the war begins.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>Jul 25, 1861</string>
+		<string>Congress states that the war is being fought to preserve the Union and not to end slavery.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>Mar 9, 1862</string>
+		<string>The first battle between two ironclad warships.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>Mar 28, 1862</string>
+		<string>In New Mexico, Union forces succeed in stopping the Confederate invasion.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 4</string>
+		<string>Apr 7, 1862</string>
+		<string>Union Army defeat the Confederates near Shiloh, Tennessee.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Nov 6, 1861</string>
+		<string>Jefferson Davis is elected president of the Confederate States of America.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Feb 6, 1862</string>
+		<string>Ulysses S. Grant gives the US its first victory of the war, by capturing Fort Henry</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Feb 16, 1862</string>
+		<string>General Ulysses S. Grant captures Fort Donelson, Tennessee.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Jun 4, 1862</string>
+		<string>Confederate troops evacuate Fort Pillow on the Mississippi River.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Jul 1, 1862</string>
+		<string>The Battle of Malvern Hill takes place.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 5</string>
+		<string>Jul 16, 1862</string>
+		<string>David G. Farragut becomes the first United States Navy rear admiral.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Mar 8, 1862</string>
+		<string>The iron-clad CSS Virginia is launched at Hampton Roads, Virginia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Mar 13, 1862</string>
+		<string>The U.S. forbids all Union army officers from returning fugitive slaves.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Apr 29, 1862</string>
+		<string>New Orleans falls to Union forces under Admiral David Farragut.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Aug 6, 1862</string>
+		<string>The Confederate ironclad CSS Arkansas is scuttled on the Mississippi River.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Sep 2, 1862</string>
+		<string>President Lincoln restores Union General McClellan to full command.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 6</string>
+		<string>Sep 17, 1862</string>
+		<string>George McClellan halts the northward drive of Robert E. Lee&apos;s.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>May 31, 1862</string>
+		<string>The Battle of Seven Pines.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>Jun 6, 1862</string>
+		<string>Battle of Memphis - Union forces capture Memphis, Tennessee, from the Confederates.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>Jul 23, 1862</string>
+		<string>Henry W. Halleck takes command of the Union Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>Nov 14, 1862</string>
+		<string>President Lincoln approves plan to capture Richmond, Virginia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>Jan 11, 1863</string>
+		<string>General McClernand and Admiral Dixon Porter capture the Arkansas River for the Union.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 7</string>
+		<string>Apr 22, 1863</string>
+		<string>Troops under Union Colonel Benjamin Grierson attack central Mississippi.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>Sep 5, 1862</string>
+		<string>General Robert E. Lee leads 55,000 men across the Potomac River.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>Sep 15, 1862</string>
+		<string>Confederate forces capture Harpers Ferry, Virginia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>Nov 5, 1862</string>
+		<string>Abraham Lincoln removes George McClellan as commander of the Union Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>May 6, 1863</string>
+		<string>The Battle of Chancellorsville ends, with a defeat of the Army of the Potomac.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>May 21, 1863</string>
+		<string>Union forces begin to lay siege to the Confederate-controlled Port Hudson, Louisiana.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 8</string>
+		<string>Jun 14, 1863</string>
+		<string>A Union garrison is defeated by the Army of Northern Virginia in the town of Winchester.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Dec 13, 1862</string>
+		<string>At the Battle of Fredericksburg, Confederates defeat the Union troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Jan 1, 1863</string>
+		<string>The Emancipation Proclamation takes effect in Confederate territory.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Jan 26, 1863</string>
+		<string>Massachusetts Governor receives permission to raise a militia for men of African descent.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Jul 9, 1863</string>
+		<string>Siege of Port Hudson ends.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Jul 18, 1863</string>
+		<string>The first formal African American military  unsuccessfully assaults Fort Wagner.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 9</string>
+		<string>Jul 26, 1863</string>
+		<string>At Salineville, Ohio, Confederate cavalry leader John Hunt Morgan is captured by Union forces.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>May 4, 1863</string>
+		<string>Battle of Chancellorsville . The battle ends with a Union retreat.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>May 28, 1863</string>
+		<string>The first African American regiment, leaves Boston, to fight for the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>Jul 1, 1863</string>
+		<string>the Battle of Gettysburg begins.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>Sep 6, 1863</string>
+		<string>Confederates evacuate Battery Wagner and Morris Island in South Carolina.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>Oct 17, 1863</string>
+		<string>Lincoln calls for 300,000 additional volunteers to join the army </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 10</string>
+		<string>Oct 29, 1863</string>
+		<string>Battle of Wauhatchie - Forces under Union General Grant ward-off a Confederate attack </string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Jul 3, 1863</string>
+		<string>The Union wins the battle of Gettysburg.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Jul 4, 1863</string>
+		<string>Vicksburg, Mississippi surrenders to Ulysses S. Grant after 47 days of siege.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Aug 8, 1863</string>
+		<string>General Lee sends a letter of resignation which is refused by Confederate President Davis.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Nov 16, 1863</string>
+		<string>Near Knoxville, Tennessee. Confederate troops unsuccessfully attack Union forces.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Nov 23, 1863</string>
+		<string>Battle of Chattanooga : Union forces led by General Grant counter-attack Confederate troops.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 11</string>
+		<string>Nov 27, 1863</string>
+		<string>Confederate cavalry leader John Hunt Morgan and several escapes the Ohio state prison.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>Aug 17, 1863</string>
+		<string>In Charleston, South Carolina, Union batteries and ships bombard Confederate-held Fort Sumter.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>Sep 9, 1863</string>
+		<string>The Union Army enters Chattanooga, Tennessee.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>Oct 14, 1863</string>
+		<string>Battle of Bristol Station: General Lee forces fail to drive the Union Army out of Virginia.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>Feb 27, 1864</string>
+		<string>The first Northern prisoners arrive at the Confederate prison at Andersonville, Georgia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>Feb 29, 1864</string>
+		<string>Plans to free 15,000 Union soldiers being held near Richmond, Virginia are thwarted.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 12</string>
+		<string>May 5, 1864</string>
+		<string>The Battle of the Wilderness begins in Spotsylvania County, Virginia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>Nov 17, 1863</string>
+		<string>Confederate forces led by General Longstreet place Knoxville, Tennessee under siege.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>Nov 24, 1863</string>
+		<string>Near Chattanooga, Tennessee, Union forces under General Grant capture Lookout Mountain.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>Nov 25, 1863</string>
+		<string>At Missionary Ridge, Union forces led by General Grant break the Siege of Chattanooga</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>May 7, 1864</string>
+		<string>General Grant army breaks off from the Battle of the Wilderness and moves southwards.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>May 10, 1864</string>
+		<string>Colonel Emory Upton leads an assault against the Confederate at the Battle of Spotsylvania.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 13</string>
+		<string>Jun 3, 1864</string>
+		<string>Battle of Cold Harbor - Union forces attack Confederate troops at Cold Harbor, Virginia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Feb 17, 1864</string>
+		<string>Confederate&apos;s H. L. Hunley is the first submarine to sink a warship, the USS Housatonic.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Apr 12, 1864</string>
+		<string>Fort Pillow massacre : African American soldiers who had surrendered at Fort Pillow are killed</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Apr 17, 1864</string>
+		<string>Battle of Plymouth begins . Confederate forces attack Plymouth, North Carolina.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Jun 12, 1864</string>
+		<string>General Grant pulls his troops from their positions at Cold Harbor, Virginia and moves south.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Jul 24, 1864</string>
+		<string>Kernstown: Confederate General Jubal Early defeats Union troops led by General Crook.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 14</string>
+		<string>Jul 28, 1864</string>
+		<string>Ezra Church: Confederate troops make a third attempt to drive Union forces from Atlanta.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>May 12, 1864</string>
+		<string>Thousands of Union and Confederate soldiers die in &quot;the Bloody Angle&quot;.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>May 15, 1864</string>
+		<string>Students from the Virginia Military Institute fight alongside the Confederate Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>May 20, 1864</string>
+		<string>Battle of Ware Bottom Church - 10,000 troops fight in this Confederate victory.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>Jul 29, 1864</string>
+		<string>Confederate spy Belle Boyd is arrested by Union troops.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>Aug 5, 1864</string>
+		<string>Mobile Bay, Alabama, Admiral Farragut leads a Union flotilla through Confederate defenses.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 15</string>
+		<string>Aug 31, 1864</string>
+		<string>Union forces led by General William T. Sherman launch an assault on Atlanta, Georgia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Jun 5, 1864</string>
+		<string>Battle of Piedmont: Union forces under General Hunter defeat a Confederate army at Piedmont.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Jun 10, 1864</string>
+		<string>Brice&apos;s Crossroads: Confederate troops under Bedford Forrest defeat a larger Union force.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Jun 15, 1864</string>
+		<string>Siege of Petersburg begins.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Sep 29, 1864</string>
+		<string>The Battle of Chaffin&apos;s Farm is fought.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Oct 9, 1864</string>
+		<string> Union cavalrymen in the Shenandoah Valley defeat Confederate forces at Tom&apos;s Brook, Virginia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 16</string>
+		<string>Oct 23, 1864</string>
+		<string>Westport: Union forces under General Curtis defeat Confederate troops led by General Price.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Jul 30, 1864</string>
+		<string>Battle of the Crater: Union forces explode a large bomb under their Confederate trenches.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Aug 18, 1864</string>
+		<string>Union forces try to cut Confederate supply-line in Petersburg attacking Weldon Railroad.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Sep 1, 1864</string>
+		<string>Confederate General John Bell Hood evacuates Atlanta after a long siege by General Sherman.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Nov 15, 1864</string>
+		<string>Union General Sherman burns Atlanta and starts Sherman&apos;s March to the Sea.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Nov 22, 1864</string>
+		<string>Confederate General Bell Hood invades Tennessee.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 17</string>
+		<string>Dec 10, 1864</string>
+		<string>Major General William T. Sherman&apos;s Union Army troops reach Savannah, Georgia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Sep 2, 1864</string>
+		<string>Union forces enter Atlanta, Georgia a day after the Confederate defenders flee the city.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Oct 7, 1864</string>
+		<string>The Confederate forces attempt to regain ground that had been lost around Richmond.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Nov 4, 1864</string>
+		<string>Johnsonville : Confederate troops destroy millions of dollars in material.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Mar 18, 1865</string>
+		<string>The Congress of the Confederate States of America adjourns for the last time.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Mar 19, 1865</string>
+		<string>Bentonville: By the end of the battle, Confederates have retreated from Greenville.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 18</string>
+		<string>Mar 25, 1865</string>
+		<string>In Virginia, Confederate forces capture Fort Stedman from the Union in a bloody battle.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Nov 30, 1864</string>
+		<string>Franklin : The Army led by General John Bell Hood  assault unsuccessfully Union positions</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Dec 4, 1864</string>
+		<string>Waynesboro: Union troops prevent Confederates from interfering with General Sherman&apos;s campaign</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Dec 16, 1864</string>
+		<string>Nashville: Major General Thomas&apos; defeat Lieutenant General John Bell Hood&apos;s Confederate Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Apr 2, 1865</string>
+		<string>Confederate President Davis and most of his Cabinet flee Richmond, Virginia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Apr 4, 1865</string>
+		<string>A day after Union forces capture Richmond, President Lincoln visits the Confederate capital.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 19</string>
+		<string>Apr 6, 1865</string>
+		<string>Confederate General Lee&apos;s fights its last major battle while in retreat from Richmond,.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>Jan 31, 1865</string>
+		<string>Confederate General Robert E. Lee becomes general-in-chief.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>Feb 17, 1865</string>
+		<string>Columbia, South Carolina burns as Confederate forces flee from advancing Union forces.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>Mar 13, 1865</string>
+		<string>The Confederate States of America reluctantly agrees to the use of African American troops.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>Apr 10, 1865</string>
+		<string>A day after his surrender, Confederate General Lee addresses his troops for the last time.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>Apr 26, 1865</string>
+		<string>Confederate General Johnston surrenders to General Sherman at Bennett Place, North Carolina.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 20</string>
+		<string>May 10, 1865</string>
+		<string>Jefferson Davis is captured by Union troops near Irwinville, Georgia.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>Apr 1, 1865</string>
+		<string>Five Forks: In Petersburg, Virginia, Confederate General Lee begins his final offensive.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>Apr 3, 1865</string>
+		<string>Union forces capture Richmond, Virginia, the capital of the Confederate States of America.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>Apr 9, 1865</string>
+		<string>At Appomattox, Virginia, Confederate General Lee surrenders his 28,000 troops to the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>May 26, 1865</string>
+		<string>Confederate General Smith, is the last general of the Confederate Army to surrender.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>Jun 23, 1865</string>
+		<string>At Fort Towson in Oklahoma Confederate General Stand Watie surrenders.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 21</string>
+		<string>Nov 10, 1865</string>
+		<string>Major Henry Wirz is hanged, becoming the only Civil War soldier executed for war crimes.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>Apr 12, 1865</string>
+		<string>Mobile, Alabama, falls to the Union Army.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>Apr 14, 1865</string>
+		<string>Abraham Lincoln is shot by John Wilkes Booth.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>May 13, 1865</string>
+		<string>Palmito Ranch South Texas: the last battle of the Civil War ends with a Confederate victory.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>May 13, 1861</string>
+		<string>Queen Victoria of Britain issues a &quot;proclamation of neutrality&quot;.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>May 20, 1861</string>
+		<string>The state of Kentucky proclaims its neutrality.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 22</string>
+		<string>Jun 8, 1861</string>
+		<string>Tennessee secedes from the Union.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Jul 7, 1865</string>
+		<string>Four conspirators in the assassination of President Abraham Lincoln were hanged.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Jul 24, 1866</string>
+		<string>Tennessee becomes the first U.S. state to be readmitted to the Union.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Aug 20, 1866</string>
+		<string>President Andrew Johnson officially declares the American Civil War to be ended.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Aug 5, 1861</string>
+		<string>The United States government issues the first income tax.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Jan 19, 1862</string>
+		<string>The Confederacy suffers its first significant defeat: Battle of Mill Springs.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>American Civil War</string>
+		<string>Quiz # 23</string>
+		<string>Mar 7, 1862</string>
+		<string>Union forces led by General Curtis defeat Confederate troops in Arkansas.</string>
+		<string>b</string>
+	</array>
+</array>
+</plist>

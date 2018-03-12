@@ -17,6 +17,7 @@ class FinishedQuiz {
         var centerHorizontal = view.frame.width * 0.36
         var centerVertical = centerHorizontal
         let finishedQuizTextView = UITextView()
+        finishedQuizTextView.isUserInteractionEnabled = false
         finishedQuizTextView.backgroundColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 0.5)
         finishedQuizTextView.textAlignment = .center
         finishedQuizTextView.layer.masksToBounds = true
@@ -56,55 +57,71 @@ class FinishedQuiz {
             case extraExtraLarge
             case extraExtraExtraLarge
         }
+        var finishedQuizTextViewX = finishedQuizTextView.frame.midX
+        var finishedQuizTextViewY = finishedQuizTextView.frame.minY
         switch screenDimension {
         case FinishedQuizView.small.rawValue:
             finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 25)
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 37.5, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 75, height: 75))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 50, y: finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
+            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 50, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         case FinishedQuizView.average.rawValue:
             finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 28)
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 50, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 100, height: 100))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 50, y: finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
+            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 50, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         case FinishedQuizView.large.rawValue:
             finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 32)
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 50, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 100, height: 100))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 50, y: finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
+            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 50, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.25 ), size: CGSize(width: 100, height: 40))
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         case FinishedQuizView.extraLarge.rawValue:
             if orientation {
                 centerHorizontal = view.frame.width * 0.25
                 centerVertical = centerHorizontal
                 finishedQuizTextView.frame = CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height/2 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2))
+                finishedQuizTextViewX = finishedQuizTextView.frame.midX
+                finishedQuizTextViewY = finishedQuizTextView.frame.minY
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.225 ), size: CGSize(width: 200, height: 60))
+            }else{
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
             }
             finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 58)
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 85, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 170, height: 170))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 100, y: finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
+            
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 30)
         case FinishedQuizView.extraExtraLarge.rawValue:
             if orientation {
+
                 centerHorizontal = view.frame.width * 0.25
                 centerVertical = centerHorizontal
                 finishedQuizTextView.frame = CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height/2 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2))
+                finishedQuizTextViewX = finishedQuizTextView.frame.midX
+                finishedQuizTextViewY = finishedQuizTextView.frame.minY
                 finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 58)
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
             }else{
                 finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 64)
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
             }
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 85, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 170, height: 170))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 100, y: finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
+            
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 30)
         case FinishedQuizView.extraExtraExtraLarge.rawValue:
             if orientation {
                 centerHorizontal = view.frame.width * 0.25
                 centerVertical = centerHorizontal
                 finishedQuizTextView.frame = CGRect(origin: CGPoint(x: view.frame.width/2 - centerHorizontal, y: view.frame.height/2 - centerVertical), size: CGSize(width: centerHorizontal * 2, height: centerVertical * 2))
+                finishedQuizTextViewX = finishedQuizTextView.frame.midX
+                finishedQuizTextViewY = finishedQuizTextView.frame.minY
                 finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 68)
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
             }else{
                 finishedQuizTextView.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 78)
+                boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextViewX - 100, y: finishedQuizTextViewY + finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
             }
             diplomaImageView.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 100, y: finishedQuizTextView.frame.height/25 ), size: CGSize(width: 200, height: 200))
-            boutonMenu.frame = CGRect(origin: CGPoint(x: finishedQuizTextView.frame.width/2 - 100, y: finishedQuizTextView.frame.height/1.2 ), size: CGSize(width: 200, height: 60))
+
             boutonMenu.titleLabel?.font = UIFont.systemFont(ofSize: 30)
         default:
             print("There is no such screen")
@@ -112,7 +129,7 @@ class FinishedQuiz {
         }
         uiViewController.navigationController?.view.addSubview(finishedQuizTextView)
         finishedQuizTextView.addSubview(diplomaImageView)
-        finishedQuizTextView.addSubview(boutonMenu)
+        uiViewController.navigationController?.view.addSubview(boutonMenu)
         return (finishedQuizTextView, boutonMenu)
     }
 }

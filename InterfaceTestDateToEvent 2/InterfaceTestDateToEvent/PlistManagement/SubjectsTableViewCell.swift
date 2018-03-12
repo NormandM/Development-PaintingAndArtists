@@ -9,27 +9,31 @@
 import UIKit
 
 class SubjectTableViewCell: UITableViewCell {
-    var diplomaImageView = UIImageView()
+  
+    var textTitle = UILabel()
+    var iconeImageView = UIImageView()
 
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        let imageName = "mortarboard.png"
-        let diplomaImage = UIImage(named: imageName)!
-        diplomaImageView = UIImageView(image: diplomaImage)
-        diplomaImageView.frame = CGRect(origin: CGPoint(x: 0, y: 0 ), size: CGSize(width: 50, height: 50))
+    }
+    func icone(name: String) -> UIView{
+        let iconeName = name
+        if let iconeImage = UIImage(named: iconeName){
+            iconeImageView = UIImageView(image: iconeImage)
+            let screenSize = ScreenSize()
+            iconeImageView.frame = screenSize.identify().9!
+            textTitle = screenSize.identify().10!
+            textTitle.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+        }
+        return iconeImageView
     }
     func hideImage() {
-        diplomaImageView.isHidden = true
+        iconeImageView.isHidden = true
     }
     func showImage() {
-        diplomaImageView.isHidden = false
+        iconeImageView.isHidden = false
     }
 
-//    func addingImage(indexPath: IndexPath, tableView: UITableView) {
-//        let cell = tableView.cellForRow(at: indexPath) as! SubjectTableViewCell
-//        cell.addSubview(diplomaImageView)
-//    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

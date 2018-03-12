@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TypeWriter {
-
+    
     class func typeWriter(myTypeWriter : UITextView){
         myTypeWriter.backgroundColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 0.5)
         myTypeWriter.textAlignment = .center
@@ -18,6 +19,8 @@ class TypeWriter {
         myTypeWriter.layer.borderColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0).cgColor
         myTypeWriter.layer.cornerRadius = 10
         myTypeWriter.textColor = UIColor.white
+        myTypeWriter.textContainerInset = UIEdgeInsetsMake(10 , 5, 0, 5)
+        myTypeWriter.isUserInteractionEnabled = false
     }
     class func typeWriterFirst(uiViewController: UIViewController, view: UIView, indexQuestionA: [Int], date: [String], isPositionUp: Bool) -> (Array<String.Element>, UITextView){
         var firstDate = String()
@@ -30,15 +33,24 @@ class TypeWriter {
         uiViewController.navigationController?.view.addSubview(myTypeWriter)
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "MMM d, yyyy"
-        let dateX = dateFormater.date(from: date[indexQuestionA[0]])
-        let dateY = dateFormater.date(from: date[indexQuestionA[2]])
-        dateFormater.dateFormat = "MMMM yyyy"
-        if let date0 = dateX, let date2 = dateY{
-            firstDate = dateFormater.string(from: date0)
-            secondDate = dateFormater.string(from: date2)
-        }else{
-            firstDate = date[indexQuestionA[0]].lastWord
-            secondDate = date[indexQuestionA[2]].lastWord
+        if String(date[indexQuestionA[0]]).contains("BC"){
+            firstDate = date[indexQuestionA[0]]
+            secondDate = date[indexQuestionA[2]]
+        }else if String(date[indexQuestionA[0]]).contains("YA"){
+            var first = date[indexQuestionA[0]].split(separator: " ")
+            firstDate = String(first[0])
+            secondDate = date[indexQuestionA[2]]
+        }else {
+            let dateX = dateFormater.date(from: date[indexQuestionA[0]])
+            let dateY = dateFormater.date(from: date[indexQuestionA[2]])
+            dateFormater.dateFormat = "MMMM yyyy"
+            if let date0 = dateX, let date2 = dateY{
+                firstDate = dateFormater.string(from: date0)
+                secondDate = dateFormater.string(from: date2)
+            }else{
+                firstDate = date[indexQuestionA[0]].lastWord
+                secondDate = date[indexQuestionA[2]].lastWord
+            }
         }
         if firstDate == secondDate {
             myText = Array("""
@@ -84,20 +96,23 @@ What event happened on this date?
 """)
         return (myText, myTypeWriter)
     }
-    class func typeWriterFourth(uiViewController: UIViewController, view: UIView, percentage: Int, isPositionUp: Bool) -> (Array<String.Element>, UITextView){
-        var myText = Array<String.Element>()
+    class func typeWriterFourth(uiViewController: UIViewController, view: UIView, percentage: Int, isPositionUp: Bool, subject: String) -> (UITextView, UIButton){
+        //var myText = Array<String.Element>()
         let screenSize = ScreenSize()
         let screenDimension = screenSize.identify().0
         let myTypeWriter = HelperFormat.helper(view: view, isPositionUp: isPositionUp, position: screenDimension)
         TypeWriter.typeWriter(myTypeWriter: myTypeWriter)
         uiViewController.navigationController?.view.addSubview(myTypeWriter)
-        myText = Array("""
+        let continueQuizButton = ContinueQuizButton.continueQuiz(myTypeWriter: myTypeWriter, view: view)
+        uiViewController.navigationController?.view.addSubview(continueQuizButton)
+
+        myTypeWriter.text = """
 Great Job!
 you have completed \(percentage)%
-of the WW II Quiz
+of \(subject)
 
-""")
-        return (myText, myTypeWriter)
+"""
+        return (myTypeWriter, continueQuizButton)
     }
     
    
@@ -105,25 +120,28 @@ of the WW II Quiz
 
 class TimerAndSequence {
     var myCounter = 0
-    var timerTyper:Timer?
+    var timerTyper = Timer()
     var myTypeWriter: UITextView
     var myText: Array<String.Element>
+    var soundPlayer: SoundPlayer?
     
-    init (myTypeWriter: UITextView, myText: Array<String.Element>) {
+    init (myTypeWriter: UITextView, myText: Array<String.Element>, soundPlayer: SoundPlayer?) {
         self.myTypeWriter = myTypeWriter
         self.myText = myText
+        self.soundPlayer = soundPlayer
     }
     func fireTimer(){
         timerTyper = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(typeLetter), userInfo: nil, repeats: true)
     }
-    @objc func typeLetter(){
+    @objc func typeLetter() {
         if myCounter < myText.count {
             myTypeWriter.text = myTypeWriter.text! + String(myText[myCounter])
             let randomInterval = Double((arc4random_uniform(2)+1))/20
-            timerTyper?.invalidate()
+            timerTyper.invalidate()
             timerTyper = Timer.scheduledTimer(timeInterval: randomInterval, target: self, selector:  #selector(typeLetter), userInfo: nil, repeats: false)
         } else {
-            timerTyper?.invalidate()
+            timerTyper.invalidate()
+            soundPlayer?.stopSound()
         }
         myCounter += 1
     }
