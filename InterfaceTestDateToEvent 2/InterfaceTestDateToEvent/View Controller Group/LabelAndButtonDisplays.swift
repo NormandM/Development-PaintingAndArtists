@@ -250,7 +250,7 @@ class BarButtons {
         let imageName = "coin.png"
         let coinImage = UIImage(named: imageName)
         let coinImageView = UIImageView(image: coinImage!)
-        coinImageView.frame = CGRect(origin: CGPoint(x: 25, y: 7), size: CGSize(width: 30, height: 30))
+        coinImageView.frame = CGRect(origin: CGPoint(x: 25, y: 7), size: CGSize(width: 25, height: 25))
         creditButton.addSubview(coinImageView)
         return creditButton
     }
@@ -259,7 +259,7 @@ class BarButtons {
         let imageName = "book.png"
         let knowledgeButtonImage = UIImage(named: imageName)
         let knowledgeButtonImageView = UIImageView(image: knowledgeButtonImage!)
-        knowledgeButtonImageView.frame = CGRect(origin: CGPoint(x: 5, y: 7), size: CGSize(width: 30, height: 30))
+        knowledgeButtonImageView.frame = CGRect(origin: CGPoint(x: 5, y: 7), size: CGSize(width: 25, height: 25))
         knowledgeButton.addSubview(knowledgeButtonImageView)
     }
 }

@@ -16,14 +16,20 @@ class SubjectTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-    func icone(name: String) -> UIView{
+    func icone(name: String, isFinished: Bool) -> UIView{
         let iconeName = name
         if let iconeImage = UIImage(named: iconeName){
             iconeImageView = UIImageView(image: iconeImage)
             let screenSize = ScreenSize()
             iconeImageView.frame = screenSize.identify().9!
             textTitle = screenSize.identify().10!
-            textTitle.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+            print(isFinished)
+            if isFinished {
+                textTitle.textColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0)
+            }else{
+                textTitle.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+            }
+            
         }
         return iconeImageView
     }

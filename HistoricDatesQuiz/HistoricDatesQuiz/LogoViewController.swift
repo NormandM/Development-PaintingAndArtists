@@ -17,7 +17,11 @@ class LogoViewController: UIViewController {
     var soundID:SystemSoundID = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
         
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
     }
     override func viewDidAppear(_ animated: Bool) {
         let appsLabelFrame  = appsLabel.frame
@@ -35,7 +39,7 @@ class LogoViewController: UIViewController {
     func completionAnimation() {
         let when = DispatchTime.now() + 0.5
         DispatchQueue.main.asyncAfter(deadline: when + 1) {
-            self.performSegue(withIdentifier: "showOption", sender: (Any).self)
+            self.performSegue(withIdentifier: "showMenu", sender: (Any).self)
         }
         
     }
@@ -48,7 +52,7 @@ class LogoViewController: UIViewController {
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showOption"{
+        if segue.identifier == "showMenu"{
             
             
         }

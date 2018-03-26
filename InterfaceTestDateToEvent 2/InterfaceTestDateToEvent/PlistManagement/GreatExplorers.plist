@@ -76,7 +76,7 @@
 		<string>Test</string>
 		<string>Quiz # 2</string>
 		<string>Feb 8, 1513</string>
-		<string>Alonso de Ojeda Spanish explorer (Cura?ao and Bonaire), dies.</string>
+		<string>Alonso de Ojeda Spanish explorer (Curaçao and Bonaire), dies.</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -222,15 +222,15 @@
 	<array>
 		<string>Great Explorers</string>
 		<string>Quiz # 6</string>
-		<string>Oct 12, 524</string>
-		<string>Hernando Cortes leaves to explores Honduras and kills the Aztedc emperor Cuauhtémoc.</string>
+		<string>June, 1524</string>
+		<string>Pedro de Alvarado explores Guatemala and El Salvador </string>
 		<string>a</string>
 	</array>
 	<array>
 		<string>Great Explorers</string>
 		<string>Quiz # 6</string>
-		<string>June, 1524</string>
-		<string>Pedro de Alvarado explores Guatemala and El Salvador </string>
+		<string>Oct 12, 1524</string>
+		<string>Hernando Cortes leaves to explores Honduras and kills the Aztedc emperor Cuauhtémoc.</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -244,14 +244,14 @@
 		<string>Great Explorers</string>
 		<string>Quiz # 6</string>
 		<string>1540</string>
-		<string>Francisco VÃ¡zquez de Coronado explores south-western North America</string>
+		<string>Francisco Vázquez de Coronado explores south-western North America</string>
 		<string>b</string>
 	</array>
 	<array>
 		<string>Great Explorers</string>
 		<string>Quiz # 6</string>
 		<string>1541</string>
-		<string>Francisco VÃ¡squez de Coronado explores Kansas</string>
+		<string>Francisco Vázquez de Coronado explores Kansas</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -426,7 +426,7 @@
 		<string>Great Explorers</string>
 		<string>Quiz # 11</string>
 		<string>1607</string>
-		<string>Captain John Smith explorer and founder of Jamestown</string>
+		<string>Captain John Smith, explorer, founds Jamestown</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -440,7 +440,7 @@
 		<string>Great Explorers</string>
 		<string>Quiz # 11</string>
 		<string>1642</string>
-		<string>Abel Tasman explores Tasmania and New Zealand</string>
+		<string>Abel Tasman explores Tasmania and discovers New Zealand</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -482,7 +482,7 @@
 		<string>Great Explorers</string>
 		<string>Quiz # 12</string>
 		<string>1768</string>
-		<string>Captain James Cook discovers New Zealand</string>
+		<string>Captain James Cook explores New Zealand</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -538,7 +538,7 @@
 		<string>Test</string>
 		<string>Quiz # 13</string>
 		<string>Feb 8, 1513</string>
-		<string>Alonso de Ojeda Spanish explorer (Cura?ao and Bonaire), dies.</string>
+		<string>Alonso de Ojeda Spanish explorer (Curaçao and Bonaire), dies.</string>
 		<string>b</string>
 	</array>
 	<array>

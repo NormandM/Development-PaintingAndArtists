@@ -11,7 +11,9 @@ import UIKit
 class DateAndeventTableViewCell: UITableViewCell {
     @IBOutlet weak var columnDate: UILabel!
     @IBOutlet weak var columnEventDescription: UILabel!
-
+   
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

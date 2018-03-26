@@ -11,11 +11,13 @@ import UIKit
 
 struct ScreenSize {
     let screenSize = UIScreen.main.bounds
-    func identify() ->  (String, UIFont, UIFont, UIFont, UIFont, CGFloat?, CGFloat?, CGFloat?, CGFloat?, CGRect?, UILabel?){
+    func identify() ->  (String, UIFont, UIFont, UIFont, UIFont, CGFloat?, CGFloat?, CGFloat?, CGFloat?, CGRect?, UILabel?, UIFont, UIFont){
         var fontSize = UIFont()
         var fontSize2 = UIFont()
         var fontSize3 = UIFont()
         var fontSize4 = UIFont()
+        var fontSize5 = UIFont()
+        var fontSize6 = UIFont()
         var textTitle = UILabel()
         var constantLabelThirdEventCenter: CGFloat? = nil
         var constantButtonFirstEventCenter: CGFloat? = nil
@@ -34,6 +36,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 11)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 15.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 15.0)!
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 22.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 22.0)!
             iconeImageView.frame = CGRect(origin: CGPoint(x: 5, y: 10 ), size: CGSize(width: 30, height: 30))
             textTitle = UILabel(frame: CGRect(origin: CGPoint(x: 40, y: 0 ), size: CGSize(width: 800, height: 50)))
         }else if surfaceScreen > 200000 && surfaceScreen < 300000 {
@@ -42,6 +46,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 13)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 15.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 15.0)!
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 24.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 24.0)!
             iconeImageView.frame = CGRect(origin: CGPoint(x: 5, y: 10 ), size: CGSize(width: 40, height: 40))
             textTitle = UILabel(frame: CGRect(origin: CGPoint(x: 50, y: 5 ), size: CGSize(width: 800, height: 50)))
         }else if surfaceScreen > 300000 && surfaceScreen < 700000 {
@@ -50,6 +56,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 16)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 22.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 22.0)!
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 29.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 29.0)!
             iconeImageView.frame = CGRect(origin: CGPoint(x: 5, y: 10 ), size: CGSize(width: 45, height: 45))
             textTitle = UILabel(frame: CGRect(origin: CGPoint(x: 60, y: 7 ), size: CGSize(width: 800, height: 50)))
         }else if surfaceScreen > 700000 && surfaceScreen < 800000{
@@ -62,7 +70,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 18)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 26.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 26.0)!
-
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 33.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 33.0)!
             if orientation{
                 constantButtonFirstEventCenter = 65
                 constantLabelThirdEventCenter = -40
@@ -84,7 +93,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 22)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 32.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 32.0)!
-
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 40.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 40.0)!
 
             if orientation{
                 constantButtonFirstEventCenter = 85
@@ -107,7 +117,8 @@ struct ScreenSize {
             fontSize2 = UIFont(name: "HelveticaNeue-Bold", size: 30)!
             fontSize3 =  UIFont(name: "Helvetica-LightOblique", size: 35.0)!
             fontSize4 = UIFont(name: "Helvetica-Bold",size: 35.0)!
-
+            fontSize5 = UIFont(name: "HelveticaNeue-Italic",size: 45.0)!
+            fontSize6 = UIFont(name: "Helvetica-Bold",size: 45.0)!
 
             if orientation{
                 constantButtonFirstEventCenter = 110
@@ -122,6 +133,6 @@ struct ScreenSize {
                 
             }
         }
-        return (screenDimension, fontSize, fontSize2, fontSize3, fontSize4, constantLabelThirdEventCenter, constantButtonFirstEventCenter, constantFirstDateLabelCenterX, constantFirstEventCenterX, iconeImageView.frame, textTitle)
+        return (screenDimension, fontSize, fontSize2, fontSize3, fontSize4, constantLabelThirdEventCenter, constantButtonFirstEventCenter, constantFirstDateLabelCenterX, constantFirstEventCenterX, iconeImageView.frame, textTitle, fontSize5, fontSize6)
     }
 }

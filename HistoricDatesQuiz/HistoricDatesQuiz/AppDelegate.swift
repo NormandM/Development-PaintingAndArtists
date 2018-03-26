@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,8 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearace.tintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
         navigationBarAppearace.barTintColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0)
         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 25), NSAttributedStringKey.foregroundColor:UIColor.white]
-        
         NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        FirebaseApp.configure()
+        // Initialize the Google Mobile Ads SDK.
+        GADMobileAds.configure(withApplicationID:
+            "ca-app-pub-1437510869244180~5400290015")
         return true
     }
 
