@@ -24,8 +24,6 @@ class SubjectTableViewController: UITableViewController {
     var menuButton = UIButton()
     var blurEffectView = UIVisualEffectView()
     var startMessageWasPresented: Bool = false
-    //var totalNumber = Int()
-    //var finishedInTitle = Int()
     override func viewDidLoad() {
         super.viewDidLoad()
         let title = Title()
@@ -45,31 +43,6 @@ class SubjectTableViewController: UITableViewController {
             view.addSubview(blurEffectView)
             UserDefaults.standard.set(true, forKey: "didStart")
         }
-
-//        if CodeDataHandler.cleanDelete(){
-//            let event = CodeDataHandler.fetchObject()
-//            print ("number of events = \(event!.count)")
-//        }
-//        UserDefaults.standard.set(false, forKey: "SpacePioneers")
-//        UserDefaults.standard.set(false, forKey: "WorldWarII")
-//        UserDefaults.standard.set(false, forKey: "WorldWarI")
-//        UserDefaults.standard.set(false, forKey: "GreatExplorers")
-//        UserDefaults.standard.set(false, forKey: "AmericanCivilWar")
-//        UserDefaults.standard.set(false, forKey: "Napoleon")
-//        UserDefaults.standard.set(false, forKey: "FrenchRevolution")
-//        UserDefaults.standard.set(false, forKey: "AncientCivilisation")
-//        UserDefaults.standard.set(false, forKey: "LifeEvolution")
-//        UserDefaults.standard.set(false, forKey: "AmericanRevolution")
-        
-//        let events = CodeDataHandler.fetchObject()
-//        var n = 0
-//        for event in events! {
-//            events![n].isCompleted = true
-//
-//            CodeDataHandler.saveSingleObject(event: events![n])
-//            print(events![n])
-//            n = n + 1
-//        }
 
     }
     
@@ -113,7 +86,6 @@ class SubjectTableViewController: UITableViewController {
         cell.addSubview(textTitle)
         textTitle.text = title
         textTitle.font = fontOfRow
-        //textTitle.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         return cell
     }
     
@@ -237,6 +209,7 @@ class SubjectTableViewController: UITableViewController {
                 let start = StartMessage.message(uiViewController: self, view: self.view)
                 self.startText = start.0
                 self.menuButton = start.1
+                self.menuButton.addTarget(self, action: #selector(self.removeStart), for: .touchUpInside)
             }
             self.tableView.reloadData()
         })

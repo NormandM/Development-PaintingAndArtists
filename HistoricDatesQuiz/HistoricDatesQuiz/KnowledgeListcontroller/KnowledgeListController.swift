@@ -49,15 +49,10 @@ class KnowledgeListController: UITableViewController {
         listOfDates = []
         listOfEventDescription = []
        headerView.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
-        //let viewWidth = view.frame.width
-        //headerView.frame = CGRect(origin: CGPoint(x: 0, y: 0 ), size: CGSize(width: viewWidth, height: screenSize.identify().11))
         headerViewLabel.font = screenSize.identify().3
         headerViewLabel.textColor = UIColor.white
-        //viewTitle = viewTitle.uppercased()
-        headerViewLabel.text = "You were right on first try:"
-        PercentLabel.text = String("\(percentOfGoodResponse)%")
-        PercentLabel.textColor = UIColor.white
-        PercentLabel.font = screenSize.identify().3
+        let percentText = String("\(percentOfGoodResponse)%")
+        headerViewLabel.text = "You were right on first try: \(percentText)"
         guard let finishedAndSelected = CodeDataHandler.filerForCompletedSelectedTitleOfTypeA(searchForTitlte: selectedTitle, inTitleAttribute: "selectedTitle") else {
             print("There is no completed events for this title")
             return

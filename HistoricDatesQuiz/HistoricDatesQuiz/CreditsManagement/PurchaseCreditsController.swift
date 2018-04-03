@@ -17,10 +17,8 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
     @IBOutlet weak var constraintButtonCoin: NSLayoutConstraint!
     @IBOutlet weak var constraintButtonTreasure: NSLayoutConstraint!
     @IBOutlet weak var contraintButtonBundle: NSLayoutConstraint!
-    
     @IBOutlet weak var constraintLeadCoinLabel: NSLayoutConstraint!
     @IBOutlet weak var constraintLeadBagLabel: NSLayoutConstraint!
-    
     @IBOutlet weak var constraintLeadTreasureLabele: NSLayoutConstraint!
     var priceCoins = String()
     var priceBundle =  String()
@@ -29,11 +27,10 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
     var productsRequest = SKProductsRequest()
     var iapProducts = [SKProduct]()
     var credit: Int = 0
+    var orientation = Bool()
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchAvailableProducts()
-        let appleDelegate = AppDelegate()
-        let orientation = appleDelegate.rotated()
         let screenSize = ScreenSize()
         if screenSize.identify().0 == "extraLarge"{
             constraintButtonCoin.constant = 280
@@ -42,16 +39,10 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
             constraintLeadCoinLabel.constant = 100
             constraintLeadBagLabel.constant = 100
             constraintLeadTreasureLabele.constant = 100
-            
             coinLabel.font = screenSize.identify().11
             bagLabel.font = screenSize.identify().11
             treasureLabel.font = screenSize.identify().11
             totalCreditLabel.font = screenSize.identify().12
-            if orientation {
-                constraintButtonCoin.constant = 280
-                constraintButtonTreasure.constant = 280
-                contraintButtonBundle.constant = 280
-            }
         }else if screenSize.identify().0 == "extraExtraLarge"{
             constraintButtonCoin.constant = 310
             constraintButtonTreasure.constant = 310
@@ -63,11 +54,6 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
             bagLabel.font = screenSize.identify().11
             treasureLabel.font = screenSize.identify().11
             totalCreditLabel.font = screenSize.identify().12
-            if orientation {
-                constraintButtonCoin.constant = 310
-                constraintButtonTreasure.constant = 310
-                contraintButtonBundle.constant = 310
-            }
         }else if screenSize.identify().0 == "extraExtraExtraLarge"{
             constraintButtonCoin.constant = 360
             constraintButtonTreasure.constant = 360
@@ -79,11 +65,6 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
             bagLabel.font = screenSize.identify().11
             treasureLabel.font = screenSize.identify().11
             totalCreditLabel.font = screenSize.identify().12
-            if orientation {
-                constraintButtonCoin.constant = 360
-                constraintButtonTreasure.constant = 360
-                contraintButtonBundle.constant = 360
-            }
         }
         credit = UserDefaults.standard.integer(forKey: "credit")
         totalCreditLabel.text = "Your have a total of \(credit) credits"
@@ -92,7 +73,7 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goBackToTheQuiz" {
-            _ = segue.destination as! ViewController
+
         }
     }
     func fetchAvailableProducts()  {
@@ -185,8 +166,9 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
         purchaseMyProduct(product: iapProducts[2])
     }
     @IBAction func OK(_ sender: Any) {
+        
         performSegue(withIdentifier: "goBackToTheQuiz", sender: self)
     }
-    
+
     
 }

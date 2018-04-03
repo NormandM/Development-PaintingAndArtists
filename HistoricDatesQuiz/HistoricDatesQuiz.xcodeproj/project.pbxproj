@@ -34,6 +34,8 @@
 		8E798B6C2022691C00B40A70 /* FinishedQuizDiploma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E798B6B2022691C00B40A70 /* FinishedQuizDiploma.swift */; };
 		8E798B6E2027A67700B40A70 /* SubjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E798B6D2027A67700B40A70 /* SubjectsTableViewCell.swift */; };
 		8E7C6B9C200D4C4B00268BA6 /* TypeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */; };
+		8E7E0CE7206D24060065CEA0 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E0CE6206D24060065CEA0 /* CountingLabel.swift */; };
+		8E7E0CE9206D66AA0065CEA0 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E0CE8206D66AA0065CEA0 /* ActivityIndicatorView.swift */; };
 		8E80809C204601E000CED6E1 /* AmericanRevolution.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E80809B204601E000CED6E1 /* AmericanRevolution.plist */; };
 		8E8080AA2048B23500CED6E1 /* FrenchRevolution.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E8080A92048B23500CED6E1 /* FrenchRevolution.plist */; };
 		8E80DBDB1FFD75E0008CEFB1 /* WorldWarII.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */; };
@@ -113,6 +115,8 @@
 		8E798B6B2022691C00B40A70 /* FinishedQuizDiploma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedQuizDiploma.swift; sourceTree = "<group>"; };
 		8E798B6D2027A67700B40A70 /* SubjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTableViewCell.swift; sourceTree = "<group>"; };
 		8E7C6B9B200D4C4B00268BA6 /* TypeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriter.swift; sourceTree = "<group>"; };
+		8E7E0CE6206D24060065CEA0 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		8E7E0CE8206D66AA0065CEA0 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		8E80809B204601E000CED6E1 /* AmericanRevolution.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AmericanRevolution.plist; sourceTree = "<group>"; };
 		8E8080A92048B23500CED6E1 /* FrenchRevolution.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrenchRevolution.plist; sourceTree = "<group>"; };
 		8E80DBDA1FFD75E0008CEFB1 /* WorldWarII.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorldWarII.plist; sourceTree = "<group>"; };
@@ -191,6 +195,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8E7E0CE5206D23090065CEA0 /* CreditsManagement */ = {
+			isa = PBXGroup;
+			children = (
+				8E6E70C8206184E2005D03FD /* IAPProduct.swift */,
+				8E78A2522001492B0012140A /* PurchaseCreditsController.swift */,
+				8E78A2502001468D0012140A /* PublicityViewController.swift */,
+				8E7E0CE6206D24060065CEA0 /* CountingLabel.swift */,
+				8E7E0CE8206D66AA0065CEA0 /* ActivityIndicatorView.swift */,
+			);
+			path = CreditsManagement;
+			sourceTree = "<group>";
+		};
 		8E982F67203B354A008A5523 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,12 +257,10 @@
 		8EFA3B0E1FF045AA00375B6E /* HistoricDatesQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				8E25F0762052E899008FB9CE /* LogoViewController.swift */,
 				8EFA3B0F1FF045AA00375B6E /* AppDelegate.swift */,
-				8E78A2522001492B0012140A /* PurchaseCreditsController.swift */,
-				8E6E70C8206184E2005D03FD /* IAPProduct.swift */,
-				8E78A2502001468D0012140A /* PublicityViewController.swift */,
+				8E25F0762052E899008FB9CE /* LogoViewController.swift */,
 				8E97F926205ADC740098345B /* StartMessage.swift */,
+				8E7E0CE5206D23090065CEA0 /* CreditsManagement */,
 				8EFA3B461FF0461000375B6E /* PlistManagement */,
 				8EFA3B4D1FF0461000375B6E /* View Controller Group */,
 				8EDD1AE8200BBF2000F4D6A8 /* KnowledgeListcontroller */,
@@ -667,6 +681,7 @@
 				8EFA3B621FF0461100375B6E /* LabelAndButtonDisplays.swift in Sources */,
 				8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */,
 				8E97F927205ADC740098345B /* StartMessage.swift in Sources */,
+				8E7E0CE7206D24060065CEA0 /* CountingLabel.swift in Sources */,
 				8EFA3B561FF0461100375B6E /* HistoricalData.swift in Sources */,
 				8EFA3B5D1FF0461100375B6E /* SubjectTableViewController.swift in Sources */,
 				8E798B6E2027A67700B40A70 /* SubjectsTableViewCell.swift in Sources */,
@@ -686,6 +701,7 @@
 				8E78A2512001468D0012140A /* PublicityViewController.swift in Sources */,
 				8E1B0C8D202B591700E95B65 /* CountBadOrGoodResponse.swift in Sources */,
 				8EFA3B611FF0461100375B6E /* Animations.swift in Sources */,
+				8E7E0CE9206D66AA0065CEA0 /* ActivityIndicatorView.swift in Sources */,
 				8E798B6C2022691C00B40A70 /* FinishedQuizDiploma.swift in Sources */,
 				8E6E70C9206184E2005D03FD /* IAPProduct.swift in Sources */,
 				8EFA3B7C1FF28FF200375B6E /* CodeDataHandler.swift in Sources */,

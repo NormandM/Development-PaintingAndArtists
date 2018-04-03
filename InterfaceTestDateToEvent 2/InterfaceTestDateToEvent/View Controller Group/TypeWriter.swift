@@ -133,6 +133,9 @@ class TimerAndSequence {
     func fireTimer(){
         timerTyper = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(typeLetter), userInfo: nil, repeats: true)
     }
+    func stopTimer() {
+        timerTyper.invalidate()
+    }
     @objc func typeLetter() {
         if myCounter < myText.count {
             myTypeWriter.text = myTypeWriter.text! + String(myText[myCounter])
@@ -147,6 +150,7 @@ class TimerAndSequence {
     }
 }
 class HelperFormat {
+    
     class func helper(view: UIView, isPositionUp: Bool, position: String) -> UITextView{
         let appleDelegate = AppDelegate()
         let orientation = appleDelegate.rotated()
@@ -198,6 +202,7 @@ class HelperFormat {
                     myTypeWriter.font = UIFont(name: "TimesNewRomanPS-BoldItalicMT", size: 45)
                 }
         case TypeWriterPosition.extraExtraLarge.rawValue:
+            
             if orientation {
                 centerVertical = centerHorizontal * 0.4
                 if isPositionUp {
@@ -240,7 +245,10 @@ class HelperFormat {
         }
         return myTypeWriter
     }
+    
 }
+
+
 
 
 

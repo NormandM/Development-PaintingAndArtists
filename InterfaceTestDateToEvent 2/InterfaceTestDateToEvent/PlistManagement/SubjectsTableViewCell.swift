@@ -23,7 +23,6 @@ class SubjectTableViewCell: UITableViewCell {
             let screenSize = ScreenSize()
             iconeImageView.frame = screenSize.identify().9!
             textTitle = screenSize.identify().10!
-            print(isFinished)
             if isFinished {
                 textTitle.textColor = UIColor(red: 100/255, green: 112/255, blue: 108/255, alpha: 1.0)
             }else{

@@ -321,7 +321,7 @@ class ContinueQuizButton {
         }
         continueQuizButton.titleLabel?.textAlignment = NSTextAlignment.center
         continueQuizButton.layer.cornerRadius = 15
-        continueQuizButton.setTitle("Continue Quiz", for: .normal)
+        continueQuizButton.setTitle("Continue", for: .normal)
         continueQuizButton.backgroundColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
         continueQuizButton.titleLabel?.textColor = UIColor.white
         continueQuizButton.showsTouchWhenHighlighted = true

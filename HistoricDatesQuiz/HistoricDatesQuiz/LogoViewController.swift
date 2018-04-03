@@ -34,29 +34,17 @@ class LogoViewController: UIViewController {
         AudioServicesPlaySystemSound(soundID)
         UIView.animate(withDuration: 3, animations: {
             self.appsLabel2.transform = CGAffineTransform(translationX: maxXappsLabel - maxXappsLabel2 , y: 0)}, completion: {finished in self.completionAnimation()})
-        
     }
     func completionAnimation() {
         let when = DispatchTime.now() + 0.5
         DispatchQueue.main.asyncAfter(deadline: when + 1) {
             self.performSegue(withIdentifier: "showMenu", sender: (Any).self)
         }
-        
     }
-    
-    
-    
-    
-    
     // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showMenu"{
-            
-            
+
         }
     }
-    
-
 }
