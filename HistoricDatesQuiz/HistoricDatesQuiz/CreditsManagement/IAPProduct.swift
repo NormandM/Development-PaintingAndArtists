@@ -8,8 +8,10 @@
 
 import Foundation
 
+
 enum IAPProduct: String {
     case coins = "NM.HistoricDatesQuiz.coins"
     case bundleCoins = "NM.HistoricDatesQuiz.bundleCoins"
     case treasure = "NM.HistoricDatesQuiz.treasure"
 }
+

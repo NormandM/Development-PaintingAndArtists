@@ -18,13 +18,11 @@ class KnowledgeListController: UITableViewController {
     var selectedTitle = String()
     var viewTitle = String()
     var listOfEventDescription = [String]()
-    //var arrayOfDates = [[String]]()
     var arrayOfPercentage = [Int]()
     var percentOfGoodResponse = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.title = selectedTitle
         let labelTitle = UILabel(frame: CGRect(x:0, y:0, width:400, height:50))
         labelTitle.backgroundColor = .clear
         labelTitle.numberOfLines = 2

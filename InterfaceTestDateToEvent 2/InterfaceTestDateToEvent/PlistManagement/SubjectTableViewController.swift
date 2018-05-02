@@ -162,6 +162,8 @@ class SubjectTableViewController: UITableViewController {
             for event in finishedInTitle {
                 event.isCompleted = false
                 event.numberCompleted = 0
+                event.goodResponse = 0
+                event.badResponse = 0
                 if CodeDataHandler.saveSingleObject(event: event){
                 }else{print("was not saved")}
             }
@@ -205,6 +207,7 @@ class SubjectTableViewController: UITableViewController {
             _ in
             self.menuButton.removeFromSuperview()
             self.startText.removeFromSuperview()
+            self.startMessageWasPresented = UserDefaults.standard.bool(forKey: "didStart")
             if !self.startMessageWasPresented {
                 let start = StartMessage.message(uiViewController: self, view: self.view)
                 self.startText = start.0

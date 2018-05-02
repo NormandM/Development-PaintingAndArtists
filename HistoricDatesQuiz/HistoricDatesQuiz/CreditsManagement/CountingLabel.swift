@@ -102,17 +102,10 @@ class CountingLabel: UILabel {
             
         }
     }
-    
-    
+
     func invalidateTimer() {
         timer?.invalidate()
         timer = nil
     }
-    
-    
-    
-    
-    
-    
 
 }

@@ -6,14 +6,14 @@
 		<string>French Revolution</string>
 		<string>Quiz # 1</string>
 		<string>Jun 7, 1788</string>
-		<string> Day of the Tiles in Grenoble, first revolt against the king.</string>
+		<string>Day of the Tiles in Grenoble, first revolt against the king.</string>
 		<string>a</string>
 	</array>
 	<array>
 		<string>French Revolution</string>
 		<string>Quiz # 1</string>
 		<string>Aug 8, 1788</string>
-		<string> The royal treasury is declared empty.</string>
+		<string>The royal treasury is declared empty.</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -34,7 +34,7 @@
 		<string>French Revolution</string>
 		<string>Quiz # 1</string>
 		<string>Sep 16, 1789</string>
-		<string>First issue of Jean Paul Marat's newspaper, L'Ami du peuple, proposingl social  revolution.</string>
+		<string>First issue of Jean Paul Marat&apos;s newspaper, L&apos;Ami du peuple, proposingl social  revolution.</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -174,7 +174,7 @@
 		<string>French Revolution</string>
 		<string>Quiz # 5</string>
 		<string>May 18, 1790</string>
-		<string>Marat returns to Paris and resumes publication of L'Ami du people.</string>
+		<string>Marat returns to Paris and resumes publication of L&apos;Ami du people.</string>
 		<string>a</string>
 	</array>
 	<array>
@@ -202,14 +202,14 @@
 		<string>French Revolution</string>
 		<string>Quiz # 5</string>
 		<string>Jun 15, 1791</string>
-		<string> The Assembly forbids priests to wear ecclesiastical costumes outside churches.</string>
+		<string>The Assembly forbids priests to wear ecclesiastical costumes outside churches.</string>
 		<string>b</string>
 	</array>
 	<array>
 		<string>French Revolution</string>
 		<string>Quiz # 5</string>
 		<string>Jul 5, 1791</string>
-		<string> Emperor Leopold II calls on the royal houses of Europe to come to the aid of Louis XVI.</string>
+		<string>Emperor Leopold II calls on the royal houses of Europe to come to the aid of Louis XVI.</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -377,7 +377,7 @@
 		<string>French Revolution</string>
 		<string>Quiz # 9</string>
 		<string>Nov 19, 1792</string>
-		<string>The Convention claims the right to intervene in any country to"free the people".</string>
+		<string>The Convention claims the right to intervene in any country to&quot;free the people&quot;.</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -467,7 +467,7 @@
 	<array>
 		<string>French Revolution</string>
 		<string>Quiz # 12</string>
-		<string>Jan 15, 1792</string>
+		<string>Jan 15, 1793</string>
 		<string>The Convention declares Louis XVI guilty of conspiracy by a vote of 707 to zero.</string>
 		<string>a</string>
 	</array>
@@ -545,7 +545,7 @@
 		<string>French Revolution</string>
 		<string>Quiz # 13</string>
 		<string>Nov 17, 1793</string>
-		<string>On Robespierre's orders, supporters of Danton are arrested.</string>
+		<string>On Robespierre&apos;s orders, supporters of Danton are arrested.</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -580,7 +580,7 @@
 		<string>French Revolution</string>
 		<string>Quiz # 14</string>
 		<string>Mar 15, 1794</string>
-		<string>Robespierre tells the Convention that "All the factions must perish from the same blow."</string>
+		<string>Robespierre tells the Convention that &quot;All the factions must perish from the same blow.&quot;</string>
 		<string>b</string>
 	</array>
 	<array>
@@ -756,6 +756,48 @@
 		<string>Quiz # 18</string>
 		<string>Jul 12, 1790</string>
 		<string>Clergymen are required to take an oath of allegiance to the government.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>May 7, 1795</string>
+		<string>Execution of Fouquier-Tinville, the public prosecutor during the Terror.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>Oct 31, 1795</string>
+		<string>Election of new Directory and end of Convention.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>Nov 9, 1799</string>
+		<string>Bonaparte’s coup d’etat removes Directory and establishes himself as First Consul.</string>
+		<string>a</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>Jun 26, 1794</string>
+		<string>French forces under Jourdan defeat the Austrians at the Battle of Fleurus.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>Feb 13, 1790</string>
+		<string>The Assembly forbids the taking of religious vows.</string>
+		<string>b</string>
+	</array>
+	<array>
+		<string>French Revolution</string>
+		<string>Quiz # 19</string>
+		<string>Oct 27, 1792</string>
+		<string>The French army under Dumouriez invades the Austrian Netherlands . They occupy Brussels.</string>
 		<string>b</string>
 	</array>
 </array>

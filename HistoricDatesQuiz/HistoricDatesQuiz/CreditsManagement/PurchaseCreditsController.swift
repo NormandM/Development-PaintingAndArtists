@@ -14,6 +14,9 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
     @IBOutlet weak var bagLabel: UILabel!
     @IBOutlet weak var treasureLabel: UILabel!
     @IBOutlet weak var totalCreditLabel: UILabel!
+    @IBOutlet weak var coinButton: UIButton!
+    @IBOutlet weak var bundleButton: UIButton!
+    @IBOutlet weak var treasureButton: UIButton!
     @IBOutlet weak var constraintButtonCoin: NSLayoutConstraint!
     @IBOutlet weak var constraintButtonTreasure: NSLayoutConstraint!
     @IBOutlet weak var contraintButtonBundle: NSLayoutConstraint!
@@ -28,8 +31,12 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
     var iapProducts = [SKProduct]()
     var credit: Int = 0
     var orientation = Bool()
+    var isNotConnectedNoReason =  false
     override func viewDidLoad() {
         super.viewDidLoad()
+        coinButton.isEnabled = false
+        bundleButton.isEnabled = false
+        treasureButton.isEnabled = false
         fetchAvailableProducts()
         let screenSize = ScreenSize()
         if screenSize.identify().0 == "extraLarge"{
@@ -68,12 +75,44 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
         }
         credit = UserDefaults.standard.integer(forKey: "credit")
         totalCreditLabel.text = "Your have a total of \(credit) credits"
+
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let reachability = Reachability()
+        let isConnected = reachability.isConnectedToNetwork()
+        isNotConnectedNoReason = false
+        if !isConnected{
+            self.showAlertNoInternet()
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) { // change 2 to desired number of seconds
+            if self.coinButton.isEnabled == false{
+                self.showNoConnection()
+            }
+        }
+
+    }
+
+    // Alerts
+    func showAlertNoInternet() {
+        let alert = UIAlertController(title: "There is no internet connection", message: "You can only purchase credits if you are connected to the internet", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Go Back to Quiz", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.goBackToQuizMenus()}))
+        self.present(alert, animated: true, completion: nil)
+    }
+    func showNoConnection() {
+        let alert = UIAlertController(title: "Cannot connect to the App Store", message: "Please try later", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Go Back to Quiz", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.goBackToQuizMenus()}))
+        self.present(alert, animated: true, completion: nil)
+    }
+    @IBAction func goBackToQuizMenus() {
+        performSegue(withIdentifier: "goBackToTheQuiz", sender: self)
     }
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goBackToTheQuiz" {
-
+            let controller = segue.destination as! ViewController
+            controller.credit = credit
         }
     }
     func fetchAvailableProducts()  {
@@ -100,6 +139,9 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
         if let price = numberFormatter.string(from: myTreasure.price) {
             priceTreasure = price
         }
+        coinButton.isEnabled = true
+        bundleButton.isEnabled = true
+        treasureButton.isEnabled = true
         coinLabel.text = "Buy 200 Credits for \(priceCoins)"
         bagLabel.text = "Buy 500 Credits for \(priceBundle)"
         treasureLabel.text = "Buy 2000 Credits for \(priceTreasure)"
@@ -166,7 +208,6 @@ class PurchaseCreditsController: UIViewController, SKProductsRequestDelegate, SK
         purchaseMyProduct(product: iapProducts[2])
     }
     @IBAction func OK(_ sender: Any) {
-        
         performSegue(withIdentifier: "goBackToTheQuiz", sender: self)
     }
 

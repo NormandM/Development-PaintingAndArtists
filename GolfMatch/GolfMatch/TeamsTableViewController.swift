@@ -81,7 +81,7 @@ extension Array {
     mutating func shuffle() -> Array {
         indices.dropLast().forEach {
             guard case let index = Int(arc4random_uniform(UInt32(count - $0))) + $0, index != $0 else { return }
-            swap(&self[$0], &self[index])
+            self.swapAt($0, index)
         }
         return self
     }

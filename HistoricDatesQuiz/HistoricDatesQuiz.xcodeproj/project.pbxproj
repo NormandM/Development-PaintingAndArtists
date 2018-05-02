@@ -17,6 +17,7 @@
 		8E0DD747203E2A73001D9BC8 /* GreatExplorers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E0DD746203E2A73001D9BC8 /* GreatExplorers.plist */; };
 		8E12A7A42007E43D004060F2 /* KnowledgeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */; };
 		8E19848A201FA9C40022C3AD /* FetchingDataForQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E198489201FA9C40022C3AD /* FetchingDataForQuiz.swift */; };
+		8E1A5B99209663BF00A4D101 /* ConnectionReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A5B98209663BF00A4D101 /* ConnectionReachable.swift */; };
 		8E1B0C8D202B591700E95B65 /* CountBadOrGoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B0C8C202B591700E95B65 /* CountBadOrGoodResponse.swift */; };
 		8E1B0D1D202E439600E95B65 /* WorldWarI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B0D1C202E439600E95B65 /* WorldWarI.plist */; };
 		8E25F075204C67F3008FB9CE /* LifeEvolution.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E25F074204C67F2008FB9CE /* LifeEvolution.plist */; };
@@ -98,6 +99,7 @@
 		8E0DD746203E2A73001D9BC8 /* GreatExplorers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GreatExplorers.plist; sourceTree = "<group>"; };
 		8E12A7A32007E43D004060F2 /* KnowledgeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeListController.swift; sourceTree = "<group>"; };
 		8E198489201FA9C40022C3AD /* FetchingDataForQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingDataForQuiz.swift; sourceTree = "<group>"; };
+		8E1A5B98209663BF00A4D101 /* ConnectionReachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionReachable.swift; sourceTree = "<group>"; };
 		8E1B0C8C202B591700E95B65 /* CountBadOrGoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBadOrGoodResponse.swift; sourceTree = "<group>"; };
 		8E1B0D1C202E439600E95B65 /* WorldWarI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WorldWarI.plist; path = "../../../../../Desktop/this-day-in-history/PlistFiles/WorldWarI.plist"; sourceTree = "<group>"; };
 		8E25F074204C67F2008FB9CE /* LifeEvolution.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LifeEvolution.plist; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				8E78A2502001468D0012140A /* PublicityViewController.swift */,
 				8E7E0CE6206D24060065CEA0 /* CountingLabel.swift */,
 				8E7E0CE8206D66AA0065CEA0 /* ActivityIndicatorView.swift */,
+				8E1A5B98209663BF00A4D101 /* ConnectionReachable.swift */,
 			);
 			path = CreditsManagement;
 			sourceTree = "<group>";
@@ -679,6 +682,7 @@
 				8EFA3B181FF045AA00375B6E /* HistoricDatesQuiz.xcdatamodeld in Sources */,
 				8EFA3B5E1FF0461100375B6E /* TitleSectionManager.swift in Sources */,
 				8EFA3B621FF0461100375B6E /* LabelAndButtonDisplays.swift in Sources */,
+				8E1A5B99209663BF00A4D101 /* ConnectionReachable.swift in Sources */,
 				8E78A2532001492B0012140A /* PurchaseCreditsController.swift in Sources */,
 				8E97F927205ADC740098345B /* StartMessage.swift in Sources */,
 				8E7E0CE7206D24060065CEA0 /* CountingLabel.swift in Sources */,

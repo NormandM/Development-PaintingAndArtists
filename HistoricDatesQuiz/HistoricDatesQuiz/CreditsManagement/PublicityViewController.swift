@@ -19,17 +19,21 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
     @IBOutlet weak var okButton: UIButton!
     @IBOutlet weak var LoadingVideo: UILabel!
     @IBOutlet weak var counterLabel: CountingLabel!
+    
+    
     var activityIndicatorView: ActivityIndicatorView!
     var rewardBasedAdd = GADRewardBasedVideoAd.sharedInstance()
     var creditPublicity = UserDefaults.standard.integer(forKey: "credit")
+    var isConnected = false
+    var activityIndicatorViewAsStop = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        let reachability = Reachability()
+        isConnected = reachability.isConnectedToNetwork()
         let screenSize = ScreenSize()
         let appDelegate = AppDelegate()
         let orientation = appDelegate.rotated()
-        self.activityIndicatorView = ActivityIndicatorView(title: "Loading Video...", center: self.view.center)
-        self.view.addSubview(self.activityIndicatorView.getViewActivityIndicator())
-        self.activityIndicatorView.startAnimating()
+
         if screenSize.identify().0 == "small" {
             iconeVerticalConstraint.constant = -150
         }else if screenSize.identify().0 == "average"{
@@ -45,17 +49,32 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
         LoadingVideo.text = ""
         counterLabel.text = ""
         creditLabel.text = ""
-        okButton.isHidden = true
-        counterLabel.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
-        LoadingVideo.font = screenSize.identify().12
-        creditLabel.font = screenSize.identify().12
-        counterLabel.font = screenSize.identify().13
-        rewardBasedAdd.delegate = self
-        rewardBasedAdd.load(GADRequest(), withAdUnitID: "ca-app-pub-1437510869244180/4741335539")
-        UserDefaults.standard.set(creditPublicity, forKey: "credit")
+        if isConnected {
+            self.activityIndicatorView = ActivityIndicatorView(title: "Loading Video...", center: self.view.center)
+            self.view.addSubview(self.activityIndicatorView.getViewActivityIndicator())
+            self.activityIndicatorView.startAnimating()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 10) { // change 2 to desired number of seco
+                if self.activityIndicatorViewAsStop == false{
+                    self.activityIndicatorView.stopAnimating()
+                    self.noConnectNoReason ()
+                }
+            }
+            okButton.isHidden = true
+            counterLabel.textColor = UIColor(displayP3Red: 147/255, green: 83/255, blue: 71/255, alpha: 1.0)
+            LoadingVideo.font = screenSize.identify().12
+            creditLabel.font = screenSize.identify().12
+            counterLabel.font = screenSize.identify().13
+            rewardBasedAdd.delegate = self
+            rewardBasedAdd.load(GADRequest(), withAdUnitID: "ca-app-pub-1437510869244180/4741335539")
+            UserDefaults.standard.set(creditPublicity, forKey: "credit")
+        }
+        
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        if !isConnected {
+             self.showAlertNoInternetForPublicity()
+        }
         let credit = UserDefaults.standard.integer(forKey: "credit")
         if credit == 50 {
             counterLabel.count(fromValue: 0, toValue: 50, withDuration: 5, andAnimationType: .EaseOut, andCounterType: .Int)
@@ -63,6 +82,17 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
             counterLabel.count(fromValue: 0, toValue: 100, withDuration: 5, andAnimationType: .EaseOut, andCounterType: .Int)
         }
 
+    }
+//     Alerts
+    func showAlertNoInternetForPublicity() {
+        let alert = UIAlertController(title: "There is no internet connection", message: "You can only see a video if you are connected to the internet", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Go Back to Quiz", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.Ok((Any).self)}))
+        self.present(alert, animated: true, completion: nil)
+    }
+    func noConnectNoReason (){
+        let alert = UIAlertController(title: "Cannot load  videos", message: "Please try later", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Go Back to Quiz", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.Ok((Any).self)}))
+        self.present(alert, animated: true, completion: nil)
     }
     
     func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd,
@@ -82,20 +112,18 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
     func rewardBasedVideoAdDidReceive(_ rewardBasedVideoAd:GADRewardBasedVideoAd) {
         if rewardBasedAdd.isReady {
             rewardBasedAdd.present(fromRootViewController: self)
+            activityIndicatorViewAsStop = true
             self.activityIndicatorView.stopAnimating()
         }
     }
     
     func rewardBasedVideoAdDidOpen(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
-
     }
     
     func rewardBasedVideoAdDidStartPlaying(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
-        
     }
     
     func rewardBasedVideoAdDidCompletePlaying(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
-        
     }
     
     func rewardBasedVideoAdDidClose(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
@@ -120,7 +148,7 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
     func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd,
                             didFailToLoadWithError error: Error) {
         self.activityIndicatorView.stopAnimating()
-        LoadingVideo.text = "Sorry, the video failed to load. Please try later"
+        LoadingVideo.text = "Sorry, there is no Video Add at the moment. Please try later"
         okButton.isHidden = false
         
     }
