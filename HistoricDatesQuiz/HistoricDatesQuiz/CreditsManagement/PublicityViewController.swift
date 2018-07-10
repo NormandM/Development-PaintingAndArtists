@@ -57,6 +57,7 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
                 if self.activityIndicatorViewAsStop == false{
                     self.activityIndicatorView.stopAnimating()
                     self.noConnectNoReason ()
+                    self.okButton.isHidden = true
                 }
             }
             okButton.isHidden = true
@@ -85,6 +86,7 @@ class PublicityViewController: UIViewController, GADRewardBasedVideoAdDelegate {
     }
 //     Alerts
     func showAlertNoInternetForPublicity() {
+        okButton.isHidden = true
         let alert = UIAlertController(title: "There is no internet connection", message: "You can only see a video if you are connected to the internet", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Go Back to Quiz", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.Ok((Any).self)}))
         self.present(alert, animated: true, completion: nil)

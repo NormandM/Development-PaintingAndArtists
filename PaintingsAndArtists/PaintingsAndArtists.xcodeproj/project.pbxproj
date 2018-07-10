@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1C43D320C989480010F874 /* RandomizeOrderOfPaintings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C43D220C989480010F874 /* RandomizeOrderOfPaintings.swift */; };
+		8E1C43D620C9AC450010F874 /* Gymnopédie_no.3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */; };
+		8E57650320EABD15001FEF3D /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650220EABD15001FEF3D /* Hint.swift */; };
+		8E57650520EAC722001FEF3D /* EnumForHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650420EAC722001FEF3D /* EnumForHints.swift */; };
+		8E57650720EC0C70001FEF3D /* TitleDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650620EC0C70001FEF3D /* TitleDisplay.swift */; };
+		8E57650920ED7166001FEF3D /* ArtistesAndPaintings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E57650820ED7166001FEF3D /* ArtistesAndPaintings.plist */; };
+		8E57650B20F129CF001FEF3D /* PainterSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650A20F129CF001FEF3D /* PainterSelection.swift */; };
+		8E57650D20F15CB9001FEF3D /* ChosePaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */; };
+		8E6E7B0720E55084001317CB /* ButtonAndLabelDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */; };
+		8EC8905F20E03825000BB518 /* ShakingMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8905E20E03825000BB518 /* ShakingMovement.swift */; };
+		8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8906020E0397A000BB518 /* SoundPlayer.swift */; };
+		8EC8906320E039E3000BB518 /* etc_error_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */; };
+		8EC8906520E03B14000BB518 /* chime_clickbell_octave_up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */; };
+		8EC8906720E15B1E000BB518 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8906620E15B1E000BB518 /* Translation.swift */; };
+		8EE4283220C32102005981B3 /* FontsAndConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4283120C32101005981B3 /* FontsAndConstraints.swift */; };
+		8EFBE76C20B1B169008E7532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE76B20B1B169008E7532 /* AppDelegate.swift */; };
+		8EFBE76E20B1B169008E7532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE76D20B1B169008E7532 /* ViewController.swift */; };
+		8EFBE77120B1B169008E7532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFBE76F20B1B169008E7532 /* Main.storyboard */; };
+		8EFBE77420B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE77220B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld */; };
+		8EFBE77620B1B16D008E7532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFBE77520B1B16D008E7532 /* Assets.xcassets */; };
+		8EFBE77920B1B16D008E7532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFBE77720B1B16D008E7532 /* LaunchScreen.storyboard */; };
+		8EFBE78420B1B16E008E7532 /* PaintingsAndArtistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE78320B1B16E008E7532 /* PaintingsAndArtistsTests.swift */; };
+		8EFBE78F20B1B16E008E7532 /* PaintingsAndArtistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE78E20B1B16E008E7532 /* PaintingsAndArtistsUITests.swift */; };
+		8EFBE79F20B5CBC5008E7532 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE79E20B5CBC5008E7532 /* MenuViewController.swift */; };
+		8EFBE7A120B5CBF4008E7532 /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE7A020B5CBF4008E7532 /* SlideShowViewController.swift */; };
+		8EFBE7A320B5F5E1008E7532 /* infoAndImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE7A220B5F5E1008E7532 /* infoAndImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EFBE78020B1B16E008E7532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFBE76020B1B169008E7532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFBE76720B1B169008E7532;
+			remoteInfo = PaintingsAndArtists;
+		};
+		8EFBE78B20B1B16E008E7532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFBE76020B1B169008E7532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFBE76720B1B169008E7532;
+			remoteInfo = PaintingsAndArtists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1C43D220C989480010F874 /* RandomizeOrderOfPaintings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizeOrderOfPaintings.swift; sourceTree = "<group>"; };
+		8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gymnopédie_no.3.mp3"; sourceTree = "<group>"; };
+		8E57650220EABD15001FEF3D /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
+		8E57650420EAC722001FEF3D /* EnumForHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumForHints.swift; sourceTree = "<group>"; };
+		8E57650620EC0C70001FEF3D /* TitleDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDisplay.swift; sourceTree = "<group>"; };
+		8E57650820ED7166001FEF3D /* ArtistesAndPaintings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArtistesAndPaintings.plist; sourceTree = "<group>"; };
+		8E57650A20F129CF001FEF3D /* PainterSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainterSelection.swift; sourceTree = "<group>"; };
+		8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosePaintingViewController.swift; sourceTree = "<group>"; };
+		8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAndLabelDisplay.swift; sourceTree = "<group>"; };
+		8EC8905E20E03825000BB518 /* ShakingMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingMovement.swift; sourceTree = "<group>"; };
+		8EC8906020E0397A000BB518 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = etc_error_drum.mp3; path = ../../../HistoricDatesQuiz/HistoricDatesQuiz/Sounds/etc_error_drum.mp3; sourceTree = "<group>"; };
+		8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chime_clickbell_octave_up.wav; path = ../../../HistoricDatesQuiz/HistoricDatesQuiz/Sounds/chime_clickbell_octave_up.wav; sourceTree = "<group>"; };
+		8EC8906620E15B1E000BB518 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		8EE4283120C32101005981B3 /* FontsAndConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsAndConstraints.swift; sourceTree = "<group>"; };
+		8EFBE76820B1B169008E7532 /* PaintingsAndArtists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintingsAndArtists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFBE76B20B1B169008E7532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EFBE76D20B1B169008E7532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EFBE77020B1B169008E7532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EFBE77320B1B169008E7532 /* PaintingsAndArtists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintingsAndArtists.xcdatamodel; sourceTree = "<group>"; };
+		8EFBE77520B1B16D008E7532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFBE77820B1B16D008E7532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EFBE77A20B1B16D008E7532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFBE77F20B1B16E008E7532 /* PaintingsAndArtistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintingsAndArtistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFBE78320B1B16E008E7532 /* PaintingsAndArtistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingsAndArtistsTests.swift; sourceTree = "<group>"; };
+		8EFBE78520B1B16E008E7532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFBE78A20B1B16E008E7532 /* PaintingsAndArtistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintingsAndArtistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFBE78E20B1B16E008E7532 /* PaintingsAndArtistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingsAndArtistsUITests.swift; sourceTree = "<group>"; };
+		8EFBE79020B1B16E008E7532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFBE79E20B5CBC5008E7532 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8EFBE7A020B5CBF4008E7532 /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
+		8EFBE7A220B5F5E1008E7532 /* infoAndImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoAndImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFBE76520B1B169008E7532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE77C20B1B16E008E7532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE78720B1B16E008E7532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1C43D420C9A0C80010F874 /* SoundsAndMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */,
+				8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */,
+				8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */,
+			);
+			path = SoundsAndMusic;
+			sourceTree = "<group>";
+		};
+		8E1C441A20D0300A0010F874 /* InfoImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE7A220B5F5E1008E7532 /* infoAndImageViewController.swift */,
+			);
+			path = InfoImageViewController;
+			sourceTree = "<group>";
+		};
+		8E57650E20F27949001FEF3D /* SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE7A020B5CBF4008E7532 /* SlideShowViewController.swift */,
+				8E1C43D220C989480010F874 /* RandomizeOrderOfPaintings.swift */,
+			);
+			path = SlideShow;
+			sourceTree = "<group>";
+		};
+		8E57650F20F279AE001FEF3D /* QuizPart2ChoosePainting */ = {
+			isa = PBXGroup;
+			children = (
+				8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */,
+			);
+			path = QuizPart2ChoosePainting;
+			sourceTree = "<group>";
+		};
+		8EC8905D20E037F2000BB518 /* View Controller Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE76D20B1B169008E7532 /* ViewController.swift */,
+				8E57650A20F129CF001FEF3D /* PainterSelection.swift */,
+				8E57650620EC0C70001FEF3D /* TitleDisplay.swift */,
+				8EC8905E20E03825000BB518 /* ShakingMovement.swift */,
+				8EC8906020E0397A000BB518 /* SoundPlayer.swift */,
+				8EC8906620E15B1E000BB518 /* Translation.swift */,
+				8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */,
+				8E57650220EABD15001FEF3D /* Hint.swift */,
+				8E57650420EAC722001FEF3D /* EnumForHints.swift */,
+			);
+			path = "View Controller Quiz";
+			sourceTree = "<group>";
+		};
+		8EFBE75F20B1B169008E7532 = {
+			isa = PBXGroup;
+			children = (
+				8EFBE76F20B1B169008E7532 /* Main.storyboard */,
+				8E57650820ED7166001FEF3D /* ArtistesAndPaintings.plist */,
+				8EFBE76B20B1B169008E7532 /* AppDelegate.swift */,
+				8EFBE76A20B1B169008E7532 /* PaintingsAndArtists */,
+				8EFBE78220B1B16E008E7532 /* PaintingsAndArtistsTests */,
+				8EFBE78D20B1B16E008E7532 /* PaintingsAndArtistsUITests */,
+				8EFBE76920B1B169008E7532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFBE76920B1B169008E7532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE76820B1B169008E7532 /* PaintingsAndArtists.app */,
+				8EFBE77F20B1B16E008E7532 /* PaintingsAndArtistsTests.xctest */,
+				8EFBE78A20B1B16E008E7532 /* PaintingsAndArtistsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFBE76A20B1B169008E7532 /* PaintingsAndArtists */ = {
+			isa = PBXGroup;
+			children = (
+				8E57650F20F279AE001FEF3D /* QuizPart2ChoosePainting */,
+				8E57650E20F27949001FEF3D /* SlideShow */,
+				8EC8905D20E037F2000BB518 /* View Controller Quiz */,
+				8E1C441A20D0300A0010F874 /* InfoImageViewController */,
+				8EFBE77720B1B16D008E7532 /* LaunchScreen.storyboard */,
+				8EFBE77A20B1B16D008E7532 /* Info.plist */,
+				8EFBE77220B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld */,
+				8EFBE79E20B5CBC5008E7532 /* MenuViewController.swift */,
+				8EE4283120C32101005981B3 /* FontsAndConstraints.swift */,
+				8EFBE77520B1B16D008E7532 /* Assets.xcassets */,
+				8E1C43D420C9A0C80010F874 /* SoundsAndMusic */,
+			);
+			path = PaintingsAndArtists;
+			sourceTree = "<group>";
+		};
+		8EFBE78220B1B16E008E7532 /* PaintingsAndArtistsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE78320B1B16E008E7532 /* PaintingsAndArtistsTests.swift */,
+				8EFBE78520B1B16E008E7532 /* Info.plist */,
+			);
+			path = PaintingsAndArtistsTests;
+			sourceTree = "<group>";
+		};
+		8EFBE78D20B1B16E008E7532 /* PaintingsAndArtistsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFBE78E20B1B16E008E7532 /* PaintingsAndArtistsUITests.swift */,
+				8EFBE79020B1B16E008E7532 /* Info.plist */,
+			);
+			path = PaintingsAndArtistsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFBE76720B1B169008E7532 /* PaintingsAndArtists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFBE79320B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtists" */;
+			buildPhases = (
+				8EFBE76420B1B169008E7532 /* Sources */,
+				8EFBE76520B1B169008E7532 /* Frameworks */,
+				8EFBE76620B1B169008E7532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintingsAndArtists;
+			productName = PaintingsAndArtists;
+			productReference = 8EFBE76820B1B169008E7532 /* PaintingsAndArtists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EFBE77E20B1B16E008E7532 /* PaintingsAndArtistsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFBE79620B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtistsTests" */;
+			buildPhases = (
+				8EFBE77B20B1B16E008E7532 /* Sources */,
+				8EFBE77C20B1B16E008E7532 /* Frameworks */,
+				8EFBE77D20B1B16E008E7532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFBE78120B1B16E008E7532 /* PBXTargetDependency */,
+			);
+			name = PaintingsAndArtistsTests;
+			productName = PaintingsAndArtistsTests;
+			productReference = 8EFBE77F20B1B16E008E7532 /* PaintingsAndArtistsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EFBE78920B1B16E008E7532 /* PaintingsAndArtistsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFBE79920B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtistsUITests" */;
+			buildPhases = (
+				8EFBE78620B1B16E008E7532 /* Sources */,
+				8EFBE78720B1B16E008E7532 /* Frameworks */,
+				8EFBE78820B1B16E008E7532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFBE78C20B1B16E008E7532 /* PBXTargetDependency */,
+			);
+			name = PaintingsAndArtistsUITests;
+			productName = PaintingsAndArtistsUITests;
+			productReference = 8EFBE78A20B1B16E008E7532 /* PaintingsAndArtistsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFBE76020B1B169008E7532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Normand Martin";
+				TargetAttributes = {
+					8EFBE76720B1B169008E7532 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					8EFBE77E20B1B16E008E7532 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8EFBE76720B1B169008E7532;
+					};
+					8EFBE78920B1B16E008E7532 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8EFBE76720B1B169008E7532;
+					};
+				};
+			};
+			buildConfigurationList = 8EFBE76320B1B169008E7532 /* Build configuration list for PBXProject "PaintingsAndArtists" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFBE75F20B1B169008E7532;
+			productRefGroup = 8EFBE76920B1B169008E7532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFBE76720B1B169008E7532 /* PaintingsAndArtists */,
+				8EFBE77E20B1B16E008E7532 /* PaintingsAndArtistsTests */,
+				8EFBE78920B1B16E008E7532 /* PaintingsAndArtistsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFBE76620B1B169008E7532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFBE77920B1B16D008E7532 /* LaunchScreen.storyboard in Resources */,
+				8E1C43D620C9AC450010F874 /* Gymnopédie_no.3.mp3 in Resources */,
+				8EC8906520E03B14000BB518 /* chime_clickbell_octave_up.wav in Resources */,
+				8EFBE77620B1B16D008E7532 /* Assets.xcassets in Resources */,
+				8EFBE77120B1B169008E7532 /* Main.storyboard in Resources */,
+				8E57650920ED7166001FEF3D /* ArtistesAndPaintings.plist in Resources */,
+				8EC8906320E039E3000BB518 /* etc_error_drum.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE77D20B1B16E008E7532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE78820B1B16E008E7532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFBE76420B1B169008E7532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC8905F20E03825000BB518 /* ShakingMovement.swift in Sources */,
+				8E57650520EAC722001FEF3D /* EnumForHints.swift in Sources */,
+				8EFBE7A120B5CBF4008E7532 /* SlideShowViewController.swift in Sources */,
+				8E57650320EABD15001FEF3D /* Hint.swift in Sources */,
+				8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */,
+				8EFBE76E20B1B169008E7532 /* ViewController.swift in Sources */,
+				8EFBE77420B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld in Sources */,
+				8E57650D20F15CB9001FEF3D /* ChosePaintingViewController.swift in Sources */,
+				8EFBE76C20B1B169008E7532 /* AppDelegate.swift in Sources */,
+				8EFBE7A320B5F5E1008E7532 /* infoAndImageViewController.swift in Sources */,
+				8EE4283220C32102005981B3 /* FontsAndConstraints.swift in Sources */,
+				8E57650B20F129CF001FEF3D /* PainterSelection.swift in Sources */,
+				8E1C43D320C989480010F874 /* RandomizeOrderOfPaintings.swift in Sources */,
+				8E57650720EC0C70001FEF3D /* TitleDisplay.swift in Sources */,
+				8EFBE79F20B5CBC5008E7532 /* MenuViewController.swift in Sources */,
+				8E6E7B0720E55084001317CB /* ButtonAndLabelDisplay.swift in Sources */,
+				8EC8906720E15B1E000BB518 /* Translation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE77B20B1B16E008E7532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFBE78420B1B16E008E7532 /* PaintingsAndArtistsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFBE78620B1B16E008E7532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFBE78F20B1B16E008E7532 /* PaintingsAndArtistsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFBE78120B1B16E008E7532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFBE76720B1B169008E7532 /* PaintingsAndArtists */;
+			targetProxy = 8EFBE78020B1B16E008E7532 /* PBXContainerItemProxy */;
+		};
+		8EFBE78C20B1B16E008E7532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFBE76720B1B169008E7532 /* PaintingsAndArtists */;
+			targetProxy = 8EFBE78B20B1B16E008E7532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EFBE76F20B1B169008E7532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFBE77020B1B169008E7532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EFBE77720B1B16D008E7532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFBE77820B1B16D008E7532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EFBE79120B1B16E008E7532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EFBE79220B1B16E008E7532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFBE79420B1B16E008E7532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFBE79520B1B16E008E7532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EFBE79720B1B16E008E7532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtistsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintingsAndArtists.app/PaintingsAndArtists";
+			};
+			name = Debug;
+		};
+		8EFBE79820B1B16E008E7532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtistsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintingsAndArtists.app/PaintingsAndArtists";
+			};
+			name = Release;
+		};
+		8EFBE79A20B1B16E008E7532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaintingsAndArtists;
+			};
+			name = Debug;
+		};
+		8EFBE79B20B1B16E008E7532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6D769Z7F4;
+				INFOPLIST_FILE = PaintingsAndArtistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NM.PaintingsAndArtistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaintingsAndArtists;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFBE76320B1B169008E7532 /* Build configuration list for PBXProject "PaintingsAndArtists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFBE79120B1B16E008E7532 /* Debug */,
+				8EFBE79220B1B16E008E7532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFBE79320B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFBE79420B1B16E008E7532 /* Debug */,
+				8EFBE79520B1B16E008E7532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFBE79620B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtistsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFBE79720B1B16E008E7532 /* Debug */,
+				8EFBE79820B1B16E008E7532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFBE79920B1B16E008E7532 /* Build configuration list for PBXNativeTarget "PaintingsAndArtistsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFBE79A20B1B16E008E7532 /* Debug */,
+				8EFBE79B20B1B16E008E7532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EFBE77220B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EFBE77320B1B169008E7532 /* PaintingsAndArtists.xcdatamodel */,
+			);
+			currentVersion = 8EFBE77320B1B169008E7532 /* PaintingsAndArtists.xcdatamodel */;
+			path = PaintingsAndArtists.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EFBE76020B1B169008E7532 /* Project object */;
+}
