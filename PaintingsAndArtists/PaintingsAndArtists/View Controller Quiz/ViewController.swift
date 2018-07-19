@@ -11,6 +11,9 @@ import AVFoundation
 
 class ViewController: UIViewController {
     let labelTitle = UILabel(frame: CGRect(x:0, y:0, width:1000, height:50))
+    
+    @IBOutlet weak var visualEffect: UIVisualEffectView!
+    @IBOutlet weak var buyCreditsButton: UIButton!
     @IBOutlet weak var paintingImage: UIImageView!
     @IBOutlet var painterButton: [UIButton]!
     @IBOutlet weak var hintButton: UIButton!
@@ -18,6 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var placeHolderButton: UIButton!
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet var messageView: UIView!
+    var effect: UIVisualEffect!
     var partTwoOfQuizDone: Bool = false
     var soundPlayer: SoundPlayer?
     var credit = UserDefaults.standard.integer(forKey: "credit")
@@ -29,6 +35,9 @@ class ViewController: UIViewController {
     var errorCounter = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        effect = visualEffect.effect
+        messageView.layer.cornerRadius = 5
+        visualEffect.effect = nil
         errorMessage.isHidden = true
         placeHolderButton.isHidden = true
         placeHolderButton.isEnabled = false
@@ -41,6 +50,8 @@ class ViewController: UIViewController {
         }
         self.navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = UIColor.black
+        UserDefaults.standard.set(10, forKey: "credit")
+        UserDefaults.standard.set(0, forKey: "successiveRightAnswers")
         if !(userAlreadyExist(credit: "credit")){
             credit = 10
             UserDefaults.standard.set(credit, forKey: "credit")
@@ -54,13 +65,13 @@ class ViewController: UIViewController {
         nextButton.layer.masksToBounds = true
         nextButton.layer.cornerRadius = nextButton.frame.width/2
         nextButton.backgroundColor = UIColor(displayP3Red: 27/255, green: 95/255, blue: 94/255, alpha: 1.0)
-
+        if credit < 1 {
+            MessageView.showMessageView(view: view, messageView: messageView, button: buyCreditsButton, visualEffect: visualEffect, effect: effect)
+            hintButton.isHidden = true
+        }
     }
-    
-
     func quizElementSelection() {
-        let tuppleArrayString = PainterSelection.buttonsNameSelection(artistList: artistList, indexPainting: indexPainting, painterButton: painterButton, n: n)
-        finalArrayOfButtonNames = tuppleArrayString.1
+        finalArrayOfButtonNames = PainterSelection.buttonsNameSelection(artistList: artistList, indexPainting: indexPainting, painterButton: painterButton, n: n)
         labelTitle.text = ""
         errorCounter = 0
         errorMessage.text = ""
@@ -73,7 +84,6 @@ class ViewController: UIViewController {
             n = n + 1
             quizElementSelection()
         }else{
-            
             performSegue(withIdentifier: "showChosePainting", sender: self)
         }
         partTwoOfQuizDone = false
@@ -94,10 +104,12 @@ class ViewController: UIViewController {
                 soundPlayer?.playSound(soundName: "chime_clickbell_octave_up", type: "wav")
                 ButtonTranslation.translate(fromButton: sender, toButton: placeHolderButton)
                 TitleDisplay.show(labelTitle: labelTitle, titleText: artistList[indexPainting[n]][2], nextButton: nextButton, view: self)
+                CreditManagment.increaseOneCredit(hintButton: hintButton)
             }else{
                 let shake = Shake()
                 shake.shakeViewHorizontal(vw: sender)
                 soundPlayer?.playSound(soundName: "etc_error_drum", type: "mp3")
+                CreditManagment.decreaseTwoCredit(hintButton: hintButton)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     sender.isEnabled = false
                     sender.isHidden = true
@@ -109,8 +121,11 @@ class ViewController: UIViewController {
                         The right answer is :
                         \(self.artistList[self.indexPainting[self.n]][0])
                         """
+                        UserDefaults.standard.set(0, forKey: "successiveRightAnswers")
+                        self.partTwoOfQuizDone = true
                         self.nextButton.isEnabled = true
                         self.nextButton.isHidden = false
+                        self.nextButton.setTitle("Next", for: .normal)
                     }
                 }
                 errorCounter = errorCounter + 1
@@ -120,13 +135,11 @@ class ViewController: UIViewController {
     }
     @IBAction func hintSelectionPress(_ sender: UIButton) {
         hintMenuAction()
-//        painterButton.forEach({ (painterButtonTitle) in
-//            painterButtonTitle.isHidden = !painterButtonTitle.isHidden
-//        })
+
     }
     @IBAction func specificHintPressed(_ sender: UIButton) {
         if let buttonLabel = sender.titleLabel?.text {
-            Hint.manageHints(buttonLabel: buttonLabel, finalArrayOfButtonNames: finalArrayOfButtonNames, painterName: artistList[indexPainting[n]][0], painterButton: painterButton, placeHolderButton: placeHolderButton, labelTitle: labelTitle, view: self, nextButton: nextButton, titleText: artistList[indexPainting[n]][2], showBioView: showBioView)
+            Hint.manageHints(buttonLabel: buttonLabel, finalArrayOfButtonNames: finalArrayOfButtonNames, painterName: artistList[indexPainting[n]][0], painterButton: painterButton, placeHolderButton: placeHolderButton, labelTitle: labelTitle, view: self, nextButton: nextButton, titleText: artistList[indexPainting[n]][2], hintButton: hintButton, showBioView: showBioView)
             credit =  UserDefaults.standard.integer(forKey: "credit")
             hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
         }
@@ -138,6 +151,11 @@ class ViewController: UIViewController {
         nextButton.isEnabled = false
         nextButton.isHidden = true
     }
+    @IBAction func buyCreditsButtonPressed(_ sender: UIButton) {
+        MessageView.dismissMessageview(messageView: messageView, visualEffect: visualEffect, effect: effect)
+        performSegue(withIdentifier: "showBuyCredits", sender: self)
+    }
+    
     func hintMenuAction() {
         hintItemButton.forEach { (eachButton) in
             UIView.animate(withDuration: 0.4, animations: {
@@ -146,6 +164,7 @@ class ViewController: UIViewController {
             })
         }
     }
+
 // NAVIGATION
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -173,6 +192,7 @@ class ViewController: UIViewController {
         print("back")
         partTwoOfQuizDone = true
         nextQuizPainting()
+        CreditManagment.displayCredit(hintButton: hintButton)
     }
 
     

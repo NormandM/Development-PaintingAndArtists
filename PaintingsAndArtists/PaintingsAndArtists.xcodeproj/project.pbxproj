@@ -16,6 +16,12 @@
 		8E57650B20F129CF001FEF3D /* PainterSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650A20F129CF001FEF3D /* PainterSelection.swift */; };
 		8E57650D20F15CB9001FEF3D /* ChosePaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */; };
 		8E6E7B0720E55084001317CB /* ButtonAndLabelDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */; };
+		8EACF31320FBE01100F2E981 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31220FBE01100F2E981 /* MessageView.swift */; };
+		8EACF31520FD0A8B00F2E981 /* CreditManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31420FD0A8B00F2E981 /* CreditManagement.swift */; };
+		8EACF31720FD360800F2E981 /* OtherPainting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31620FD360800F2E981 /* OtherPainting.swift */; };
+		8EACF31920FE6FC100F2E981 /* ProgressionBarDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31820FE6FC100F2E981 /* ProgressionBarDisplay.swift */; };
+		8EACF31B20FE812100F2E981 /* BuyCreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31A20FE812100F2E981 /* BuyCreditViewController.swift */; };
+		8EACF31D20FFB71000F2E981 /* SuccessiveRightAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACF31C20FFB71000F2E981 /* SuccessiveRightAnswers.swift */; };
 		8EC8905F20E03825000BB518 /* ShakingMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8905E20E03825000BB518 /* ShakingMovement.swift */; };
 		8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8906020E0397A000BB518 /* SoundPlayer.swift */; };
 		8EC8906320E039E3000BB518 /* etc_error_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */; };
@@ -62,6 +68,12 @@
 		8E57650A20F129CF001FEF3D /* PainterSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainterSelection.swift; sourceTree = "<group>"; };
 		8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosePaintingViewController.swift; sourceTree = "<group>"; };
 		8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAndLabelDisplay.swift; sourceTree = "<group>"; };
+		8EACF31220FBE01100F2E981 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		8EACF31420FD0A8B00F2E981 /* CreditManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManagement.swift; sourceTree = "<group>"; };
+		8EACF31620FD360800F2E981 /* OtherPainting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPainting.swift; sourceTree = "<group>"; };
+		8EACF31820FE6FC100F2E981 /* ProgressionBarDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionBarDisplay.swift; sourceTree = "<group>"; };
+		8EACF31A20FE812100F2E981 /* BuyCreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCreditViewController.swift; sourceTree = "<group>"; };
+		8EACF31C20FFB71000F2E981 /* SuccessiveRightAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessiveRightAnswers.swift; sourceTree = "<group>"; };
 		8EC8905E20E03825000BB518 /* ShakingMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingMovement.swift; sourceTree = "<group>"; };
 		8EC8906020E0397A000BB518 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = etc_error_drum.mp3; path = ../../../HistoricDatesQuiz/HistoricDatesQuiz/Sounds/etc_error_drum.mp3; sourceTree = "<group>"; };
@@ -143,6 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */,
+				8EACF31620FD360800F2E981 /* OtherPainting.swift */,
+				8EACF31820FE6FC100F2E981 /* ProgressionBarDisplay.swift */,
+				8EACF31C20FFB71000F2E981 /* SuccessiveRightAnswers.swift */,
 			);
 			path = QuizPart2ChoosePainting;
 			sourceTree = "<group>";
@@ -159,6 +174,8 @@
 				8E6E7B0620E55084001317CB /* ButtonAndLabelDisplay.swift */,
 				8E57650220EABD15001FEF3D /* Hint.swift */,
 				8E57650420EAC722001FEF3D /* EnumForHints.swift */,
+				8EACF31220FBE01100F2E981 /* MessageView.swift */,
+				8EACF31420FD0A8B00F2E981 /* CreditManagement.swift */,
 			);
 			path = "View Controller Quiz";
 			sourceTree = "<group>";
@@ -200,6 +217,7 @@
 				8EE4283120C32101005981B3 /* FontsAndConstraints.swift */,
 				8EFBE77520B1B16D008E7532 /* Assets.xcassets */,
 				8E1C43D420C9A0C80010F874 /* SoundsAndMusic */,
+				8EACF31A20FE812100F2E981 /* BuyCreditViewController.swift */,
 			);
 			path = PaintingsAndArtists;
 			sourceTree = "<group>";
@@ -362,13 +380,19 @@
 				8EFBE7A120B5CBF4008E7532 /* SlideShowViewController.swift in Sources */,
 				8E57650320EABD15001FEF3D /* Hint.swift in Sources */,
 				8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */,
+				8EACF31520FD0A8B00F2E981 /* CreditManagement.swift in Sources */,
+				8EACF31D20FFB71000F2E981 /* SuccessiveRightAnswers.swift in Sources */,
 				8EFBE76E20B1B169008E7532 /* ViewController.swift in Sources */,
 				8EFBE77420B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld in Sources */,
 				8E57650D20F15CB9001FEF3D /* ChosePaintingViewController.swift in Sources */,
+				8EACF31920FE6FC100F2E981 /* ProgressionBarDisplay.swift in Sources */,
 				8EFBE76C20B1B169008E7532 /* AppDelegate.swift in Sources */,
 				8EFBE7A320B5F5E1008E7532 /* infoAndImageViewController.swift in Sources */,
 				8EE4283220C32102005981B3 /* FontsAndConstraints.swift in Sources */,
 				8E57650B20F129CF001FEF3D /* PainterSelection.swift in Sources */,
+				8EACF31320FBE01100F2E981 /* MessageView.swift in Sources */,
+				8EACF31720FD360800F2E981 /* OtherPainting.swift in Sources */,
+				8EACF31B20FE812100F2E981 /* BuyCreditViewController.swift in Sources */,
 				8E1C43D320C989480010F874 /* RandomizeOrderOfPaintings.swift in Sources */,
 				8E57650720EC0C70001FEF3D /* TitleDisplay.swift in Sources */,
 				8EFBE79F20B5CBC5008E7532 /* MenuViewController.swift in Sources */,

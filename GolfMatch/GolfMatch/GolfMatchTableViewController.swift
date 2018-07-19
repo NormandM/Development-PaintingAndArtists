@@ -9,7 +9,7 @@
 import UIKit
 
 class GolfMatchTableViewController: UITableViewController {
-    let joueurs = ["Camille", "Jean S", "Jean R", "Clermont", "Denis", "Normand", "Rachel", "X", "Y"]
+    let joueurs = ["Camille", "Jean S", "Jean R", "Clermont", "Denis", "Normand", "André", "Vincent", "X"]
     var selectedJoueurs = NSMutableSet()
     var arraySelection: [String] = []
     override func viewDidLoad() {
