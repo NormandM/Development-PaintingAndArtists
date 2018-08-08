@@ -30,6 +30,19 @@ class LabelAndButton {
             buttons.isHidden = true
             buttons.isEnabled = false
         }
-        
+    }
+    class func disableHintButtons(hintItemButton: [UIButton]) {
+        hintItemButton.forEach {(eachButton) in
+            if eachButton.titleLabel?.text != HintLabel.buyCoins.rawValue{
+                eachButton.isEnabled = false
+                eachButton.setTitleColor(UIColor.lightGray, for:UIControlState.normal)
+            }
+        }
+    }
+    class func enableHintButtons(hintItemButton: [UIButton]) {
+        hintItemButton.forEach {(eachButton) in
+            eachButton.isEnabled = true
+            eachButton.setTitleColor(UIColor(displayP3Red: 27/255, green: 95/255, blue: 94/255, alpha: 1), for:UIControlState.normal)
+        }
     }
 }

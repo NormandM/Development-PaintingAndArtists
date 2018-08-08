@@ -8,9 +8,9 @@
 
 import UIKit
 
-struct RandomizeOrderOfPaintings {
+struct RandomizeOrderOfIndexArray {
     var artistList: [[String]]
-    func generatePaintingIndex(from: Int, to: Int, quantity: Int?) -> [Int] {
+    func generateRandomIndex(from: Int, to: Int, quantity: Int?) -> [Int] {
         var numberOfNumbers = quantity
         var randomNumbers: [Int] = []
         let lower = UInt32(from)
@@ -27,9 +27,29 @@ struct RandomizeOrderOfPaintings {
         return randomNumbers
     }
 }
-struct RandomizeOrderOfButtonNames {
-    var buttonNames: [String]
-    func generateButtonNumerIndex(from: Int, to: Int, quantity: Int?) -> [Int] {
+struct RandomizeOrderOfArray {
+    var listNames: [String]
+    func generateRandomIndex(from: Int, to: Int, quantity: Int?) -> [Int] {
+        var numberOfNumbers = quantity
+        var randomNumbers: [Int] = []
+        let lower = UInt32(from)
+        let higher = UInt32(to+1)
+        if numberOfNumbers == nil || numberOfNumbers! > (to - from) + 1 {
+            numberOfNumbers = (to - from) + 1
+        }
+        while randomNumbers.count != numberOfNumbers {
+            let numbers = arc4random_uniform(higher - lower) + lower
+            if !randomNumbers.contains(Int(numbers)){
+                randomNumbers.append(Int(numbers))
+            }
+        }
+        return randomNumbers
+    }
+
+}
+struct RandomizeOrderOfArrayOfCharacter {
+    var listNames: [Character]
+    func generateRandomIndex(from: Int, to: Int, quantity: Int?) -> [Int] {
         var numberOfNumbers = quantity
         var randomNumbers: [Int] = []
         let lower = UInt32(from)
@@ -46,4 +66,15 @@ struct RandomizeOrderOfButtonNames {
         return randomNumbers
     }
     
+}
+extension Array{
+    public mutating func shuffle() {
+        var temp = [Element]()
+        while !isEmpty{
+            let i = Int(arc4random_uniform(UInt32(count)))
+            let obj = remove(at:i)
+            temp.append(obj)
+        }
+        self = temp
+    }
 }

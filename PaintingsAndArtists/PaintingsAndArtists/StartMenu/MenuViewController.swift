@@ -22,6 +22,7 @@ class MenuViewController: UIViewController {
         effect = visualEffect.effect
         menuView.layer.cornerRadius = 5
         visualEffect.effect = nil
+        UserDefaults.standard.set(0, forKey: "cycleCount")
         if let plistPath = Bundle.main.path(forResource: "ArtistesAndPaintings", ofType: "plist"),
             let artistListNSArray = NSArray(contentsOfFile: plistPath){
             artistList = artistListNSArray as! [[String]]
@@ -33,15 +34,17 @@ class MenuViewController: UIViewController {
         var sortedArtistList: [[String]] = []
         for artist in artistList{
             listOfArtistName.append(artist[0])
+
         }
+
         for surname in listOfArtistName{
-            listOfArtistSurname.append(surname.lastWord)
+            listOfArtistSurname.append(surname.wordList.last!)
         }
         func alpha (_ s1: String, s2: String) -> Bool {
             return s1 < s2
         }
         listOfArtistSurname = listOfArtistSurname.sorted(by: alpha)
-
+        
         for surname in listOfArtistSurname {
             for artist in artistList {
                 if artist[0].contains(surname) && !sortedArtistList.contains(artist){
@@ -49,14 +52,14 @@ class MenuViewController: UIViewController {
                 }
             }
         }
+    
         let appDelegate = AppDelegate()
         let orientation = appDelegate.rotated()
         if orientation {
-            let imageName = ""
-            let image = UIImage(named: imageName)
-            grandeJatte.image = image
+            ImageManager.choosImage(imageView: grandeJatte, imageName: "Un dimanche après-midi à l'île de la Grande Jatte")
         }else{
-            
+            ImageManager.choosImage(imageView: grandeJatte, imageName: "detailDeaGrandeJatte")
+
         }
         artistList = sortedArtistList
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
@@ -66,8 +69,10 @@ class MenuViewController: UIViewController {
         
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.navigationBar.isTranslucent = true
-        navigationController?.navigationBar.barTintColor = UIColor.white
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
     }
 
     // MARK: - Navigation
@@ -103,26 +108,5 @@ class MenuViewController: UIViewController {
         }
     }
 }
-extension String {
-    var byWords: [String] {
-        var byWords:[String] = []
-        enumerateSubstrings(in: startIndex..<endIndex, options: .byWords) {
-            guard let word = $0 else { return }
-            print($1,$2,$3)
-            byWords.append(word)
-        }
-        return byWords
-    }
-    func firstWords(_ max: Int) -> [String] {
-        return Array(byWords.prefix(max))
-    }
-    var firstWord: String {
-        return byWords.first ?? ""
-    }
-    func lastWords(_ max: Int) -> [String] {
-        return Array(byWords.suffix(max))
-    }
-    var lastWord: String {
-        return byWords.last ?? ""
-    }
-}
+
+

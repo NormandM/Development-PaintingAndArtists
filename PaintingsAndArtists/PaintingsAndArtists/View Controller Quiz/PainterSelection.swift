@@ -8,12 +8,12 @@
 
 import UIKit
 class PainterSelection {
-    class func buttonsNameSelection(artistList: [[String]], indexPainting: [Int], painterButton: [UIButton], n: Int) -> [String]{
+    class func buttonsNameSelection(artistList: [[String]], indexPainting: [Int], painterButton: [UIButton], selectedIndex: Int) -> [String]{
         var otherPainters = [String]()
         var chosenOtherPaintersIndex = [Int]()
         var i = 0
         for artist in artistList {
-            if artist[0] != artistList[indexPainting[n]][0] && !otherPainters.contains(artist[0]) {
+            if artist[0] != artistList[indexPainting[selectedIndex]][0] && !otherPainters.contains(artist[0]) {
                 otherPainters.append(artist[0])
             }
             
@@ -27,9 +27,9 @@ class PainterSelection {
             }
             i = i + 1
         }
-        let painterNamesForQuiz = [artistList[indexPainting[n]][0], otherPainters[chosenOtherPaintersIndex[0]], otherPainters[chosenOtherPaintersIndex[1]] ,otherPainters[chosenOtherPaintersIndex[2]]]
-        let randomizeOrderOfButtonNames = RandomizeOrderOfButtonNames(buttonNames: painterNamesForQuiz)
-        let indexOrderForButtonNames = randomizeOrderOfButtonNames.generateButtonNumerIndex(from: 0, to: painterNamesForQuiz.count - 1, quantity: nil)
+        let painterNamesForQuiz = [artistList[indexPainting[selectedIndex]][0], otherPainters[chosenOtherPaintersIndex[0]], otherPainters[chosenOtherPaintersIndex[1]] ,otherPainters[chosenOtherPaintersIndex[2]]]
+        let randomizeOrderOfButtonNames = RandomizeOrderOfArray(listNames: painterNamesForQuiz)
+        let indexOrderForButtonNames = randomizeOrderOfButtonNames.generateRandomIndex(from: 0, to: painterNamesForQuiz.count - 1, quantity: nil)
         let finalArrayOfButtonNames = [painterNamesForQuiz[indexOrderForButtonNames[0]], painterNamesForQuiz[indexOrderForButtonNames[1]], painterNamesForQuiz[indexOrderForButtonNames[2]], painterNamesForQuiz[indexOrderForButtonNames[3]]]
         LabelAndButton.buttonVisible(painterButton: painterButton, finalArrayOfButtonNames: finalArrayOfButtonNames)
         return finalArrayOfButtonNames

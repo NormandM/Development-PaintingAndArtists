@@ -77,7 +77,7 @@ class infoAndImageViewController: UIViewController, UIScrollViewDelegate {
     func bioTextViewFormat() {
         if !isFromQuiz{
             bioTextView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
-            let imageName = artistList[n][2]
+            
             labelTitle.text =  artistList[n][2]
             artistName.text = artistList[n][0]
             dateLabel.text = artistList[n][1]
@@ -85,16 +85,15 @@ class infoAndImageViewController: UIViewController, UIScrollViewDelegate {
             \(artistList[n][3])
             Ref: \(artistList[n][4])
             """
-            let image = UIImage(named: imageName)
-            slideShowUIImageView.image = image
+            ImageManager.choosImage(imageView: slideShowUIImageView, imageName: artistList[n][2])
         }else{
             dateLabel.text = bioInfoEra
             bioTextView.text = """
             \(bioInfoBio)
             """
             artistName.text = ""
-            let image = UIImage(named: bioInfoImageName)
-            slideShowUIImageView.image = image
+            ImageManager.choosImage(imageView: slideShowUIImageView, imageName: bioInfoImageName)
+
         }
 
         

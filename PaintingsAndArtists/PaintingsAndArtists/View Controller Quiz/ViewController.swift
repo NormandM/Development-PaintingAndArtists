@@ -30,8 +30,8 @@ class ViewController: UIViewController {
     var finalArrayOfButtonNames = [String]()
     var artistList: [[String]] = []
     var indexPainting: [Int] = []
+    var selectedIndex = Int()
     var artistsCount: Int = 0
-    var n = 0
     var errorCounter = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,40 +50,55 @@ class ViewController: UIViewController {
         }
         self.navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = UIColor.black
-        UserDefaults.standard.set(10, forKey: "credit")
-        UserDefaults.standard.set(0, forKey: "successiveRightAnswers")
+ //       UserDefaults.standard.set(10, forKey: "credit")
+//        UserDefaults.standard.set(0, forKey: "successiveRightAnswers")
+
+        
         if !(userAlreadyExist(credit: "credit")){
             credit = 10
             UserDefaults.standard.set(credit, forKey: "credit")
         }
+        credit =  UserDefaults.standard.integer(forKey: "credit")
         hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
-        let randomizeOrderOfPaintings = RandomizeOrderOfPaintings(artistList: artistList)
-        indexPainting = randomizeOrderOfPaintings.generatePaintingIndex(from: 0, to: artistList.count - 1, quantity: nil)
+        
+        if !(indexPaintingAlreadyExist(indexPainting: "indexPainting")) || selectedIndex >= indexPainting.count{
+            let randomizeOrderOfPaintings = RandomizeOrderOfIndexArray(artistList: artistList)
+            indexPainting = randomizeOrderOfPaintings.generateRandomIndex(from: 0, to: artistList.count - 1, quantity: nil)
+            UserDefaults.standard.set(indexPainting, forKey: "indexPainting")
+        }
+        
+        indexPainting = UserDefaults.standard.array(forKey: "indexPainting") as! [Int]
         quizElementSelection()
     }
     override func viewDidAppear(_ animated: Bool) {
         nextButton.layer.masksToBounds = true
         nextButton.layer.cornerRadius = nextButton.frame.width/2
         nextButton.backgroundColor = UIColor(displayP3Red: 27/255, green: 95/255, blue: 94/255, alpha: 1.0)
+        let credit = UserDefaults.standard.integer(forKey: "credit")
         if credit < 1 {
-            MessageView.showMessageView(view: view, messageView: messageView, button: buyCreditsButton, visualEffect: visualEffect, effect: effect)
+            MessageView.showMessageView(view: view, messageView: messageView, button: buyCreditsButton, visualEffect: visualEffect, effect: effect, diplomaImageView: nil, totalPaintings: nil)
             hintButton.isHidden = true
         }
     }
     func quizElementSelection() {
-        finalArrayOfButtonNames = PainterSelection.buttonsNameSelection(artistList: artistList, indexPainting: indexPainting, painterButton: painterButton, n: n)
+        if !(selectedIndexAlreadyExist(selectedIndex: "selectedIndex")) || selectedIndex >= indexPainting.count{
+            selectedIndex = 0
+            UserDefaults.standard.set(selectedIndex, forKey: "selectedIndex")
+        }
+        selectedIndex = UserDefaults.standard.object(forKey: "selectedIndex") as! Int
+        finalArrayOfButtonNames = PainterSelection.buttonsNameSelection(artistList: artistList, indexPainting: indexPainting, painterButton: painterButton, selectedIndex: selectedIndex)
+
         labelTitle.text = ""
         errorCounter = 0
         errorMessage.text = ""
-        let imageName = artistList[indexPainting[n]][2]
-        let image = UIImage(named: imageName)
-        paintingImage.image = image
+        ImageManager.choosImage(imageView: paintingImage, imageName: artistList[indexPainting[selectedIndex]][2])
     }
     @objc func nextQuizPainting(){
         if partTwoOfQuizDone{
-            n = n + 1
+
             quizElementSelection()
         }else{
+
             performSegue(withIdentifier: "showChosePainting", sender: self)
         }
         partTwoOfQuizDone = false
@@ -91,10 +106,16 @@ class ViewController: UIViewController {
     func userAlreadyExist(credit: String) -> Bool {
         return UserDefaults.standard.object(forKey: credit) != nil
     }
+    func indexPaintingAlreadyExist(indexPainting: String) -> Bool {
+        return UserDefaults.standard.object(forKey: indexPainting) != nil
+    }
+    func selectedIndexAlreadyExist(selectedIndex: String) -> Bool {
+        return UserDefaults.standard.object(forKey: selectedIndex) != nil
+    }
     @IBAction func painterButtonPressed(_ sender: UIButton) {
         soundPlayer = SoundPlayer()
         if let painterButtonTitle = sender.titleLabel?.text {
-            if painterButtonTitle == artistList[indexPainting[n]][0]{
+            if painterButtonTitle == artistList[indexPainting[selectedIndex]][0]{
                 for button in painterButton {
                     if button.titleLabel?.text != painterButtonTitle{
                         button.isEnabled = false
@@ -103,7 +124,7 @@ class ViewController: UIViewController {
                 }
                 soundPlayer?.playSound(soundName: "chime_clickbell_octave_up", type: "wav")
                 ButtonTranslation.translate(fromButton: sender, toButton: placeHolderButton)
-                TitleDisplay.show(labelTitle: labelTitle, titleText: artistList[indexPainting[n]][2], nextButton: nextButton, view: self)
+                TitleDisplay.show(labelTitle: labelTitle, titleText: artistList[indexPainting[selectedIndex]][2], nextButton: nextButton, view: self)
                 CreditManagment.increaseOneCredit(hintButton: hintButton)
             }else{
                 let shake = Shake()
@@ -119,9 +140,10 @@ class ViewController: UIViewController {
                         self.errorMessage.text = """
                         Sorry...
                         The right answer is :
-                        \(self.artistList[self.indexPainting[self.n]][0])
+                        \(self.artistList[self.indexPainting[self.selectedIndex]][0])
                         """
                         UserDefaults.standard.set(0, forKey: "successiveRightAnswers")
+                        UserDefaults.standard.set(self.selectedIndex + 1, forKey: "selectedIndex")
                         self.partTwoOfQuizDone = true
                         self.nextButton.isEnabled = true
                         self.nextButton.isHidden = false
@@ -139,10 +161,16 @@ class ViewController: UIViewController {
     }
     @IBAction func specificHintPressed(_ sender: UIButton) {
         if let buttonLabel = sender.titleLabel?.text {
-            Hint.manageHints(buttonLabel: buttonLabel, finalArrayOfButtonNames: finalArrayOfButtonNames, painterName: artistList[indexPainting[n]][0], painterButton: painterButton, placeHolderButton: placeHolderButton, labelTitle: labelTitle, view: self, nextButton: nextButton, titleText: artistList[indexPainting[n]][2], hintButton: hintButton, showBioView: showBioView)
-            credit =  UserDefaults.standard.integer(forKey: "credit")
-            hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
+            if buttonLabel != HintLabel.buyCoins.rawValue {
+                Hint.manageHints(buttonLabel: buttonLabel, finalArrayOfButtonNames: finalArrayOfButtonNames, painterName: artistList[indexPainting[selectedIndex]][0], painterButton: painterButton, placeHolderButton: placeHolderButton, labelTitle: labelTitle, view: self, nextButton: nextButton, titleText: artistList[indexPainting[selectedIndex]][2], hintButton: hintButton, showBioView: showBioView)
+                credit =  UserDefaults.standard.integer(forKey: "credit")
+                hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
+
+            }else{
+                performSegue(withIdentifier: "showBio", sender: self)
+            }
         }
+        LabelAndButton.disableHintButtons(hintItemButton: hintItemButton)
         hintMenuAction()
 
     }
@@ -153,7 +181,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buyCreditsButtonPressed(_ sender: UIButton) {
         MessageView.dismissMessageview(messageView: messageView, visualEffect: visualEffect, effect: effect)
-        performSegue(withIdentifier: "showBuyCredits", sender: self)
+        performSegue(withIdentifier: "showBio", sender: self)
     }
     
     func hintMenuAction() {
@@ -175,21 +203,20 @@ class ViewController: UIViewController {
             backItem.tintColor = UIColor.white
             let controller = segue.destination as! infoAndImageViewController
             controller.isFromQuiz = true
-            controller.bioInfoEra = artistList[indexPainting[n]][1]
-            controller.bioInfoImageName = artistList[indexPainting[n]][2]
-            controller.bioInfoBio = artistList[indexPainting[n]][3]
+            controller.bioInfoEra = artistList[indexPainting[selectedIndex]][1]
+            controller.bioInfoImageName = artistList[indexPainting[selectedIndex]][2]
+            controller.bioInfoBio = artistList[indexPainting[selectedIndex]][3]
         }
         if segue.identifier == "showChosePainting" {
             let controller = segue.destination as! ChosePaintingViewController
             controller.indexPainting = indexPainting
             controller.artistList = artistList
-            controller.n = n
-            controller.bioInfoImageName = artistList[indexPainting[n]][2]
-            
+            controller.selectedIndex = selectedIndex
+            controller.bioInfoImageName = artistList[indexPainting[selectedIndex]][2]
+            LabelAndButton.enableHintButtons(hintItemButton: hintItemButton)
         }
     }
     @IBAction func unwindToViewController(_ sender: UIStoryboardSegue) {
-        print("back")
         partTwoOfQuizDone = true
         nextQuizPainting()
         CreditManagment.displayCredit(hintButton: hintButton)

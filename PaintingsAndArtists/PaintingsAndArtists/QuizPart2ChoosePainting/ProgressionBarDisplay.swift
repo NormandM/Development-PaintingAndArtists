@@ -10,8 +10,6 @@ import UIKit
 class QuizProgressionBar {
     class func barDisplay(successiveRightAnswers: Int,  quizProgressionBar: UIProgressView, totalQuestion: Int){
         let percentcompleted = Double(successiveRightAnswers)/Double(totalQuestion)
-        print(successiveRightAnswers)
-        print(percentcompleted)
         quizProgressionBar.isUserInteractionEnabled = false
         quizProgressionBar.progressViewStyle = .bar
         quizProgressionBar.progress = Float(percentcompleted)

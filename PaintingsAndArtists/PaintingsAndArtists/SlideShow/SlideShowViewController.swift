@@ -35,11 +35,9 @@ class SlideShowViewController: UIViewController {
         } catch {
             // couldn't load file :(
         }
-        let randomizeOrderOfPaintings = RandomizeOrderOfPaintings(artistList: artistList)
-        indexPainting = randomizeOrderOfPaintings.generatePaintingIndex(from: 0, to: artistList.count - 1, quantity: nil)
-        let imageName = artistList[indexPainting[n]][2]
-        let image = UIImage(named: imageName)
-        slideShowUIImageView.image = image
+        let randomizeOrderOfPaintings = RandomizeOrderOfIndexArray(artistList: artistList)
+        indexPainting = randomizeOrderOfPaintings.generateRandomIndex(from: 0, to: artistList.count - 1, quantity: nil)
+        ImageManager.choosImage(imageView: slideShowUIImageView, imageName: artistList[indexPainting[n]][2])
         vueTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(SlideShowViewController.zoomAnimation), userInfo: nil, repeats: true)
     }
     override func viewWillDisappear(_ animated: Bool) {
@@ -59,10 +57,7 @@ class SlideShowViewController: UIViewController {
             }else {
                 n = 0
             }
-            let imageName = artistList[indexPainting[n]][2]
-            let image = UIImage(named: imageName)
-            slideShowUIImageView.image = image
-            
+            ImageManager.choosImage(imageView: slideShowUIImageView, imageName: artistList[indexPainting[n]][2])            
         }
  
     }

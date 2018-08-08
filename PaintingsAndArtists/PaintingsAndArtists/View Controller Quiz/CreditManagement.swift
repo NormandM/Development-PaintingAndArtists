@@ -28,7 +28,12 @@ class CreditManagment{
         UserDefaults.standard.set(credit, forKey: "credit")
     }
     class func increseFiftyCredit() {
-        let credit = UserDefaults.standard.integer(forKey: "credit") + 30
+        let credit = UserDefaults.standard.integer(forKey: "credit") + 50
+        UserDefaults.standard.set(credit, forKey: "credit")
+        
+    }
+    class func increseOneThousandCredit() {
+        let credit = UserDefaults.standard.integer(forKey: "credit") + 1000
         UserDefaults.standard.set(credit, forKey: "credit")
         
     }
